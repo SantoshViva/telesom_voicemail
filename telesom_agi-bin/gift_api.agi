@@ -1,0 +1,90 @@
+#!/usr/bin/env php
+<?php
+//      License for all code of this FreePBX module can be found in the license file inside the module directory
+//        Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking gift_api.agi ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+//$cidnum = '634097961';
+$cidname = $AGI->request['agi_calleridname'];
+$toneid =  get_var($AGI,"toneid");
+$tonename =  get_var($AGI,"tonename");
+$langid =  get_var($AGI,"langid");
+$gift_number =  get_var($AGI,"gift_number");
+$productid = get_var($AGI,"OPT");
+//$toneid =  "01011062100560";
+//$tonename =  "Dua5_Ram";
+//$langid =  "en";
+//$gift_number = "634097962";
+
+        if($productid == "1"){
+
+                $audiofile= "Gift_success_message";
+                $productid="GIFT_DAILY_RBT";
+//              $audiofile= "Gift_success_message_for_daily";
+        }
+        if($productid == "2"){
+                $productid="GIFT_WEEKLY_RBT";
+                $audiofile= "Gift_success_message_for_weekly";
+
+        }
+        if($productid == "3"){
+                $productid = "GIFT_MONTHLY_RBT";
+                $audiofile= "Gift_success_message_for_monthly";
+
+        }
+
+log_write( "5", "Opening" );
+debug("productid => ".$productid, 1);
+$response = gift_api($cidnum,$toneid,$tonename,$langid,$gift_number,$productid);
+log_write("5", $response );
+debug("response => ".$response, 1);
+
+        $intro = "converted/".$langid."/".$audiofile;
+        $escape_digits = "*#";
+        $timeout = "500";
+        $return = $AGI->stream_file($intro,$escape_digits,0);
+
+$AGI->hangup();
+log_write("5", "Complete execution" );
+
+
+function debug($string, $level=3) {
+        global $AGI;
+        $AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+                                fwrite($AGI->fp, date("Y-m-d H:i:s") . " ["
+                                . $AGI->request['agi_callerid']
+                                . "] (" . $AGI->request['agi_channel']
+                                . ") (" . $AGI->request['agi_request']
+                                . ") " . $message . "\n");
+        }
+
+?>

@@ -1,0 +1,146 @@
+#!/usr/bin/env php
+<?php
+//	License for all code of this FreePBX module can be found in the license file inside the module directory
+//	  Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking pattern.agi status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+$DID =  get_var($AGI,"DID");
+$result =  get_var($AGI,"result");
+
+$cidname = $AGI->request['agi_calleridname'];
+log_write( "5", "Opening" );
+
+$aparty = $cidnum;
+$bparty = $DID;
+
+debug("aparty = ".$aparty, 1);
+debug("bparty = ".$bparty, 1);
+
+log_write("5", "aparty = ".$aparty );
+log_write("5", "bparty = ".$bparty );
+
+if(strlen($result) <= 0)
+{
+debug("Responce from API is Blank need to Hangup the call", 1);
+}
+
+$question = array("balance", "data","name","SMS","plan","CRBT service");
+$fruits_ar = explode(' ', $result);
+$as = json_encode($fruits_ar);
+$answer = json_decode($as, true);
+
+$max_question=sizeof($question);
+$max_answer=sizeof($answer);
+
+debug("Max value of Question: $max_question",1); 
+debug("Max value of Answer: $max_answer ",1); 
+$b=0;
+
+for($i=0; $i<$max_answer; $i++) { 
+//echo $answer[$i] ." => "; 
+	foreach ($question as $value) {
+                debug("checking: $answer[$i] ",1);
+		if (preg_match("/\b".$answer[$i]."\b/i", $value)) {
+		debug("value Match from preg_match: $value ",1);
+			if($value == "name"){
+			$AGI->set_variable('OPT','1');
+			}
+			if($value == "balance"){
+                	$AGI->set_variable('OPT','2');
+                        }
+			if($value == "data"){
+                	$AGI->set_variable('OPT','3');
+                        }
+			if($value == "SMS"){
+                	$AGI->set_variable('OPT','4');
+                        }
+			if($value == "plan"){
+                	$AGI->set_variable('OPT','5');
+                        }
+			if($answer[$i] == "service"){
+                	$AGI->set_variable('OPT','6');
+                        }
+			if($answer[$i] == "crbt"){
+                        $AGI->set_variable('OPT','6');
+                        }
+
+			break;
+//			$b=$b+1;
+		} else {
+			$sim = similar_text($answer[$i], $value, $perc);
+			debug("value Match from similar_text: $perc ",1);
+			if($perc >= 70)
+			{
+	                debug("value Match from similar_text: $value ",1);
+			if($value == "name"){
+                        $AGI->set_variable('OPT','1');
+                        }
+                        if($value == "balance"){
+                        $AGI->set_variable('OPT','2');
+                        }
+                        if($value == "data"){
+                        $AGI->set_variable('OPT','3');
+                        }
+                        if($value == "SMS"){
+                        $AGI->set_variable('OPT','4');
+                        }
+                        if($value == "plan"){
+                        $AGI->set_variable('OPT','5');
+                        }
+                        if($answer[$i] == "service"){
+                        $AGI->set_variable('OPT','6');
+                        }
+                        if($answer[$i] == "crbt"){
+                        $AGI->set_variable('OPT','6');
+                        }
+                        break;
+			}
+			
+		}
+	}
+}
+
+
+log_write("5", "Complete execution" );
+
+
+function debug($string, $level=3) {
+	global $AGI;
+	$AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+				fwrite($AGI->fp, date("Y-m-d H:i:s") . " [" 
+				. $AGI->request['agi_callerid'] 
+				. "] (" . $AGI->request['agi_channel'] 
+                                . ") (" . $AGI->request['agi_request']
+				. ") " . $message . "\n");
+	}
+
+?>

@@ -1,0 +1,118 @@
+#!/usr/bin/env php
+<?php
+//	License for all code of this FreePBX module can be found in the license file inside the module directory
+//	  Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking activation.agi status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+//$cidnum = '634097962';
+$cidname = $AGI->request['agi_calleridname'];
+log_write( "5", "Opening" );
+
+$sessionId = get_var($AGI,"sessionId");
+//$sessionId= "12345678";
+$aparty = get_var($AGI,"aparty");
+$bparty = get_var($AGI,"bparty");
+
+$DIALSTATUS =  get_var($AGI,"DIALSTATUS");
+$message = get_var($AGI,"CDR(disposition)");
+$startTime = get_var($AGI,"CDR(start)");
+$endtime = get_var($AGI,"CDR(end)");
+
+	if (empty($endtime)){
+
+		debug("endtime is null ", 1);
+		$endtime = get_var($AGI,"end");
+		$message = get_var($AGI,"DIALSTATUS");
+	}
+$answerTime = get_var($AGI,"CDR(answer)");
+$billsec = get_var($AGI,"CDR(billsec)");
+$duration = get_var($AGI,"CDR(duration)");
+$errorCode = get_var($AGI,"errorCode");
+
+
+$dtmfInput = get_var($AGI,"dtmfInput");
+//$errorCode= "2";
+//$message="Exception Occurred";
+/*
+	if($disposition == "ANSWERED"){
+		$errorCode= "0";
+		$message="SUCCESS";
+	}
+	else{
+		$errorCode= "2";
+		$message="Exception Occurred";
+	}
+*/
+debug("sessionId = ".$sessionId, 1);
+debug("aparty = ".$aparty, 1);
+debug("bparty = ".$bparty, 1);
+debug("dialstatus = ".$DIALSTATUS, 1);
+debug("disposition = ".$disposition, 1);
+debug("startTime = ".$startTime, 1);
+debug("endTime = ".$endtime, 1);
+debug("answerTime = ".$answerTime, 1);
+debug("billsec = ".$billsec, 1);
+debug("duration = ".$duration, 1);
+debug("dtmfInput = ".$dtmfInput, 1);
+debug("message = ".$message, 1);
+
+
+
+log_write("5", "sessionId = ".$sessionId );
+log_write("5", "aparty = ".$aparty );
+log_write("5", "bparty = ".$bparty );
+log_write("5", "startTime = ". $startTime );
+log_write("5", "endTime = ". $endtime );
+log_write("5", "billsec = ". $billsec );
+log_write("5", "dtmfInput = ". $dtmfInput );
+log_write("5", "message = ". $message );
+
+
+//$callback_response = callback($sessionId,$aparty,$bparty,$errorCode,$message,$billsec,$startTime,$endtime,$dtmfInput);
+//log_write("5", $callback_response );
+
+$sample_response = sample($sessionId,$aparty,$bparty,$errorCode,$message,$billsec,$startTime,$endtime,$dtmfInput);
+log_write("5", $sample_response );
+log_write("5", "Complete execution" );
+
+
+function debug($string, $level=3) {
+	global $AGI;
+	$AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+				fwrite($AGI->fp, date("Y-m-d H:i:s") . " [" 
+				. $AGI->request['agi_callerid'] 
+				. "] (" . $AGI->request['agi_channel'] 
+                                . ") (" . $AGI->request['agi_request']
+				. ") " . $message . "\n");
+	}
+
+?>

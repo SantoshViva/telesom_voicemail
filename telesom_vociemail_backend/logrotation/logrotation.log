@@ -1,0 +1,5207 @@
+************************** Date  Mon Jun 26 04:06:01 EAT 2023
+Current date and time Mon Jun 26 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-06-24-2023*
+command = ls greenzone_vmail-06-24-2023* |wc -l
+/home/rbt/voicemail/logs
+result=0
+Current date in dd/mm/yyyy format 06-24-2023
+greenzone_vmail-06-24-2023*
+0
+************************** Date  Tue Jun 27 04:06:02 EAT 2023
+Current date and time Tue Jun 27 04:06:02 EAT 2023
+'8 days ago'
+greenzone_vmail-06-25-2023-1.log greenzone_vmail-06-25-2023-2.log greenzone_vmail-06-25-2023-3.log greenzone_vmail-06-25-2023-4.log
+command = ls greenzone_vmail-06-25-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 06-25-2023
+greenzone_vmail-06-25-2023-1.log greenzone_vmail-06-25-2023-2.log greenzone_vmail-06-25-2023-3.log greenzone_vmail-06-25-2023-4.log
+4
+1
+greenzone_vmail-06-25-2023-1.log
+greenzone_vmail-06-25-2023-1.log
+2
+greenzone_vmail-06-25-2023-2.log
+greenzone_vmail-06-25-2023-2.log
+3
+greenzone_vmail-06-25-2023-3.log
+greenzone_vmail-06-25-2023-3.log
+4
+greenzone_vmail-06-25-2023-4.log
+greenzone_vmail-06-25-2023-4.log
+************************** Date  Wed Jun 28 04:06:01 EAT 2023
+Current date and time Wed Jun 28 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-06-26-2023-1.log greenzone_vmail-06-26-2023-2.log greenzone_vmail-06-26-2023-3.log greenzone_vmail-06-26-2023-4.log
+command = ls greenzone_vmail-06-26-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 06-26-2023
+greenzone_vmail-06-26-2023-1.log greenzone_vmail-06-26-2023-2.log greenzone_vmail-06-26-2023-3.log greenzone_vmail-06-26-2023-4.log
+4
+1
+greenzone_vmail-06-26-2023-1.log
+greenzone_vmail-06-26-2023-1.log
+2
+greenzone_vmail-06-26-2023-2.log
+greenzone_vmail-06-26-2023-2.log
+3
+greenzone_vmail-06-26-2023-3.log
+greenzone_vmail-06-26-2023-3.log
+4
+greenzone_vmail-06-26-2023-4.log
+greenzone_vmail-06-26-2023-4.log
+************************** Date  Thu Jun 29 04:06:01 EAT 2023
+Current date and time Thu Jun 29 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-06-27-2023-1.log greenzone_vmail-06-27-2023-2.log greenzone_vmail-06-27-2023-3.log greenzone_vmail-06-27-2023-4.log greenzone_vmail-06-27-2023-5.log
+command = ls greenzone_vmail-06-27-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 06-27-2023
+greenzone_vmail-06-27-2023-1.log greenzone_vmail-06-27-2023-2.log greenzone_vmail-06-27-2023-3.log greenzone_vmail-06-27-2023-4.log greenzone_vmail-06-27-2023-5.log
+5
+1
+greenzone_vmail-06-27-2023-1.log
+greenzone_vmail-06-27-2023-1.log
+2
+greenzone_vmail-06-27-2023-2.log
+greenzone_vmail-06-27-2023-2.log
+3
+greenzone_vmail-06-27-2023-3.log
+greenzone_vmail-06-27-2023-3.log
+4
+greenzone_vmail-06-27-2023-4.log
+greenzone_vmail-06-27-2023-4.log
+5
+greenzone_vmail-06-27-2023-5.log
+greenzone_vmail-06-27-2023-5.log
+************************** Date  Fri Jun 30 04:06:01 EAT 2023
+Current date and time Fri Jun 30 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-06-28-2023-1.log greenzone_vmail-06-28-2023-2.log greenzone_vmail-06-28-2023-3.log greenzone_vmail-06-28-2023-4.log greenzone_vmail-06-28-2023-5.log greenzone_vmail-06-28-2023-6.log
+command = ls greenzone_vmail-06-28-2023* |wc -l
+/home/rbt/voicemail/logs
+result=6
+Current date in dd/mm/yyyy format 06-28-2023
+greenzone_vmail-06-28-2023-1.log greenzone_vmail-06-28-2023-2.log greenzone_vmail-06-28-2023-3.log greenzone_vmail-06-28-2023-4.log greenzone_vmail-06-28-2023-5.log greenzone_vmail-06-28-2023-6.log
+6
+1
+greenzone_vmail-06-28-2023-1.log
+greenzone_vmail-06-28-2023-1.log
+2
+greenzone_vmail-06-28-2023-2.log
+greenzone_vmail-06-28-2023-2.log
+3
+greenzone_vmail-06-28-2023-3.log
+greenzone_vmail-06-28-2023-3.log
+4
+greenzone_vmail-06-28-2023-4.log
+greenzone_vmail-06-28-2023-4.log
+5
+greenzone_vmail-06-28-2023-5.log
+greenzone_vmail-06-28-2023-5.log
+6
+greenzone_vmail-06-28-2023-6.log
+greenzone_vmail-06-28-2023-6.log
+************************** Date  Sat Jul  1 04:06:01 EAT 2023
+Current date and time Sat Jul  1 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-06-29-2023-1.log greenzone_vmail-06-29-2023-2.log greenzone_vmail-06-29-2023-3.log greenzone_vmail-06-29-2023-4.log greenzone_vmail-06-29-2023-5.log
+command = ls greenzone_vmail-06-29-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 06-29-2023
+greenzone_vmail-06-29-2023-1.log greenzone_vmail-06-29-2023-2.log greenzone_vmail-06-29-2023-3.log greenzone_vmail-06-29-2023-4.log greenzone_vmail-06-29-2023-5.log
+5
+1
+greenzone_vmail-06-29-2023-1.log
+greenzone_vmail-06-29-2023-1.log
+2
+greenzone_vmail-06-29-2023-2.log
+greenzone_vmail-06-29-2023-2.log
+3
+greenzone_vmail-06-29-2023-3.log
+greenzone_vmail-06-29-2023-3.log
+4
+greenzone_vmail-06-29-2023-4.log
+greenzone_vmail-06-29-2023-4.log
+5
+greenzone_vmail-06-29-2023-5.log
+greenzone_vmail-06-29-2023-5.log
+************************** Date  Sun Jul  2 04:06:01 EAT 2023
+Current date and time Sun Jul  2 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-06-30-2023-1.log greenzone_vmail-06-30-2023-2.log greenzone_vmail-06-30-2023-3.log greenzone_vmail-06-30-2023-4.log greenzone_vmail-06-30-2023-5.log
+command = ls greenzone_vmail-06-30-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 06-30-2023
+greenzone_vmail-06-30-2023-1.log greenzone_vmail-06-30-2023-2.log greenzone_vmail-06-30-2023-3.log greenzone_vmail-06-30-2023-4.log greenzone_vmail-06-30-2023-5.log
+5
+1
+greenzone_vmail-06-30-2023-1.log
+greenzone_vmail-06-30-2023-1.log
+2
+greenzone_vmail-06-30-2023-2.log
+greenzone_vmail-06-30-2023-2.log
+3
+greenzone_vmail-06-30-2023-3.log
+greenzone_vmail-06-30-2023-3.log
+4
+greenzone_vmail-06-30-2023-4.log
+greenzone_vmail-06-30-2023-4.log
+5
+greenzone_vmail-06-30-2023-5.log
+greenzone_vmail-06-30-2023-5.log
+************************** Date  Mon Jul  3 04:06:01 EAT 2023
+Current date and time Mon Jul  3 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-01-2023-1.log greenzone_vmail-07-01-2023-2.log greenzone_vmail-07-01-2023-3.log greenzone_vmail-07-01-2023-4.log greenzone_vmail-07-01-2023-5.log
+command = ls greenzone_vmail-07-01-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 07-01-2023
+greenzone_vmail-07-01-2023-1.log greenzone_vmail-07-01-2023-2.log greenzone_vmail-07-01-2023-3.log greenzone_vmail-07-01-2023-4.log greenzone_vmail-07-01-2023-5.log
+5
+1
+greenzone_vmail-07-01-2023-1.log
+greenzone_vmail-07-01-2023-1.log
+2
+greenzone_vmail-07-01-2023-2.log
+greenzone_vmail-07-01-2023-2.log
+3
+greenzone_vmail-07-01-2023-3.log
+greenzone_vmail-07-01-2023-3.log
+4
+greenzone_vmail-07-01-2023-4.log
+greenzone_vmail-07-01-2023-4.log
+5
+greenzone_vmail-07-01-2023-5.log
+greenzone_vmail-07-01-2023-5.log
+************************** Date  Tue Jul  4 04:06:01 EAT 2023
+Current date and time Tue Jul  4 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-02-2023-1.log greenzone_vmail-07-02-2023-2.log greenzone_vmail-07-02-2023-3.log greenzone_vmail-07-02-2023-4.log greenzone_vmail-07-02-2023-5.log
+command = ls greenzone_vmail-07-02-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 07-02-2023
+greenzone_vmail-07-02-2023-1.log greenzone_vmail-07-02-2023-2.log greenzone_vmail-07-02-2023-3.log greenzone_vmail-07-02-2023-4.log greenzone_vmail-07-02-2023-5.log
+5
+1
+greenzone_vmail-07-02-2023-1.log
+greenzone_vmail-07-02-2023-1.log
+2
+greenzone_vmail-07-02-2023-2.log
+greenzone_vmail-07-02-2023-2.log
+3
+greenzone_vmail-07-02-2023-3.log
+greenzone_vmail-07-02-2023-3.log
+4
+greenzone_vmail-07-02-2023-4.log
+greenzone_vmail-07-02-2023-4.log
+5
+greenzone_vmail-07-02-2023-5.log
+greenzone_vmail-07-02-2023-5.log
+************************** Date  Wed Jul  5 04:06:01 EAT 2023
+Current date and time Wed Jul  5 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-03-2023-1.log greenzone_vmail-07-03-2023-2.log greenzone_vmail-07-03-2023-3.log greenzone_vmail-07-03-2023-4.log greenzone_vmail-07-03-2023-5.log
+command = ls greenzone_vmail-07-03-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 07-03-2023
+greenzone_vmail-07-03-2023-1.log greenzone_vmail-07-03-2023-2.log greenzone_vmail-07-03-2023-3.log greenzone_vmail-07-03-2023-4.log greenzone_vmail-07-03-2023-5.log
+5
+1
+greenzone_vmail-07-03-2023-1.log
+greenzone_vmail-07-03-2023-1.log
+2
+greenzone_vmail-07-03-2023-2.log
+greenzone_vmail-07-03-2023-2.log
+3
+greenzone_vmail-07-03-2023-3.log
+greenzone_vmail-07-03-2023-3.log
+4
+greenzone_vmail-07-03-2023-4.log
+greenzone_vmail-07-03-2023-4.log
+5
+greenzone_vmail-07-03-2023-5.log
+greenzone_vmail-07-03-2023-5.log
+************************** Date  Thu Jul  6 04:06:01 EAT 2023
+Current date and time Thu Jul  6 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-04-2023-1.log greenzone_vmail-07-04-2023-2.log greenzone_vmail-07-04-2023-3.log greenzone_vmail-07-04-2023-4.log greenzone_vmail-07-04-2023-5.log
+command = ls greenzone_vmail-07-04-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 07-04-2023
+greenzone_vmail-07-04-2023-1.log greenzone_vmail-07-04-2023-2.log greenzone_vmail-07-04-2023-3.log greenzone_vmail-07-04-2023-4.log greenzone_vmail-07-04-2023-5.log
+5
+1
+greenzone_vmail-07-04-2023-1.log
+greenzone_vmail-07-04-2023-1.log
+2
+greenzone_vmail-07-04-2023-2.log
+greenzone_vmail-07-04-2023-2.log
+3
+greenzone_vmail-07-04-2023-3.log
+greenzone_vmail-07-04-2023-3.log
+4
+greenzone_vmail-07-04-2023-4.log
+greenzone_vmail-07-04-2023-4.log
+5
+greenzone_vmail-07-04-2023-5.log
+greenzone_vmail-07-04-2023-5.log
+************************** Date  Fri Jul  7 04:06:01 EAT 2023
+Current date and time Fri Jul  7 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-05-2023-1.log greenzone_vmail-07-05-2023-2.log greenzone_vmail-07-05-2023-3.log greenzone_vmail-07-05-2023-4.log
+command = ls greenzone_vmail-07-05-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-05-2023
+greenzone_vmail-07-05-2023-1.log greenzone_vmail-07-05-2023-2.log greenzone_vmail-07-05-2023-3.log greenzone_vmail-07-05-2023-4.log
+4
+1
+greenzone_vmail-07-05-2023-1.log
+greenzone_vmail-07-05-2023-1.log
+2
+greenzone_vmail-07-05-2023-2.log
+greenzone_vmail-07-05-2023-2.log
+3
+greenzone_vmail-07-05-2023-3.log
+greenzone_vmail-07-05-2023-3.log
+4
+greenzone_vmail-07-05-2023-4.log
+greenzone_vmail-07-05-2023-4.log
+************************** Date  Sat Jul  8 04:06:01 EAT 2023
+Current date and time Sat Jul  8 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-06-2023-1.log greenzone_vmail-07-06-2023-2.log greenzone_vmail-07-06-2023-3.log greenzone_vmail-07-06-2023-4.log
+command = ls greenzone_vmail-07-06-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-06-2023
+greenzone_vmail-07-06-2023-1.log greenzone_vmail-07-06-2023-2.log greenzone_vmail-07-06-2023-3.log greenzone_vmail-07-06-2023-4.log
+4
+1
+greenzone_vmail-07-06-2023-1.log
+greenzone_vmail-07-06-2023-1.log
+2
+greenzone_vmail-07-06-2023-2.log
+greenzone_vmail-07-06-2023-2.log
+3
+greenzone_vmail-07-06-2023-3.log
+greenzone_vmail-07-06-2023-3.log
+4
+greenzone_vmail-07-06-2023-4.log
+greenzone_vmail-07-06-2023-4.log
+************************** Date  Sun Jul  9 04:06:01 EAT 2023
+Current date and time Sun Jul  9 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-07-2023-1.log greenzone_vmail-07-07-2023-2.log greenzone_vmail-07-07-2023-3.log greenzone_vmail-07-07-2023-4.log greenzone_vmail-07-07-2023-5.log
+command = ls greenzone_vmail-07-07-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 07-07-2023
+greenzone_vmail-07-07-2023-1.log greenzone_vmail-07-07-2023-2.log greenzone_vmail-07-07-2023-3.log greenzone_vmail-07-07-2023-4.log greenzone_vmail-07-07-2023-5.log
+5
+1
+greenzone_vmail-07-07-2023-1.log
+greenzone_vmail-07-07-2023-1.log
+2
+greenzone_vmail-07-07-2023-2.log
+greenzone_vmail-07-07-2023-2.log
+3
+greenzone_vmail-07-07-2023-3.log
+greenzone_vmail-07-07-2023-3.log
+4
+greenzone_vmail-07-07-2023-4.log
+greenzone_vmail-07-07-2023-4.log
+5
+greenzone_vmail-07-07-2023-5.log
+greenzone_vmail-07-07-2023-5.log
+************************** Date  Mon Jul 10 04:06:01 EAT 2023
+Current date and time Mon Jul 10 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-08-2023-1.log greenzone_vmail-07-08-2023-2.log greenzone_vmail-07-08-2023-3.log greenzone_vmail-07-08-2023-4.log
+command = ls greenzone_vmail-07-08-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-08-2023
+greenzone_vmail-07-08-2023-1.log greenzone_vmail-07-08-2023-2.log greenzone_vmail-07-08-2023-3.log greenzone_vmail-07-08-2023-4.log
+4
+1
+greenzone_vmail-07-08-2023-1.log
+greenzone_vmail-07-08-2023-1.log
+2
+greenzone_vmail-07-08-2023-2.log
+greenzone_vmail-07-08-2023-2.log
+3
+greenzone_vmail-07-08-2023-3.log
+greenzone_vmail-07-08-2023-3.log
+4
+greenzone_vmail-07-08-2023-4.log
+greenzone_vmail-07-08-2023-4.log
+************************** Date  Tue Jul 11 04:06:01 EAT 2023
+Current date and time Tue Jul 11 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-09-2023-1.log greenzone_vmail-07-09-2023-2.log greenzone_vmail-07-09-2023-3.log greenzone_vmail-07-09-2023-4.log
+command = ls greenzone_vmail-07-09-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-09-2023
+greenzone_vmail-07-09-2023-1.log greenzone_vmail-07-09-2023-2.log greenzone_vmail-07-09-2023-3.log greenzone_vmail-07-09-2023-4.log
+4
+1
+greenzone_vmail-07-09-2023-1.log
+greenzone_vmail-07-09-2023-1.log
+2
+greenzone_vmail-07-09-2023-2.log
+greenzone_vmail-07-09-2023-2.log
+3
+greenzone_vmail-07-09-2023-3.log
+greenzone_vmail-07-09-2023-3.log
+4
+greenzone_vmail-07-09-2023-4.log
+greenzone_vmail-07-09-2023-4.log
+************************** Date  Wed Jul 12 04:06:01 EAT 2023
+Current date and time Wed Jul 12 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-10-2023-1.log greenzone_vmail-07-10-2023-2.log greenzone_vmail-07-10-2023-3.log greenzone_vmail-07-10-2023-4.log greenzone_vmail-07-10-2023-5.log
+command = ls greenzone_vmail-07-10-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 07-10-2023
+greenzone_vmail-07-10-2023-1.log greenzone_vmail-07-10-2023-2.log greenzone_vmail-07-10-2023-3.log greenzone_vmail-07-10-2023-4.log greenzone_vmail-07-10-2023-5.log
+5
+1
+greenzone_vmail-07-10-2023-1.log
+greenzone_vmail-07-10-2023-1.log
+2
+greenzone_vmail-07-10-2023-2.log
+greenzone_vmail-07-10-2023-2.log
+3
+greenzone_vmail-07-10-2023-3.log
+greenzone_vmail-07-10-2023-3.log
+4
+greenzone_vmail-07-10-2023-4.log
+greenzone_vmail-07-10-2023-4.log
+5
+greenzone_vmail-07-10-2023-5.log
+greenzone_vmail-07-10-2023-5.log
+************************** Date  Thu Jul 13 04:06:01 EAT 2023
+Current date and time Thu Jul 13 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-11-2023-1.log greenzone_vmail-07-11-2023-2.log greenzone_vmail-07-11-2023-3.log greenzone_vmail-07-11-2023-4.log
+command = ls greenzone_vmail-07-11-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-11-2023
+greenzone_vmail-07-11-2023-1.log greenzone_vmail-07-11-2023-2.log greenzone_vmail-07-11-2023-3.log greenzone_vmail-07-11-2023-4.log
+4
+1
+greenzone_vmail-07-11-2023-1.log
+greenzone_vmail-07-11-2023-1.log
+2
+greenzone_vmail-07-11-2023-2.log
+greenzone_vmail-07-11-2023-2.log
+3
+greenzone_vmail-07-11-2023-3.log
+greenzone_vmail-07-11-2023-3.log
+4
+greenzone_vmail-07-11-2023-4.log
+greenzone_vmail-07-11-2023-4.log
+************************** Date  Fri Jul 14 04:06:01 EAT 2023
+Current date and time Fri Jul 14 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-12-2023-1.log greenzone_vmail-07-12-2023-2.log greenzone_vmail-07-12-2023-3.log
+command = ls greenzone_vmail-07-12-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 07-12-2023
+greenzone_vmail-07-12-2023-1.log greenzone_vmail-07-12-2023-2.log greenzone_vmail-07-12-2023-3.log
+3
+1
+greenzone_vmail-07-12-2023-1.log
+greenzone_vmail-07-12-2023-1.log
+2
+greenzone_vmail-07-12-2023-2.log
+greenzone_vmail-07-12-2023-2.log
+3
+greenzone_vmail-07-12-2023-3.log
+greenzone_vmail-07-12-2023-3.log
+************************** Date  Sat Jul 15 04:06:01 EAT 2023
+Current date and time Sat Jul 15 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-13-2023-1.log greenzone_vmail-07-13-2023-2.log
+command = ls greenzone_vmail-07-13-2023* |wc -l
+/home/rbt/voicemail/logs
+result=2
+Current date in dd/mm/yyyy format 07-13-2023
+greenzone_vmail-07-13-2023-1.log greenzone_vmail-07-13-2023-2.log
+2
+1
+greenzone_vmail-07-13-2023-1.log
+greenzone_vmail-07-13-2023-1.log
+2
+greenzone_vmail-07-13-2023-2.log
+greenzone_vmail-07-13-2023-2.log
+************************** Date  Sun Jul 16 04:06:01 EAT 2023
+Current date and time Sun Jul 16 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-14-2023-1.log greenzone_vmail-07-14-2023-2.log
+command = ls greenzone_vmail-07-14-2023* |wc -l
+/home/rbt/voicemail/logs
+result=2
+Current date in dd/mm/yyyy format 07-14-2023
+greenzone_vmail-07-14-2023-1.log greenzone_vmail-07-14-2023-2.log
+2
+1
+greenzone_vmail-07-14-2023-1.log
+greenzone_vmail-07-14-2023-1.log
+2
+greenzone_vmail-07-14-2023-2.log
+greenzone_vmail-07-14-2023-2.log
+************************** Date  Mon Jul 17 04:06:01 EAT 2023
+Current date and time Mon Jul 17 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-15-2023-1.log greenzone_vmail-07-15-2023-2.log
+command = ls greenzone_vmail-07-15-2023* |wc -l
+/home/rbt/voicemail/logs
+result=2
+Current date in dd/mm/yyyy format 07-15-2023
+greenzone_vmail-07-15-2023-1.log greenzone_vmail-07-15-2023-2.log
+2
+1
+greenzone_vmail-07-15-2023-1.log
+greenzone_vmail-07-15-2023-1.log
+2
+greenzone_vmail-07-15-2023-2.log
+greenzone_vmail-07-15-2023-2.log
+************************** Date  Tue Jul 18 04:06:01 EAT 2023
+Current date and time Tue Jul 18 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-16-2023-1.log greenzone_vmail-07-16-2023-2.log greenzone_vmail-07-16-2023-3.log
+command = ls greenzone_vmail-07-16-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 07-16-2023
+greenzone_vmail-07-16-2023-1.log greenzone_vmail-07-16-2023-2.log greenzone_vmail-07-16-2023-3.log
+3
+1
+greenzone_vmail-07-16-2023-1.log
+greenzone_vmail-07-16-2023-1.log
+2
+greenzone_vmail-07-16-2023-2.log
+greenzone_vmail-07-16-2023-2.log
+3
+greenzone_vmail-07-16-2023-3.log
+greenzone_vmail-07-16-2023-3.log
+************************** Date  Wed Jul 19 04:06:01 EAT 2023
+Current date and time Wed Jul 19 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-17-2023-1.log greenzone_vmail-07-17-2023-2.log greenzone_vmail-07-17-2023-3.log greenzone_vmail-07-17-2023-4.log
+command = ls greenzone_vmail-07-17-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-17-2023
+greenzone_vmail-07-17-2023-1.log greenzone_vmail-07-17-2023-2.log greenzone_vmail-07-17-2023-3.log greenzone_vmail-07-17-2023-4.log
+4
+1
+greenzone_vmail-07-17-2023-1.log
+greenzone_vmail-07-17-2023-1.log
+2
+greenzone_vmail-07-17-2023-2.log
+greenzone_vmail-07-17-2023-2.log
+3
+greenzone_vmail-07-17-2023-3.log
+greenzone_vmail-07-17-2023-3.log
+4
+greenzone_vmail-07-17-2023-4.log
+greenzone_vmail-07-17-2023-4.log
+************************** Date  Thu Jul 20 04:06:01 EAT 2023
+Current date and time Thu Jul 20 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-18-2023-1.log greenzone_vmail-07-18-2023-2.log greenzone_vmail-07-18-2023-3.log greenzone_vmail-07-18-2023-4.log
+command = ls greenzone_vmail-07-18-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-18-2023
+greenzone_vmail-07-18-2023-1.log greenzone_vmail-07-18-2023-2.log greenzone_vmail-07-18-2023-3.log greenzone_vmail-07-18-2023-4.log
+4
+1
+greenzone_vmail-07-18-2023-1.log
+greenzone_vmail-07-18-2023-1.log
+2
+greenzone_vmail-07-18-2023-2.log
+greenzone_vmail-07-18-2023-2.log
+3
+greenzone_vmail-07-18-2023-3.log
+greenzone_vmail-07-18-2023-3.log
+4
+greenzone_vmail-07-18-2023-4.log
+greenzone_vmail-07-18-2023-4.log
+************************** Date  Fri Jul 21 04:06:01 EAT 2023
+Current date and time Fri Jul 21 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-19-2023-1.log greenzone_vmail-07-19-2023-2.log greenzone_vmail-07-19-2023-3.log greenzone_vmail-07-19-2023-4.log
+command = ls greenzone_vmail-07-19-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-19-2023
+greenzone_vmail-07-19-2023-1.log greenzone_vmail-07-19-2023-2.log greenzone_vmail-07-19-2023-3.log greenzone_vmail-07-19-2023-4.log
+4
+1
+greenzone_vmail-07-19-2023-1.log
+greenzone_vmail-07-19-2023-1.log
+2
+greenzone_vmail-07-19-2023-2.log
+greenzone_vmail-07-19-2023-2.log
+3
+greenzone_vmail-07-19-2023-3.log
+greenzone_vmail-07-19-2023-3.log
+4
+greenzone_vmail-07-19-2023-4.log
+greenzone_vmail-07-19-2023-4.log
+************************** Date  Sat Jul 22 04:06:01 EAT 2023
+Current date and time Sat Jul 22 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-20-2023-1.log greenzone_vmail-07-20-2023-2.log greenzone_vmail-07-20-2023-3.log greenzone_vmail-07-20-2023-4.log greenzone_vmail-07-20-2023-5.log
+command = ls greenzone_vmail-07-20-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 07-20-2023
+greenzone_vmail-07-20-2023-1.log greenzone_vmail-07-20-2023-2.log greenzone_vmail-07-20-2023-3.log greenzone_vmail-07-20-2023-4.log greenzone_vmail-07-20-2023-5.log
+5
+1
+greenzone_vmail-07-20-2023-1.log
+greenzone_vmail-07-20-2023-1.log
+2
+greenzone_vmail-07-20-2023-2.log
+greenzone_vmail-07-20-2023-2.log
+3
+greenzone_vmail-07-20-2023-3.log
+greenzone_vmail-07-20-2023-3.log
+4
+greenzone_vmail-07-20-2023-4.log
+greenzone_vmail-07-20-2023-4.log
+5
+greenzone_vmail-07-20-2023-5.log
+greenzone_vmail-07-20-2023-5.log
+************************** Date  Sun Jul 23 04:06:01 EAT 2023
+Current date and time Sun Jul 23 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-21-2023-1.log greenzone_vmail-07-21-2023-2.log greenzone_vmail-07-21-2023-3.log greenzone_vmail-07-21-2023-4.log greenzone_vmail-07-21-2023-5.log
+command = ls greenzone_vmail-07-21-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 07-21-2023
+greenzone_vmail-07-21-2023-1.log greenzone_vmail-07-21-2023-2.log greenzone_vmail-07-21-2023-3.log greenzone_vmail-07-21-2023-4.log greenzone_vmail-07-21-2023-5.log
+5
+1
+greenzone_vmail-07-21-2023-1.log
+greenzone_vmail-07-21-2023-1.log
+2
+greenzone_vmail-07-21-2023-2.log
+greenzone_vmail-07-21-2023-2.log
+3
+greenzone_vmail-07-21-2023-3.log
+greenzone_vmail-07-21-2023-3.log
+4
+greenzone_vmail-07-21-2023-4.log
+greenzone_vmail-07-21-2023-4.log
+5
+greenzone_vmail-07-21-2023-5.log
+greenzone_vmail-07-21-2023-5.log
+************************** Date  Mon Jul 24 04:06:01 EAT 2023
+Current date and time Mon Jul 24 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-22-2023-1.log greenzone_vmail-07-22-2023-2.log greenzone_vmail-07-22-2023-3.log greenzone_vmail-07-22-2023-4.log
+command = ls greenzone_vmail-07-22-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-22-2023
+greenzone_vmail-07-22-2023-1.log greenzone_vmail-07-22-2023-2.log greenzone_vmail-07-22-2023-3.log greenzone_vmail-07-22-2023-4.log
+4
+1
+greenzone_vmail-07-22-2023-1.log
+greenzone_vmail-07-22-2023-1.log
+2
+greenzone_vmail-07-22-2023-2.log
+greenzone_vmail-07-22-2023-2.log
+3
+greenzone_vmail-07-22-2023-3.log
+greenzone_vmail-07-22-2023-3.log
+4
+greenzone_vmail-07-22-2023-4.log
+greenzone_vmail-07-22-2023-4.log
+************************** Date  Tue Jul 25 04:06:01 EAT 2023
+Current date and time Tue Jul 25 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-23-2023-1.log greenzone_vmail-07-23-2023-2.log greenzone_vmail-07-23-2023-3.log greenzone_vmail-07-23-2023-4.log
+command = ls greenzone_vmail-07-23-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-23-2023
+greenzone_vmail-07-23-2023-1.log greenzone_vmail-07-23-2023-2.log greenzone_vmail-07-23-2023-3.log greenzone_vmail-07-23-2023-4.log
+4
+1
+greenzone_vmail-07-23-2023-1.log
+greenzone_vmail-07-23-2023-1.log
+2
+greenzone_vmail-07-23-2023-2.log
+greenzone_vmail-07-23-2023-2.log
+3
+greenzone_vmail-07-23-2023-3.log
+greenzone_vmail-07-23-2023-3.log
+4
+greenzone_vmail-07-23-2023-4.log
+greenzone_vmail-07-23-2023-4.log
+************************** Date  Wed Jul 26 04:06:01 EAT 2023
+Current date and time Wed Jul 26 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-24-2023-1.log greenzone_vmail-07-24-2023-2.log greenzone_vmail-07-24-2023-3.log greenzone_vmail-07-24-2023-4.log
+command = ls greenzone_vmail-07-24-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-24-2023
+greenzone_vmail-07-24-2023-1.log greenzone_vmail-07-24-2023-2.log greenzone_vmail-07-24-2023-3.log greenzone_vmail-07-24-2023-4.log
+4
+1
+greenzone_vmail-07-24-2023-1.log
+greenzone_vmail-07-24-2023-1.log
+2
+greenzone_vmail-07-24-2023-2.log
+greenzone_vmail-07-24-2023-2.log
+3
+greenzone_vmail-07-24-2023-3.log
+greenzone_vmail-07-24-2023-3.log
+4
+greenzone_vmail-07-24-2023-4.log
+greenzone_vmail-07-24-2023-4.log
+************************** Date  Thu Jul 27 04:06:01 EAT 2023
+Current date and time Thu Jul 27 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-25-2023-1.log greenzone_vmail-07-25-2023-2.log greenzone_vmail-07-25-2023-3.log greenzone_vmail-07-25-2023-4.log
+command = ls greenzone_vmail-07-25-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-25-2023
+greenzone_vmail-07-25-2023-1.log greenzone_vmail-07-25-2023-2.log greenzone_vmail-07-25-2023-3.log greenzone_vmail-07-25-2023-4.log
+4
+1
+greenzone_vmail-07-25-2023-1.log
+greenzone_vmail-07-25-2023-1.log
+2
+greenzone_vmail-07-25-2023-2.log
+greenzone_vmail-07-25-2023-2.log
+3
+greenzone_vmail-07-25-2023-3.log
+greenzone_vmail-07-25-2023-3.log
+4
+greenzone_vmail-07-25-2023-4.log
+greenzone_vmail-07-25-2023-4.log
+************************** Date  Fri Jul 28 04:06:02 EAT 2023
+Current date and time Fri Jul 28 04:06:02 EAT 2023
+'8 days ago'
+greenzone_vmail-07-26-2023-1.log greenzone_vmail-07-26-2023-2.log greenzone_vmail-07-26-2023-3.log greenzone_vmail-07-26-2023-4.log
+command = ls greenzone_vmail-07-26-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-26-2023
+greenzone_vmail-07-26-2023-1.log greenzone_vmail-07-26-2023-2.log greenzone_vmail-07-26-2023-3.log greenzone_vmail-07-26-2023-4.log
+4
+1
+greenzone_vmail-07-26-2023-1.log
+greenzone_vmail-07-26-2023-1.log
+2
+greenzone_vmail-07-26-2023-2.log
+greenzone_vmail-07-26-2023-2.log
+3
+greenzone_vmail-07-26-2023-3.log
+greenzone_vmail-07-26-2023-3.log
+4
+greenzone_vmail-07-26-2023-4.log
+greenzone_vmail-07-26-2023-4.log
+************************** Date  Sat Jul 29 04:06:01 EAT 2023
+Current date and time Sat Jul 29 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-27-2023-1.log greenzone_vmail-07-27-2023-2.log greenzone_vmail-07-27-2023-3.log greenzone_vmail-07-27-2023-4.log
+command = ls greenzone_vmail-07-27-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-27-2023
+greenzone_vmail-07-27-2023-1.log greenzone_vmail-07-27-2023-2.log greenzone_vmail-07-27-2023-3.log greenzone_vmail-07-27-2023-4.log
+4
+1
+greenzone_vmail-07-27-2023-1.log
+greenzone_vmail-07-27-2023-1.log
+2
+greenzone_vmail-07-27-2023-2.log
+greenzone_vmail-07-27-2023-2.log
+3
+greenzone_vmail-07-27-2023-3.log
+greenzone_vmail-07-27-2023-3.log
+4
+greenzone_vmail-07-27-2023-4.log
+greenzone_vmail-07-27-2023-4.log
+************************** Date  Sun Jul 30 04:06:01 EAT 2023
+Current date and time Sun Jul 30 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-28-2023-1.log greenzone_vmail-07-28-2023-2.log greenzone_vmail-07-28-2023-3.log greenzone_vmail-07-28-2023-4.log
+command = ls greenzone_vmail-07-28-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-28-2023
+greenzone_vmail-07-28-2023-1.log greenzone_vmail-07-28-2023-2.log greenzone_vmail-07-28-2023-3.log greenzone_vmail-07-28-2023-4.log
+4
+1
+greenzone_vmail-07-28-2023-1.log
+greenzone_vmail-07-28-2023-1.log
+2
+greenzone_vmail-07-28-2023-2.log
+greenzone_vmail-07-28-2023-2.log
+3
+greenzone_vmail-07-28-2023-3.log
+greenzone_vmail-07-28-2023-3.log
+4
+greenzone_vmail-07-28-2023-4.log
+greenzone_vmail-07-28-2023-4.log
+************************** Date  Mon Jul 31 04:06:01 EAT 2023
+Current date and time Mon Jul 31 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-29-2023-1.log greenzone_vmail-07-29-2023-2.log greenzone_vmail-07-29-2023-3.log greenzone_vmail-07-29-2023-4.log
+command = ls greenzone_vmail-07-29-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 07-29-2023
+greenzone_vmail-07-29-2023-1.log greenzone_vmail-07-29-2023-2.log greenzone_vmail-07-29-2023-3.log greenzone_vmail-07-29-2023-4.log
+4
+1
+greenzone_vmail-07-29-2023-1.log
+greenzone_vmail-07-29-2023-1.log
+2
+greenzone_vmail-07-29-2023-2.log
+greenzone_vmail-07-29-2023-2.log
+3
+greenzone_vmail-07-29-2023-3.log
+greenzone_vmail-07-29-2023-3.log
+4
+greenzone_vmail-07-29-2023-4.log
+greenzone_vmail-07-29-2023-4.log
+************************** Date  Tue Aug  1 04:06:01 EAT 2023
+Current date and time Tue Aug  1 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-30-2023-1.log greenzone_vmail-07-30-2023-2.log greenzone_vmail-07-30-2023-3.log
+command = ls greenzone_vmail-07-30-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 07-30-2023
+greenzone_vmail-07-30-2023-1.log greenzone_vmail-07-30-2023-2.log greenzone_vmail-07-30-2023-3.log
+3
+1
+greenzone_vmail-07-30-2023-1.log
+greenzone_vmail-07-30-2023-1.log
+2
+greenzone_vmail-07-30-2023-2.log
+greenzone_vmail-07-30-2023-2.log
+3
+greenzone_vmail-07-30-2023-3.log
+greenzone_vmail-07-30-2023-3.log
+************************** Date  Wed Aug  2 04:06:01 EAT 2023
+Current date and time Wed Aug  2 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-07-31-2023-1.log greenzone_vmail-07-31-2023-2.log
+command = ls greenzone_vmail-07-31-2023* |wc -l
+/home/rbt/voicemail/logs
+result=2
+Current date in dd/mm/yyyy format 07-31-2023
+greenzone_vmail-07-31-2023-1.log greenzone_vmail-07-31-2023-2.log
+2
+1
+greenzone_vmail-07-31-2023-1.log
+greenzone_vmail-07-31-2023-1.log
+2
+greenzone_vmail-07-31-2023-2.log
+greenzone_vmail-07-31-2023-2.log
+************************** Date  Thu Aug  3 04:06:01 EAT 2023
+Current date and time Thu Aug  3 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-01-2023-1.log greenzone_vmail-08-01-2023-2.log greenzone_vmail-08-01-2023-3.log
+command = ls greenzone_vmail-08-01-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 08-01-2023
+greenzone_vmail-08-01-2023-1.log greenzone_vmail-08-01-2023-2.log greenzone_vmail-08-01-2023-3.log
+3
+1
+greenzone_vmail-08-01-2023-1.log
+greenzone_vmail-08-01-2023-1.log
+2
+greenzone_vmail-08-01-2023-2.log
+greenzone_vmail-08-01-2023-2.log
+3
+greenzone_vmail-08-01-2023-3.log
+greenzone_vmail-08-01-2023-3.log
+************************** Date  Fri Aug  4 04:06:01 EAT 2023
+Current date and time Fri Aug  4 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-02-2023-1.log greenzone_vmail-08-02-2023-2.log greenzone_vmail-08-02-2023-3.log greenzone_vmail-08-02-2023-4.log
+command = ls greenzone_vmail-08-02-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-02-2023
+greenzone_vmail-08-02-2023-1.log greenzone_vmail-08-02-2023-2.log greenzone_vmail-08-02-2023-3.log greenzone_vmail-08-02-2023-4.log
+4
+1
+greenzone_vmail-08-02-2023-1.log
+greenzone_vmail-08-02-2023-1.log
+2
+greenzone_vmail-08-02-2023-2.log
+greenzone_vmail-08-02-2023-2.log
+3
+greenzone_vmail-08-02-2023-3.log
+greenzone_vmail-08-02-2023-3.log
+4
+greenzone_vmail-08-02-2023-4.log
+greenzone_vmail-08-02-2023-4.log
+************************** Date  Sat Aug  5 04:06:01 EAT 2023
+Current date and time Sat Aug  5 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-03-2023-1.log greenzone_vmail-08-03-2023-2.log greenzone_vmail-08-03-2023-3.log greenzone_vmail-08-03-2023-4.log
+command = ls greenzone_vmail-08-03-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-03-2023
+greenzone_vmail-08-03-2023-1.log greenzone_vmail-08-03-2023-2.log greenzone_vmail-08-03-2023-3.log greenzone_vmail-08-03-2023-4.log
+4
+1
+greenzone_vmail-08-03-2023-1.log
+greenzone_vmail-08-03-2023-1.log
+2
+greenzone_vmail-08-03-2023-2.log
+greenzone_vmail-08-03-2023-2.log
+3
+greenzone_vmail-08-03-2023-3.log
+greenzone_vmail-08-03-2023-3.log
+4
+greenzone_vmail-08-03-2023-4.log
+greenzone_vmail-08-03-2023-4.log
+************************** Date  Sun Aug  6 04:06:01 EAT 2023
+Current date and time Sun Aug  6 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-04-2023-1.log greenzone_vmail-08-04-2023-2.log greenzone_vmail-08-04-2023-3.log greenzone_vmail-08-04-2023-4.log greenzone_vmail-08-04-2023-5.log
+command = ls greenzone_vmail-08-04-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 08-04-2023
+greenzone_vmail-08-04-2023-1.log greenzone_vmail-08-04-2023-2.log greenzone_vmail-08-04-2023-3.log greenzone_vmail-08-04-2023-4.log greenzone_vmail-08-04-2023-5.log
+5
+1
+greenzone_vmail-08-04-2023-1.log
+greenzone_vmail-08-04-2023-1.log
+2
+greenzone_vmail-08-04-2023-2.log
+greenzone_vmail-08-04-2023-2.log
+3
+greenzone_vmail-08-04-2023-3.log
+greenzone_vmail-08-04-2023-3.log
+4
+greenzone_vmail-08-04-2023-4.log
+greenzone_vmail-08-04-2023-4.log
+5
+greenzone_vmail-08-04-2023-5.log
+greenzone_vmail-08-04-2023-5.log
+************************** Date  Mon Aug  7 04:06:01 EAT 2023
+Current date and time Mon Aug  7 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-05-2023-1.log greenzone_vmail-08-05-2023-2.log greenzone_vmail-08-05-2023-3.log greenzone_vmail-08-05-2023-4.log
+command = ls greenzone_vmail-08-05-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-05-2023
+greenzone_vmail-08-05-2023-1.log greenzone_vmail-08-05-2023-2.log greenzone_vmail-08-05-2023-3.log greenzone_vmail-08-05-2023-4.log
+4
+1
+greenzone_vmail-08-05-2023-1.log
+greenzone_vmail-08-05-2023-1.log
+2
+greenzone_vmail-08-05-2023-2.log
+greenzone_vmail-08-05-2023-2.log
+3
+greenzone_vmail-08-05-2023-3.log
+greenzone_vmail-08-05-2023-3.log
+4
+greenzone_vmail-08-05-2023-4.log
+greenzone_vmail-08-05-2023-4.log
+************************** Date  Tue Aug  8 04:06:01 EAT 2023
+Current date and time Tue Aug  8 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-06-2023-1.log greenzone_vmail-08-06-2023-2.log greenzone_vmail-08-06-2023-3.log greenzone_vmail-08-06-2023-4.log
+command = ls greenzone_vmail-08-06-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-06-2023
+greenzone_vmail-08-06-2023-1.log greenzone_vmail-08-06-2023-2.log greenzone_vmail-08-06-2023-3.log greenzone_vmail-08-06-2023-4.log
+4
+1
+greenzone_vmail-08-06-2023-1.log
+greenzone_vmail-08-06-2023-1.log
+2
+greenzone_vmail-08-06-2023-2.log
+greenzone_vmail-08-06-2023-2.log
+3
+greenzone_vmail-08-06-2023-3.log
+greenzone_vmail-08-06-2023-3.log
+4
+greenzone_vmail-08-06-2023-4.log
+greenzone_vmail-08-06-2023-4.log
+************************** Date  Wed Aug  9 04:06:01 EAT 2023
+Current date and time Wed Aug  9 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-07-2023-1.log greenzone_vmail-08-07-2023-2.log
+command = ls greenzone_vmail-08-07-2023* |wc -l
+/home/rbt/voicemail/logs
+result=2
+Current date in dd/mm/yyyy format 08-07-2023
+greenzone_vmail-08-07-2023-1.log greenzone_vmail-08-07-2023-2.log
+2
+1
+greenzone_vmail-08-07-2023-1.log
+greenzone_vmail-08-07-2023-1.log
+2
+greenzone_vmail-08-07-2023-2.log
+greenzone_vmail-08-07-2023-2.log
+************************** Date  Thu Aug 10 04:06:01 EAT 2023
+Current date and time Thu Aug 10 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-08-2023-1.log greenzone_vmail-08-08-2023-2.log greenzone_vmail-08-08-2023-3.log greenzone_vmail-08-08-2023-4.log
+command = ls greenzone_vmail-08-08-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-08-2023
+greenzone_vmail-08-08-2023-1.log greenzone_vmail-08-08-2023-2.log greenzone_vmail-08-08-2023-3.log greenzone_vmail-08-08-2023-4.log
+4
+1
+greenzone_vmail-08-08-2023-1.log
+greenzone_vmail-08-08-2023-1.log
+2
+greenzone_vmail-08-08-2023-2.log
+greenzone_vmail-08-08-2023-2.log
+3
+greenzone_vmail-08-08-2023-3.log
+greenzone_vmail-08-08-2023-3.log
+4
+greenzone_vmail-08-08-2023-4.log
+greenzone_vmail-08-08-2023-4.log
+************************** Date  Fri Aug 11 04:06:01 EAT 2023
+Current date and time Fri Aug 11 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-09-2023-1.log greenzone_vmail-08-09-2023-2.log greenzone_vmail-08-09-2023-3.log greenzone_vmail-08-09-2023-4.log
+command = ls greenzone_vmail-08-09-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-09-2023
+greenzone_vmail-08-09-2023-1.log greenzone_vmail-08-09-2023-2.log greenzone_vmail-08-09-2023-3.log greenzone_vmail-08-09-2023-4.log
+4
+1
+greenzone_vmail-08-09-2023-1.log
+greenzone_vmail-08-09-2023-1.log
+2
+greenzone_vmail-08-09-2023-2.log
+greenzone_vmail-08-09-2023-2.log
+3
+greenzone_vmail-08-09-2023-3.log
+greenzone_vmail-08-09-2023-3.log
+4
+greenzone_vmail-08-09-2023-4.log
+greenzone_vmail-08-09-2023-4.log
+************************** Date  Sat Aug 12 04:06:01 EAT 2023
+Current date and time Sat Aug 12 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-10-2023-1.log greenzone_vmail-08-10-2023-2.log greenzone_vmail-08-10-2023-3.log greenzone_vmail-08-10-2023-4.log
+command = ls greenzone_vmail-08-10-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-10-2023
+greenzone_vmail-08-10-2023-1.log greenzone_vmail-08-10-2023-2.log greenzone_vmail-08-10-2023-3.log greenzone_vmail-08-10-2023-4.log
+4
+1
+greenzone_vmail-08-10-2023-1.log
+greenzone_vmail-08-10-2023-1.log
+2
+greenzone_vmail-08-10-2023-2.log
+greenzone_vmail-08-10-2023-2.log
+3
+greenzone_vmail-08-10-2023-3.log
+greenzone_vmail-08-10-2023-3.log
+4
+greenzone_vmail-08-10-2023-4.log
+greenzone_vmail-08-10-2023-4.log
+************************** Date  Sun Aug 13 04:06:01 EAT 2023
+Current date and time Sun Aug 13 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-11-2023-1.log greenzone_vmail-08-11-2023-2.log greenzone_vmail-08-11-2023-3.log greenzone_vmail-08-11-2023-4.log
+command = ls greenzone_vmail-08-11-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-11-2023
+greenzone_vmail-08-11-2023-1.log greenzone_vmail-08-11-2023-2.log greenzone_vmail-08-11-2023-3.log greenzone_vmail-08-11-2023-4.log
+4
+1
+greenzone_vmail-08-11-2023-1.log
+greenzone_vmail-08-11-2023-1.log
+2
+greenzone_vmail-08-11-2023-2.log
+greenzone_vmail-08-11-2023-2.log
+3
+greenzone_vmail-08-11-2023-3.log
+greenzone_vmail-08-11-2023-3.log
+4
+greenzone_vmail-08-11-2023-4.log
+greenzone_vmail-08-11-2023-4.log
+************************** Date  Mon Aug 14 04:06:02 EAT 2023
+Current date and time Mon Aug 14 04:06:02 EAT 2023
+'8 days ago'
+greenzone_vmail-08-12-2023-1.log greenzone_vmail-08-12-2023-2.log greenzone_vmail-08-12-2023-3.log greenzone_vmail-08-12-2023-4.log
+command = ls greenzone_vmail-08-12-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-12-2023
+greenzone_vmail-08-12-2023-1.log greenzone_vmail-08-12-2023-2.log greenzone_vmail-08-12-2023-3.log greenzone_vmail-08-12-2023-4.log
+4
+1
+greenzone_vmail-08-12-2023-1.log
+greenzone_vmail-08-12-2023-1.log
+2
+greenzone_vmail-08-12-2023-2.log
+greenzone_vmail-08-12-2023-2.log
+3
+greenzone_vmail-08-12-2023-3.log
+greenzone_vmail-08-12-2023-3.log
+4
+greenzone_vmail-08-12-2023-4.log
+greenzone_vmail-08-12-2023-4.log
+************************** Date  Tue Aug 15 04:06:01 EAT 2023
+Current date and time Tue Aug 15 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-13-2023-1.log greenzone_vmail-08-13-2023-2.log greenzone_vmail-08-13-2023-3.log greenzone_vmail-08-13-2023-4.log
+command = ls greenzone_vmail-08-13-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-13-2023
+greenzone_vmail-08-13-2023-1.log greenzone_vmail-08-13-2023-2.log greenzone_vmail-08-13-2023-3.log greenzone_vmail-08-13-2023-4.log
+4
+1
+greenzone_vmail-08-13-2023-1.log
+greenzone_vmail-08-13-2023-1.log
+2
+greenzone_vmail-08-13-2023-2.log
+greenzone_vmail-08-13-2023-2.log
+3
+greenzone_vmail-08-13-2023-3.log
+greenzone_vmail-08-13-2023-3.log
+4
+greenzone_vmail-08-13-2023-4.log
+greenzone_vmail-08-13-2023-4.log
+************************** Date  Wed Aug 16 04:06:01 EAT 2023
+Current date and time Wed Aug 16 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-14-2023-1.log greenzone_vmail-08-14-2023-2.log greenzone_vmail-08-14-2023-3.log greenzone_vmail-08-14-2023-4.log
+command = ls greenzone_vmail-08-14-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-14-2023
+greenzone_vmail-08-14-2023-1.log greenzone_vmail-08-14-2023-2.log greenzone_vmail-08-14-2023-3.log greenzone_vmail-08-14-2023-4.log
+4
+1
+greenzone_vmail-08-14-2023-1.log
+greenzone_vmail-08-14-2023-1.log
+2
+greenzone_vmail-08-14-2023-2.log
+greenzone_vmail-08-14-2023-2.log
+3
+greenzone_vmail-08-14-2023-3.log
+greenzone_vmail-08-14-2023-3.log
+4
+greenzone_vmail-08-14-2023-4.log
+greenzone_vmail-08-14-2023-4.log
+************************** Date  Thu Aug 17 04:06:01 EAT 2023
+Current date and time Thu Aug 17 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-15-2023-1.log greenzone_vmail-08-15-2023-2.log greenzone_vmail-08-15-2023-3.log greenzone_vmail-08-15-2023-4.log
+command = ls greenzone_vmail-08-15-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-15-2023
+greenzone_vmail-08-15-2023-1.log greenzone_vmail-08-15-2023-2.log greenzone_vmail-08-15-2023-3.log greenzone_vmail-08-15-2023-4.log
+4
+1
+greenzone_vmail-08-15-2023-1.log
+greenzone_vmail-08-15-2023-1.log
+2
+greenzone_vmail-08-15-2023-2.log
+greenzone_vmail-08-15-2023-2.log
+3
+greenzone_vmail-08-15-2023-3.log
+greenzone_vmail-08-15-2023-3.log
+4
+greenzone_vmail-08-15-2023-4.log
+greenzone_vmail-08-15-2023-4.log
+************************** Date  Fri Aug 18 04:06:01 EAT 2023
+Current date and time Fri Aug 18 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-16-2023-1.log greenzone_vmail-08-16-2023-2.log greenzone_vmail-08-16-2023-3.log greenzone_vmail-08-16-2023-4.log
+command = ls greenzone_vmail-08-16-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-16-2023
+greenzone_vmail-08-16-2023-1.log greenzone_vmail-08-16-2023-2.log greenzone_vmail-08-16-2023-3.log greenzone_vmail-08-16-2023-4.log
+4
+1
+greenzone_vmail-08-16-2023-1.log
+greenzone_vmail-08-16-2023-1.log
+2
+greenzone_vmail-08-16-2023-2.log
+greenzone_vmail-08-16-2023-2.log
+3
+greenzone_vmail-08-16-2023-3.log
+greenzone_vmail-08-16-2023-3.log
+4
+greenzone_vmail-08-16-2023-4.log
+greenzone_vmail-08-16-2023-4.log
+************************** Date  Sat Aug 19 04:06:01 EAT 2023
+Current date and time Sat Aug 19 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-17-2023-1.log greenzone_vmail-08-17-2023-2.log greenzone_vmail-08-17-2023-3.log greenzone_vmail-08-17-2023-4.log
+command = ls greenzone_vmail-08-17-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-17-2023
+greenzone_vmail-08-17-2023-1.log greenzone_vmail-08-17-2023-2.log greenzone_vmail-08-17-2023-3.log greenzone_vmail-08-17-2023-4.log
+4
+1
+greenzone_vmail-08-17-2023-1.log
+greenzone_vmail-08-17-2023-1.log
+2
+greenzone_vmail-08-17-2023-2.log
+greenzone_vmail-08-17-2023-2.log
+3
+greenzone_vmail-08-17-2023-3.log
+greenzone_vmail-08-17-2023-3.log
+4
+greenzone_vmail-08-17-2023-4.log
+greenzone_vmail-08-17-2023-4.log
+************************** Date  Sun Aug 20 04:06:01 EAT 2023
+Current date and time Sun Aug 20 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-18-2023-1.log greenzone_vmail-08-18-2023-2.log greenzone_vmail-08-18-2023-3.log greenzone_vmail-08-18-2023-4.log
+command = ls greenzone_vmail-08-18-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-18-2023
+greenzone_vmail-08-18-2023-1.log greenzone_vmail-08-18-2023-2.log greenzone_vmail-08-18-2023-3.log greenzone_vmail-08-18-2023-4.log
+4
+1
+greenzone_vmail-08-18-2023-1.log
+greenzone_vmail-08-18-2023-1.log
+2
+greenzone_vmail-08-18-2023-2.log
+greenzone_vmail-08-18-2023-2.log
+3
+greenzone_vmail-08-18-2023-3.log
+greenzone_vmail-08-18-2023-3.log
+4
+greenzone_vmail-08-18-2023-4.log
+greenzone_vmail-08-18-2023-4.log
+************************** Date  Mon Aug 21 04:06:01 EAT 2023
+Current date and time Mon Aug 21 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-19-2023-1.log greenzone_vmail-08-19-2023-2.log greenzone_vmail-08-19-2023-3.log greenzone_vmail-08-19-2023-4.log
+command = ls greenzone_vmail-08-19-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-19-2023
+greenzone_vmail-08-19-2023-1.log greenzone_vmail-08-19-2023-2.log greenzone_vmail-08-19-2023-3.log greenzone_vmail-08-19-2023-4.log
+4
+1
+greenzone_vmail-08-19-2023-1.log
+greenzone_vmail-08-19-2023-1.log
+2
+greenzone_vmail-08-19-2023-2.log
+greenzone_vmail-08-19-2023-2.log
+3
+greenzone_vmail-08-19-2023-3.log
+greenzone_vmail-08-19-2023-3.log
+4
+greenzone_vmail-08-19-2023-4.log
+greenzone_vmail-08-19-2023-4.log
+************************** Date  Tue Aug 22 04:06:01 EAT 2023
+Current date and time Tue Aug 22 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-20-2023-1.log
+command = ls greenzone_vmail-08-20-2023* |wc -l
+/home/rbt/voicemail/logs
+result=1
+Current date in dd/mm/yyyy format 08-20-2023
+greenzone_vmail-08-20-2023-1.log
+1
+1
+greenzone_vmail-08-20-2023-1.log
+greenzone_vmail-08-20-2023-1.log
+************************** Date  Wed Aug 23 04:06:01 EAT 2023
+Current date and time Wed Aug 23 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-21-2023-1.log
+command = ls greenzone_vmail-08-21-2023* |wc -l
+/home/rbt/voicemail/logs
+result=1
+Current date in dd/mm/yyyy format 08-21-2023
+greenzone_vmail-08-21-2023-1.log
+1
+1
+greenzone_vmail-08-21-2023-1.log
+greenzone_vmail-08-21-2023-1.log
+************************** Date  Thu Aug 24 04:06:01 EAT 2023
+Current date and time Thu Aug 24 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-22-2023-1.log greenzone_vmail-08-22-2023-2.log greenzone_vmail-08-22-2023-3.log greenzone_vmail-08-22-2023-4.log
+command = ls greenzone_vmail-08-22-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-22-2023
+greenzone_vmail-08-22-2023-1.log greenzone_vmail-08-22-2023-2.log greenzone_vmail-08-22-2023-3.log greenzone_vmail-08-22-2023-4.log
+4
+1
+greenzone_vmail-08-22-2023-1.log
+greenzone_vmail-08-22-2023-1.log
+2
+greenzone_vmail-08-22-2023-2.log
+greenzone_vmail-08-22-2023-2.log
+3
+greenzone_vmail-08-22-2023-3.log
+greenzone_vmail-08-22-2023-3.log
+4
+greenzone_vmail-08-22-2023-4.log
+greenzone_vmail-08-22-2023-4.log
+************************** Date  Fri Aug 25 04:06:01 EAT 2023
+Current date and time Fri Aug 25 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-23-2023-1.log greenzone_vmail-08-23-2023-2.log greenzone_vmail-08-23-2023-3.log greenzone_vmail-08-23-2023-4.log
+command = ls greenzone_vmail-08-23-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-23-2023
+greenzone_vmail-08-23-2023-1.log greenzone_vmail-08-23-2023-2.log greenzone_vmail-08-23-2023-3.log greenzone_vmail-08-23-2023-4.log
+4
+1
+greenzone_vmail-08-23-2023-1.log
+greenzone_vmail-08-23-2023-1.log
+2
+greenzone_vmail-08-23-2023-2.log
+greenzone_vmail-08-23-2023-2.log
+3
+greenzone_vmail-08-23-2023-3.log
+greenzone_vmail-08-23-2023-3.log
+4
+greenzone_vmail-08-23-2023-4.log
+greenzone_vmail-08-23-2023-4.log
+************************** Date  Sat Aug 26 04:06:01 EAT 2023
+Current date and time Sat Aug 26 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-24-2023-1.log greenzone_vmail-08-24-2023-2.log greenzone_vmail-08-24-2023-3.log greenzone_vmail-08-24-2023-4.log
+command = ls greenzone_vmail-08-24-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-24-2023
+greenzone_vmail-08-24-2023-1.log greenzone_vmail-08-24-2023-2.log greenzone_vmail-08-24-2023-3.log greenzone_vmail-08-24-2023-4.log
+4
+1
+greenzone_vmail-08-24-2023-1.log
+greenzone_vmail-08-24-2023-1.log
+2
+greenzone_vmail-08-24-2023-2.log
+greenzone_vmail-08-24-2023-2.log
+3
+greenzone_vmail-08-24-2023-3.log
+greenzone_vmail-08-24-2023-3.log
+4
+greenzone_vmail-08-24-2023-4.log
+greenzone_vmail-08-24-2023-4.log
+************************** Date  Sun Aug 27 04:06:01 EAT 2023
+Current date and time Sun Aug 27 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-25-2023-1.log greenzone_vmail-08-25-2023-2.log greenzone_vmail-08-25-2023-3.log greenzone_vmail-08-25-2023-4.log
+command = ls greenzone_vmail-08-25-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 08-25-2023
+greenzone_vmail-08-25-2023-1.log greenzone_vmail-08-25-2023-2.log greenzone_vmail-08-25-2023-3.log greenzone_vmail-08-25-2023-4.log
+4
+1
+greenzone_vmail-08-25-2023-1.log
+greenzone_vmail-08-25-2023-1.log
+2
+greenzone_vmail-08-25-2023-2.log
+greenzone_vmail-08-25-2023-2.log
+3
+greenzone_vmail-08-25-2023-3.log
+greenzone_vmail-08-25-2023-3.log
+4
+greenzone_vmail-08-25-2023-4.log
+greenzone_vmail-08-25-2023-4.log
+************************** Date  Mon Aug 28 04:06:01 EAT 2023
+Current date and time Mon Aug 28 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-26-2023-1.log greenzone_vmail-08-26-2023-2.log greenzone_vmail-08-26-2023-3.log
+command = ls greenzone_vmail-08-26-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 08-26-2023
+greenzone_vmail-08-26-2023-1.log greenzone_vmail-08-26-2023-2.log greenzone_vmail-08-26-2023-3.log
+3
+1
+greenzone_vmail-08-26-2023-1.log
+greenzone_vmail-08-26-2023-1.log
+2
+greenzone_vmail-08-26-2023-2.log
+greenzone_vmail-08-26-2023-2.log
+3
+greenzone_vmail-08-26-2023-3.log
+greenzone_vmail-08-26-2023-3.log
+************************** Date  Tue Aug 29 04:06:01 EAT 2023
+Current date and time Tue Aug 29 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-27-2023-1.log greenzone_vmail-08-27-2023-2.log greenzone_vmail-08-27-2023-3.log
+command = ls greenzone_vmail-08-27-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 08-27-2023
+greenzone_vmail-08-27-2023-1.log greenzone_vmail-08-27-2023-2.log greenzone_vmail-08-27-2023-3.log
+3
+1
+greenzone_vmail-08-27-2023-1.log
+greenzone_vmail-08-27-2023-1.log
+2
+greenzone_vmail-08-27-2023-2.log
+greenzone_vmail-08-27-2023-2.log
+3
+greenzone_vmail-08-27-2023-3.log
+greenzone_vmail-08-27-2023-3.log
+************************** Date  Wed Aug 30 04:06:01 EAT 2023
+Current date and time Wed Aug 30 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-28-2023-1.log greenzone_vmail-08-28-2023-2.log greenzone_vmail-08-28-2023-3.log
+command = ls greenzone_vmail-08-28-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 08-28-2023
+greenzone_vmail-08-28-2023-1.log greenzone_vmail-08-28-2023-2.log greenzone_vmail-08-28-2023-3.log
+3
+1
+greenzone_vmail-08-28-2023-1.log
+greenzone_vmail-08-28-2023-1.log
+2
+greenzone_vmail-08-28-2023-2.log
+greenzone_vmail-08-28-2023-2.log
+3
+greenzone_vmail-08-28-2023-3.log
+greenzone_vmail-08-28-2023-3.log
+************************** Date  Thu Aug 31 04:06:02 EAT 2023
+Current date and time Thu Aug 31 04:06:02 EAT 2023
+'8 days ago'
+greenzone_vmail-08-29-2023-1.log greenzone_vmail-08-29-2023-2.log greenzone_vmail-08-29-2023-3.log
+command = ls greenzone_vmail-08-29-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 08-29-2023
+greenzone_vmail-08-29-2023-1.log greenzone_vmail-08-29-2023-2.log greenzone_vmail-08-29-2023-3.log
+3
+1
+greenzone_vmail-08-29-2023-1.log
+greenzone_vmail-08-29-2023-1.log
+2
+greenzone_vmail-08-29-2023-2.log
+greenzone_vmail-08-29-2023-2.log
+3
+greenzone_vmail-08-29-2023-3.log
+greenzone_vmail-08-29-2023-3.log
+************************** Date  Fri Sep  1 04:06:02 EAT 2023
+Current date and time Fri Sep  1 04:06:02 EAT 2023
+'8 days ago'
+greenzone_vmail-08-30-2023-1.log greenzone_vmail-08-30-2023-2.log greenzone_vmail-08-30-2023-3.log
+command = ls greenzone_vmail-08-30-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 08-30-2023
+greenzone_vmail-08-30-2023-1.log greenzone_vmail-08-30-2023-2.log greenzone_vmail-08-30-2023-3.log
+3
+1
+greenzone_vmail-08-30-2023-1.log
+greenzone_vmail-08-30-2023-1.log
+2
+greenzone_vmail-08-30-2023-2.log
+greenzone_vmail-08-30-2023-2.log
+3
+greenzone_vmail-08-30-2023-3.log
+greenzone_vmail-08-30-2023-3.log
+************************** Date  Sat Sep  2 04:06:01 EAT 2023
+Current date and time Sat Sep  2 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-08-31-2023-1.log greenzone_vmail-08-31-2023-2.log greenzone_vmail-08-31-2023-3.log
+command = ls greenzone_vmail-08-31-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 08-31-2023
+greenzone_vmail-08-31-2023-1.log greenzone_vmail-08-31-2023-2.log greenzone_vmail-08-31-2023-3.log
+3
+1
+greenzone_vmail-08-31-2023-1.log
+greenzone_vmail-08-31-2023-1.log
+2
+greenzone_vmail-08-31-2023-2.log
+greenzone_vmail-08-31-2023-2.log
+3
+greenzone_vmail-08-31-2023-3.log
+greenzone_vmail-08-31-2023-3.log
+************************** Date  Sun Sep  3 04:06:01 EAT 2023
+Current date and time Sun Sep  3 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-01-2023-1.log greenzone_vmail-09-01-2023-2.log greenzone_vmail-09-01-2023-3.log greenzone_vmail-09-01-2023-4.log greenzone_vmail-09-01-2023-5.log
+command = ls greenzone_vmail-09-01-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 09-01-2023
+greenzone_vmail-09-01-2023-1.log greenzone_vmail-09-01-2023-2.log greenzone_vmail-09-01-2023-3.log greenzone_vmail-09-01-2023-4.log greenzone_vmail-09-01-2023-5.log
+5
+1
+greenzone_vmail-09-01-2023-1.log
+greenzone_vmail-09-01-2023-1.log
+2
+greenzone_vmail-09-01-2023-2.log
+greenzone_vmail-09-01-2023-2.log
+3
+greenzone_vmail-09-01-2023-3.log
+greenzone_vmail-09-01-2023-3.log
+4
+greenzone_vmail-09-01-2023-4.log
+greenzone_vmail-09-01-2023-4.log
+5
+greenzone_vmail-09-01-2023-5.log
+greenzone_vmail-09-01-2023-5.log
+************************** Date  Mon Sep  4 04:06:01 EAT 2023
+Current date and time Mon Sep  4 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-02-2023-1.log greenzone_vmail-09-02-2023-2.log greenzone_vmail-09-02-2023-3.log
+command = ls greenzone_vmail-09-02-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-02-2023
+greenzone_vmail-09-02-2023-1.log greenzone_vmail-09-02-2023-2.log greenzone_vmail-09-02-2023-3.log
+3
+1
+greenzone_vmail-09-02-2023-1.log
+greenzone_vmail-09-02-2023-1.log
+2
+greenzone_vmail-09-02-2023-2.log
+greenzone_vmail-09-02-2023-2.log
+3
+greenzone_vmail-09-02-2023-3.log
+greenzone_vmail-09-02-2023-3.log
+************************** Date  Tue Sep  5 04:06:01 EAT 2023
+Current date and time Tue Sep  5 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-03-2023-1.log greenzone_vmail-09-03-2023-2.log greenzone_vmail-09-03-2023-3.log
+command = ls greenzone_vmail-09-03-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-03-2023
+greenzone_vmail-09-03-2023-1.log greenzone_vmail-09-03-2023-2.log greenzone_vmail-09-03-2023-3.log
+3
+1
+greenzone_vmail-09-03-2023-1.log
+greenzone_vmail-09-03-2023-1.log
+2
+greenzone_vmail-09-03-2023-2.log
+greenzone_vmail-09-03-2023-2.log
+3
+greenzone_vmail-09-03-2023-3.log
+greenzone_vmail-09-03-2023-3.log
+************************** Date  Wed Sep  6 04:06:01 EAT 2023
+Current date and time Wed Sep  6 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-04-2023-1.log greenzone_vmail-09-04-2023-2.log greenzone_vmail-09-04-2023-3.log
+command = ls greenzone_vmail-09-04-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-04-2023
+greenzone_vmail-09-04-2023-1.log greenzone_vmail-09-04-2023-2.log greenzone_vmail-09-04-2023-3.log
+3
+1
+greenzone_vmail-09-04-2023-1.log
+greenzone_vmail-09-04-2023-1.log
+2
+greenzone_vmail-09-04-2023-2.log
+greenzone_vmail-09-04-2023-2.log
+3
+greenzone_vmail-09-04-2023-3.log
+greenzone_vmail-09-04-2023-3.log
+************************** Date  Thu Sep  7 04:06:01 EAT 2023
+Current date and time Thu Sep  7 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-05-2023-1.log greenzone_vmail-09-05-2023-2.log greenzone_vmail-09-05-2023-3.log
+command = ls greenzone_vmail-09-05-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-05-2023
+greenzone_vmail-09-05-2023-1.log greenzone_vmail-09-05-2023-2.log greenzone_vmail-09-05-2023-3.log
+3
+1
+greenzone_vmail-09-05-2023-1.log
+greenzone_vmail-09-05-2023-1.log
+2
+greenzone_vmail-09-05-2023-2.log
+greenzone_vmail-09-05-2023-2.log
+3
+greenzone_vmail-09-05-2023-3.log
+greenzone_vmail-09-05-2023-3.log
+************************** Date  Fri Sep  8 04:06:01 EAT 2023
+Current date and time Fri Sep  8 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-06-2023-1.log greenzone_vmail-09-06-2023-2.log greenzone_vmail-09-06-2023-3.log
+command = ls greenzone_vmail-09-06-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-06-2023
+greenzone_vmail-09-06-2023-1.log greenzone_vmail-09-06-2023-2.log greenzone_vmail-09-06-2023-3.log
+3
+1
+greenzone_vmail-09-06-2023-1.log
+greenzone_vmail-09-06-2023-1.log
+2
+greenzone_vmail-09-06-2023-2.log
+greenzone_vmail-09-06-2023-2.log
+3
+greenzone_vmail-09-06-2023-3.log
+greenzone_vmail-09-06-2023-3.log
+************************** Date  Sat Sep  9 04:06:01 EAT 2023
+Current date and time Sat Sep  9 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-07-2023-1.log greenzone_vmail-09-07-2023-2.log greenzone_vmail-09-07-2023-3.log
+command = ls greenzone_vmail-09-07-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-07-2023
+greenzone_vmail-09-07-2023-1.log greenzone_vmail-09-07-2023-2.log greenzone_vmail-09-07-2023-3.log
+3
+1
+greenzone_vmail-09-07-2023-1.log
+greenzone_vmail-09-07-2023-1.log
+2
+greenzone_vmail-09-07-2023-2.log
+greenzone_vmail-09-07-2023-2.log
+3
+greenzone_vmail-09-07-2023-3.log
+greenzone_vmail-09-07-2023-3.log
+************************** Date  Sun Sep 10 04:06:01 EAT 2023
+Current date and time Sun Sep 10 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-08-2023-1.log greenzone_vmail-09-08-2023-2.log greenzone_vmail-09-08-2023-3.log
+command = ls greenzone_vmail-09-08-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-08-2023
+greenzone_vmail-09-08-2023-1.log greenzone_vmail-09-08-2023-2.log greenzone_vmail-09-08-2023-3.log
+3
+1
+greenzone_vmail-09-08-2023-1.log
+greenzone_vmail-09-08-2023-1.log
+2
+greenzone_vmail-09-08-2023-2.log
+greenzone_vmail-09-08-2023-2.log
+3
+greenzone_vmail-09-08-2023-3.log
+greenzone_vmail-09-08-2023-3.log
+************************** Date  Mon Sep 11 04:06:01 EAT 2023
+Current date and time Mon Sep 11 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-09-2023-1.log greenzone_vmail-09-09-2023-2.log greenzone_vmail-09-09-2023-3.log
+command = ls greenzone_vmail-09-09-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-09-2023
+greenzone_vmail-09-09-2023-1.log greenzone_vmail-09-09-2023-2.log greenzone_vmail-09-09-2023-3.log
+3
+1
+greenzone_vmail-09-09-2023-1.log
+greenzone_vmail-09-09-2023-1.log
+2
+greenzone_vmail-09-09-2023-2.log
+greenzone_vmail-09-09-2023-2.log
+3
+greenzone_vmail-09-09-2023-3.log
+greenzone_vmail-09-09-2023-3.log
+************************** Date  Tue Sep 12 04:06:01 EAT 2023
+Current date and time Tue Sep 12 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-10-2023-1.log greenzone_vmail-09-10-2023-2.log greenzone_vmail-09-10-2023-3.log
+command = ls greenzone_vmail-09-10-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-10-2023
+greenzone_vmail-09-10-2023-1.log greenzone_vmail-09-10-2023-2.log greenzone_vmail-09-10-2023-3.log
+3
+1
+greenzone_vmail-09-10-2023-1.log
+greenzone_vmail-09-10-2023-1.log
+2
+greenzone_vmail-09-10-2023-2.log
+greenzone_vmail-09-10-2023-2.log
+3
+greenzone_vmail-09-10-2023-3.log
+greenzone_vmail-09-10-2023-3.log
+************************** Date  Wed Sep 13 04:06:01 EAT 2023
+Current date and time Wed Sep 13 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-11-2023-1.log greenzone_vmail-09-11-2023-2.log greenzone_vmail-09-11-2023-3.log
+command = ls greenzone_vmail-09-11-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-11-2023
+greenzone_vmail-09-11-2023-1.log greenzone_vmail-09-11-2023-2.log greenzone_vmail-09-11-2023-3.log
+3
+1
+greenzone_vmail-09-11-2023-1.log
+greenzone_vmail-09-11-2023-1.log
+2
+greenzone_vmail-09-11-2023-2.log
+greenzone_vmail-09-11-2023-2.log
+3
+greenzone_vmail-09-11-2023-3.log
+greenzone_vmail-09-11-2023-3.log
+************************** Date  Thu Sep 14 04:06:01 EAT 2023
+Current date and time Thu Sep 14 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-12-2023-1.log greenzone_vmail-09-12-2023-2.log greenzone_vmail-09-12-2023-3.log
+command = ls greenzone_vmail-09-12-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-12-2023
+greenzone_vmail-09-12-2023-1.log greenzone_vmail-09-12-2023-2.log greenzone_vmail-09-12-2023-3.log
+3
+1
+greenzone_vmail-09-12-2023-1.log
+greenzone_vmail-09-12-2023-1.log
+2
+greenzone_vmail-09-12-2023-2.log
+greenzone_vmail-09-12-2023-2.log
+3
+greenzone_vmail-09-12-2023-3.log
+greenzone_vmail-09-12-2023-3.log
+************************** Date  Fri Sep 15 04:06:01 EAT 2023
+Current date and time Fri Sep 15 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-13-2023-1.log greenzone_vmail-09-13-2023-2.log
+command = ls greenzone_vmail-09-13-2023* |wc -l
+/home/rbt/voicemail/logs
+result=2
+Current date in dd/mm/yyyy format 09-13-2023
+greenzone_vmail-09-13-2023-1.log greenzone_vmail-09-13-2023-2.log
+2
+1
+greenzone_vmail-09-13-2023-1.log
+greenzone_vmail-09-13-2023-1.log
+2
+greenzone_vmail-09-13-2023-2.log
+greenzone_vmail-09-13-2023-2.log
+************************** Date  Sat Sep 16 04:06:01 EAT 2023
+Current date and time Sat Sep 16 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-14-2023-1.log greenzone_vmail-09-14-2023-2.log greenzone_vmail-09-14-2023-3.log
+command = ls greenzone_vmail-09-14-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-14-2023
+greenzone_vmail-09-14-2023-1.log greenzone_vmail-09-14-2023-2.log greenzone_vmail-09-14-2023-3.log
+3
+1
+greenzone_vmail-09-14-2023-1.log
+greenzone_vmail-09-14-2023-1.log
+2
+greenzone_vmail-09-14-2023-2.log
+greenzone_vmail-09-14-2023-2.log
+3
+greenzone_vmail-09-14-2023-3.log
+greenzone_vmail-09-14-2023-3.log
+************************** Date  Sun Sep 17 04:06:01 EAT 2023
+Current date and time Sun Sep 17 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-15-2023-1.log greenzone_vmail-09-15-2023-2.log greenzone_vmail-09-15-2023-3.log
+command = ls greenzone_vmail-09-15-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-15-2023
+greenzone_vmail-09-15-2023-1.log greenzone_vmail-09-15-2023-2.log greenzone_vmail-09-15-2023-3.log
+3
+1
+greenzone_vmail-09-15-2023-1.log
+greenzone_vmail-09-15-2023-1.log
+2
+greenzone_vmail-09-15-2023-2.log
+greenzone_vmail-09-15-2023-2.log
+3
+greenzone_vmail-09-15-2023-3.log
+greenzone_vmail-09-15-2023-3.log
+************************** Date  Mon Sep 18 04:06:01 EAT 2023
+Current date and time Mon Sep 18 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-16-2023-1.log greenzone_vmail-09-16-2023-2.log greenzone_vmail-09-16-2023-3.log
+command = ls greenzone_vmail-09-16-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-16-2023
+greenzone_vmail-09-16-2023-1.log greenzone_vmail-09-16-2023-2.log greenzone_vmail-09-16-2023-3.log
+3
+1
+greenzone_vmail-09-16-2023-1.log
+greenzone_vmail-09-16-2023-1.log
+2
+greenzone_vmail-09-16-2023-2.log
+greenzone_vmail-09-16-2023-2.log
+3
+greenzone_vmail-09-16-2023-3.log
+greenzone_vmail-09-16-2023-3.log
+************************** Date  Tue Sep 19 04:06:01 EAT 2023
+Current date and time Tue Sep 19 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-17-2023-1.log greenzone_vmail-09-17-2023-2.log greenzone_vmail-09-17-2023-3.log
+command = ls greenzone_vmail-09-17-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-17-2023
+greenzone_vmail-09-17-2023-1.log greenzone_vmail-09-17-2023-2.log greenzone_vmail-09-17-2023-3.log
+3
+1
+greenzone_vmail-09-17-2023-1.log
+greenzone_vmail-09-17-2023-1.log
+2
+greenzone_vmail-09-17-2023-2.log
+greenzone_vmail-09-17-2023-2.log
+3
+greenzone_vmail-09-17-2023-3.log
+greenzone_vmail-09-17-2023-3.log
+************************** Date  Wed Sep 20 04:06:01 EAT 2023
+Current date and time Wed Sep 20 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-18-2023-1.log greenzone_vmail-09-18-2023-2.log greenzone_vmail-09-18-2023-3.log
+command = ls greenzone_vmail-09-18-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-18-2023
+greenzone_vmail-09-18-2023-1.log greenzone_vmail-09-18-2023-2.log greenzone_vmail-09-18-2023-3.log
+3
+1
+greenzone_vmail-09-18-2023-1.log
+greenzone_vmail-09-18-2023-1.log
+2
+greenzone_vmail-09-18-2023-2.log
+greenzone_vmail-09-18-2023-2.log
+3
+greenzone_vmail-09-18-2023-3.log
+greenzone_vmail-09-18-2023-3.log
+************************** Date  Thu Sep 21 04:06:01 EAT 2023
+Current date and time Thu Sep 21 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-19-2023-1.log greenzone_vmail-09-19-2023-2.log greenzone_vmail-09-19-2023-3.log
+command = ls greenzone_vmail-09-19-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-19-2023
+greenzone_vmail-09-19-2023-1.log greenzone_vmail-09-19-2023-2.log greenzone_vmail-09-19-2023-3.log
+3
+1
+greenzone_vmail-09-19-2023-1.log
+greenzone_vmail-09-19-2023-1.log
+2
+greenzone_vmail-09-19-2023-2.log
+greenzone_vmail-09-19-2023-2.log
+3
+greenzone_vmail-09-19-2023-3.log
+greenzone_vmail-09-19-2023-3.log
+************************** Date  Fri Sep 22 04:06:01 EAT 2023
+Current date and time Fri Sep 22 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-20-2023-1.log greenzone_vmail-09-20-2023-2.log greenzone_vmail-09-20-2023-3.log
+command = ls greenzone_vmail-09-20-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-20-2023
+greenzone_vmail-09-20-2023-1.log greenzone_vmail-09-20-2023-2.log greenzone_vmail-09-20-2023-3.log
+3
+1
+greenzone_vmail-09-20-2023-1.log
+greenzone_vmail-09-20-2023-1.log
+2
+greenzone_vmail-09-20-2023-2.log
+greenzone_vmail-09-20-2023-2.log
+3
+greenzone_vmail-09-20-2023-3.log
+greenzone_vmail-09-20-2023-3.log
+************************** Date  Sat Sep 23 04:06:01 EAT 2023
+Current date and time Sat Sep 23 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-21-2023-1.log greenzone_vmail-09-21-2023-2.log greenzone_vmail-09-21-2023-3.log
+command = ls greenzone_vmail-09-21-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-21-2023
+greenzone_vmail-09-21-2023-1.log greenzone_vmail-09-21-2023-2.log greenzone_vmail-09-21-2023-3.log
+3
+1
+greenzone_vmail-09-21-2023-1.log
+greenzone_vmail-09-21-2023-1.log
+2
+greenzone_vmail-09-21-2023-2.log
+greenzone_vmail-09-21-2023-2.log
+3
+greenzone_vmail-09-21-2023-3.log
+greenzone_vmail-09-21-2023-3.log
+************************** Date  Sun Sep 24 04:06:01 EAT 2023
+Current date and time Sun Sep 24 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-22-2023-1.log greenzone_vmail-09-22-2023-2.log greenzone_vmail-09-22-2023-3.log
+command = ls greenzone_vmail-09-22-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-22-2023
+greenzone_vmail-09-22-2023-1.log greenzone_vmail-09-22-2023-2.log greenzone_vmail-09-22-2023-3.log
+3
+1
+greenzone_vmail-09-22-2023-1.log
+greenzone_vmail-09-22-2023-1.log
+2
+greenzone_vmail-09-22-2023-2.log
+greenzone_vmail-09-22-2023-2.log
+3
+greenzone_vmail-09-22-2023-3.log
+greenzone_vmail-09-22-2023-3.log
+************************** Date  Mon Sep 25 04:06:01 EAT 2023
+Current date and time Mon Sep 25 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-23-2023-1.log greenzone_vmail-09-23-2023-2.log greenzone_vmail-09-23-2023-3.log
+command = ls greenzone_vmail-09-23-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-23-2023
+greenzone_vmail-09-23-2023-1.log greenzone_vmail-09-23-2023-2.log greenzone_vmail-09-23-2023-3.log
+3
+1
+greenzone_vmail-09-23-2023-1.log
+greenzone_vmail-09-23-2023-1.log
+2
+greenzone_vmail-09-23-2023-2.log
+greenzone_vmail-09-23-2023-2.log
+3
+greenzone_vmail-09-23-2023-3.log
+greenzone_vmail-09-23-2023-3.log
+************************** Date  Tue Sep 26 04:06:01 EAT 2023
+Current date and time Tue Sep 26 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-24-2023-1.log greenzone_vmail-09-24-2023-2.log greenzone_vmail-09-24-2023-3.log
+command = ls greenzone_vmail-09-24-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-24-2023
+greenzone_vmail-09-24-2023-1.log greenzone_vmail-09-24-2023-2.log greenzone_vmail-09-24-2023-3.log
+3
+1
+greenzone_vmail-09-24-2023-1.log
+greenzone_vmail-09-24-2023-1.log
+2
+greenzone_vmail-09-24-2023-2.log
+greenzone_vmail-09-24-2023-2.log
+3
+greenzone_vmail-09-24-2023-3.log
+greenzone_vmail-09-24-2023-3.log
+************************** Date  Wed Sep 27 04:06:01 EAT 2023
+Current date and time Wed Sep 27 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-25-2023-1.log greenzone_vmail-09-25-2023-2.log greenzone_vmail-09-25-2023-3.log
+command = ls greenzone_vmail-09-25-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-25-2023
+greenzone_vmail-09-25-2023-1.log greenzone_vmail-09-25-2023-2.log greenzone_vmail-09-25-2023-3.log
+3
+1
+greenzone_vmail-09-25-2023-1.log
+greenzone_vmail-09-25-2023-1.log
+2
+greenzone_vmail-09-25-2023-2.log
+greenzone_vmail-09-25-2023-2.log
+3
+greenzone_vmail-09-25-2023-3.log
+greenzone_vmail-09-25-2023-3.log
+************************** Date  Thu Sep 28 04:06:01 EAT 2023
+Current date and time Thu Sep 28 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-26-2023-1.log greenzone_vmail-09-26-2023-2.log greenzone_vmail-09-26-2023-3.log
+command = ls greenzone_vmail-09-26-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-26-2023
+greenzone_vmail-09-26-2023-1.log greenzone_vmail-09-26-2023-2.log greenzone_vmail-09-26-2023-3.log
+3
+1
+greenzone_vmail-09-26-2023-1.log
+greenzone_vmail-09-26-2023-1.log
+2
+greenzone_vmail-09-26-2023-2.log
+greenzone_vmail-09-26-2023-2.log
+3
+greenzone_vmail-09-26-2023-3.log
+greenzone_vmail-09-26-2023-3.log
+************************** Date  Fri Sep 29 04:06:01 EAT 2023
+Current date and time Fri Sep 29 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-27-2023-1.log greenzone_vmail-09-27-2023-2.log greenzone_vmail-09-27-2023-3.log
+command = ls greenzone_vmail-09-27-2023* |wc -l
+/home/rbt/voicemail/logs
+result=3
+Current date in dd/mm/yyyy format 09-27-2023
+greenzone_vmail-09-27-2023-1.log greenzone_vmail-09-27-2023-2.log greenzone_vmail-09-27-2023-3.log
+3
+1
+greenzone_vmail-09-27-2023-1.log
+greenzone_vmail-09-27-2023-1.log
+2
+greenzone_vmail-09-27-2023-2.log
+greenzone_vmail-09-27-2023-2.log
+3
+greenzone_vmail-09-27-2023-3.log
+greenzone_vmail-09-27-2023-3.log
+************************** Date  Sat Sep 30 04:06:01 EAT 2023
+Current date and time Sat Sep 30 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-28-2023-1.log greenzone_vmail-09-28-2023-2.log greenzone_vmail-09-28-2023-3.log greenzone_vmail-09-28-2023-4.log
+command = ls greenzone_vmail-09-28-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 09-28-2023
+greenzone_vmail-09-28-2023-1.log greenzone_vmail-09-28-2023-2.log greenzone_vmail-09-28-2023-3.log greenzone_vmail-09-28-2023-4.log
+4
+1
+greenzone_vmail-09-28-2023-1.log
+greenzone_vmail-09-28-2023-1.log
+2
+greenzone_vmail-09-28-2023-2.log
+greenzone_vmail-09-28-2023-2.log
+3
+greenzone_vmail-09-28-2023-3.log
+greenzone_vmail-09-28-2023-3.log
+4
+greenzone_vmail-09-28-2023-4.log
+greenzone_vmail-09-28-2023-4.log
+************************** Date  Sun Oct  1 04:06:01 EAT 2023
+Current date and time Sun Oct  1 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-29-2023-1.log greenzone_vmail-09-29-2023-2.log greenzone_vmail-09-29-2023-3.log greenzone_vmail-09-29-2023-4.log
+command = ls greenzone_vmail-09-29-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 09-29-2023
+greenzone_vmail-09-29-2023-1.log greenzone_vmail-09-29-2023-2.log greenzone_vmail-09-29-2023-3.log greenzone_vmail-09-29-2023-4.log
+4
+1
+greenzone_vmail-09-29-2023-1.log
+greenzone_vmail-09-29-2023-1.log
+2
+greenzone_vmail-09-29-2023-2.log
+greenzone_vmail-09-29-2023-2.log
+3
+greenzone_vmail-09-29-2023-3.log
+greenzone_vmail-09-29-2023-3.log
+4
+greenzone_vmail-09-29-2023-4.log
+greenzone_vmail-09-29-2023-4.log
+************************** Date  Mon Oct  2 04:06:01 EAT 2023
+Current date and time Mon Oct  2 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-09-30-2023-1.log greenzone_vmail-09-30-2023-2.log greenzone_vmail-09-30-2023-3.log greenzone_vmail-09-30-2023-4.log
+command = ls greenzone_vmail-09-30-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 09-30-2023
+greenzone_vmail-09-30-2023-1.log greenzone_vmail-09-30-2023-2.log greenzone_vmail-09-30-2023-3.log greenzone_vmail-09-30-2023-4.log
+4
+1
+greenzone_vmail-09-30-2023-1.log
+greenzone_vmail-09-30-2023-1.log
+2
+greenzone_vmail-09-30-2023-2.log
+greenzone_vmail-09-30-2023-2.log
+3
+greenzone_vmail-09-30-2023-3.log
+greenzone_vmail-09-30-2023-3.log
+4
+greenzone_vmail-09-30-2023-4.log
+greenzone_vmail-09-30-2023-4.log
+************************** Date  Tue Oct  3 04:06:01 EAT 2023
+Current date and time Tue Oct  3 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-01-2023-1.log greenzone_vmail-10-01-2023-2.log greenzone_vmail-10-01-2023-3.log greenzone_vmail-10-01-2023-4.log
+command = ls greenzone_vmail-10-01-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 10-01-2023
+greenzone_vmail-10-01-2023-1.log greenzone_vmail-10-01-2023-2.log greenzone_vmail-10-01-2023-3.log greenzone_vmail-10-01-2023-4.log
+4
+1
+greenzone_vmail-10-01-2023-1.log
+greenzone_vmail-10-01-2023-1.log
+2
+greenzone_vmail-10-01-2023-2.log
+greenzone_vmail-10-01-2023-2.log
+3
+greenzone_vmail-10-01-2023-3.log
+greenzone_vmail-10-01-2023-3.log
+4
+greenzone_vmail-10-01-2023-4.log
+greenzone_vmail-10-01-2023-4.log
+************************** Date  Wed Oct  4 04:06:01 EAT 2023
+Current date and time Wed Oct  4 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-02-2023-1.log greenzone_vmail-10-02-2023-2.log greenzone_vmail-10-02-2023-3.log greenzone_vmail-10-02-2023-4.log
+command = ls greenzone_vmail-10-02-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 10-02-2023
+greenzone_vmail-10-02-2023-1.log greenzone_vmail-10-02-2023-2.log greenzone_vmail-10-02-2023-3.log greenzone_vmail-10-02-2023-4.log
+4
+1
+greenzone_vmail-10-02-2023-1.log
+greenzone_vmail-10-02-2023-1.log
+2
+greenzone_vmail-10-02-2023-2.log
+greenzone_vmail-10-02-2023-2.log
+3
+greenzone_vmail-10-02-2023-3.log
+greenzone_vmail-10-02-2023-3.log
+4
+greenzone_vmail-10-02-2023-4.log
+greenzone_vmail-10-02-2023-4.log
+************************** Date  Thu Oct  5 04:06:01 EAT 2023
+Current date and time Thu Oct  5 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-03-2023-1.log greenzone_vmail-10-03-2023-2.log greenzone_vmail-10-03-2023-3.log greenzone_vmail-10-03-2023-4.log
+command = ls greenzone_vmail-10-03-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 10-03-2023
+greenzone_vmail-10-03-2023-1.log greenzone_vmail-10-03-2023-2.log greenzone_vmail-10-03-2023-3.log greenzone_vmail-10-03-2023-4.log
+4
+1
+greenzone_vmail-10-03-2023-1.log
+greenzone_vmail-10-03-2023-1.log
+2
+greenzone_vmail-10-03-2023-2.log
+greenzone_vmail-10-03-2023-2.log
+3
+greenzone_vmail-10-03-2023-3.log
+greenzone_vmail-10-03-2023-3.log
+4
+greenzone_vmail-10-03-2023-4.log
+greenzone_vmail-10-03-2023-4.log
+************************** Date  Fri Oct  6 04:06:01 EAT 2023
+Current date and time Fri Oct  6 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-04-2023-1.log greenzone_vmail-10-04-2023-2.log greenzone_vmail-10-04-2023-3.log greenzone_vmail-10-04-2023-4.log
+command = ls greenzone_vmail-10-04-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 10-04-2023
+greenzone_vmail-10-04-2023-1.log greenzone_vmail-10-04-2023-2.log greenzone_vmail-10-04-2023-3.log greenzone_vmail-10-04-2023-4.log
+4
+1
+greenzone_vmail-10-04-2023-1.log
+greenzone_vmail-10-04-2023-1.log
+2
+greenzone_vmail-10-04-2023-2.log
+greenzone_vmail-10-04-2023-2.log
+3
+greenzone_vmail-10-04-2023-3.log
+greenzone_vmail-10-04-2023-3.log
+4
+greenzone_vmail-10-04-2023-4.log
+greenzone_vmail-10-04-2023-4.log
+************************** Date  Sat Oct  7 04:06:01 EAT 2023
+Current date and time Sat Oct  7 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-05-2023-1.log greenzone_vmail-10-05-2023-2.log greenzone_vmail-10-05-2023-3.log greenzone_vmail-10-05-2023-4.log greenzone_vmail-10-05-2023-5.log
+command = ls greenzone_vmail-10-05-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 10-05-2023
+greenzone_vmail-10-05-2023-1.log greenzone_vmail-10-05-2023-2.log greenzone_vmail-10-05-2023-3.log greenzone_vmail-10-05-2023-4.log greenzone_vmail-10-05-2023-5.log
+5
+1
+greenzone_vmail-10-05-2023-1.log
+greenzone_vmail-10-05-2023-1.log
+2
+greenzone_vmail-10-05-2023-2.log
+greenzone_vmail-10-05-2023-2.log
+3
+greenzone_vmail-10-05-2023-3.log
+greenzone_vmail-10-05-2023-3.log
+4
+greenzone_vmail-10-05-2023-4.log
+greenzone_vmail-10-05-2023-4.log
+5
+greenzone_vmail-10-05-2023-5.log
+greenzone_vmail-10-05-2023-5.log
+************************** Date  Sun Oct  8 04:06:01 EAT 2023
+Current date and time Sun Oct  8 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-06-2023-1.log greenzone_vmail-10-06-2023-2.log greenzone_vmail-10-06-2023-3.log greenzone_vmail-10-06-2023-4.log
+command = ls greenzone_vmail-10-06-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 10-06-2023
+greenzone_vmail-10-06-2023-1.log greenzone_vmail-10-06-2023-2.log greenzone_vmail-10-06-2023-3.log greenzone_vmail-10-06-2023-4.log
+4
+1
+greenzone_vmail-10-06-2023-1.log
+greenzone_vmail-10-06-2023-1.log
+2
+greenzone_vmail-10-06-2023-2.log
+greenzone_vmail-10-06-2023-2.log
+3
+greenzone_vmail-10-06-2023-3.log
+greenzone_vmail-10-06-2023-3.log
+4
+greenzone_vmail-10-06-2023-4.log
+greenzone_vmail-10-06-2023-4.log
+************************** Date  Mon Oct  9 04:06:01 EAT 2023
+Current date and time Mon Oct  9 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-07-2023-1.log greenzone_vmail-10-07-2023-2.log greenzone_vmail-10-07-2023-3.log greenzone_vmail-10-07-2023-4.log
+command = ls greenzone_vmail-10-07-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 10-07-2023
+greenzone_vmail-10-07-2023-1.log greenzone_vmail-10-07-2023-2.log greenzone_vmail-10-07-2023-3.log greenzone_vmail-10-07-2023-4.log
+4
+1
+greenzone_vmail-10-07-2023-1.log
+greenzone_vmail-10-07-2023-1.log
+2
+greenzone_vmail-10-07-2023-2.log
+greenzone_vmail-10-07-2023-2.log
+3
+greenzone_vmail-10-07-2023-3.log
+greenzone_vmail-10-07-2023-3.log
+4
+greenzone_vmail-10-07-2023-4.log
+greenzone_vmail-10-07-2023-4.log
+************************** Date  Tue Oct 10 04:06:01 EAT 2023
+Current date and time Tue Oct 10 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-08-2023-1.log greenzone_vmail-10-08-2023-2.log greenzone_vmail-10-08-2023-3.log greenzone_vmail-10-08-2023-4.log
+command = ls greenzone_vmail-10-08-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 10-08-2023
+greenzone_vmail-10-08-2023-1.log greenzone_vmail-10-08-2023-2.log greenzone_vmail-10-08-2023-3.log greenzone_vmail-10-08-2023-4.log
+4
+1
+greenzone_vmail-10-08-2023-1.log
+greenzone_vmail-10-08-2023-1.log
+2
+greenzone_vmail-10-08-2023-2.log
+greenzone_vmail-10-08-2023-2.log
+3
+greenzone_vmail-10-08-2023-3.log
+greenzone_vmail-10-08-2023-3.log
+4
+greenzone_vmail-10-08-2023-4.log
+greenzone_vmail-10-08-2023-4.log
+************************** Date  Wed Oct 11 04:06:01 EAT 2023
+Current date and time Wed Oct 11 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-09-2023-1.log greenzone_vmail-10-09-2023-2.log greenzone_vmail-10-09-2023-3.log greenzone_vmail-10-09-2023-4.log
+command = ls greenzone_vmail-10-09-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 10-09-2023
+greenzone_vmail-10-09-2023-1.log greenzone_vmail-10-09-2023-2.log greenzone_vmail-10-09-2023-3.log greenzone_vmail-10-09-2023-4.log
+4
+1
+greenzone_vmail-10-09-2023-1.log
+greenzone_vmail-10-09-2023-1.log
+2
+greenzone_vmail-10-09-2023-2.log
+greenzone_vmail-10-09-2023-2.log
+3
+greenzone_vmail-10-09-2023-3.log
+greenzone_vmail-10-09-2023-3.log
+4
+greenzone_vmail-10-09-2023-4.log
+greenzone_vmail-10-09-2023-4.log
+************************** Date  Thu Oct 12 04:06:01 EAT 2023
+Current date and time Thu Oct 12 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-10-2023-1.log greenzone_vmail-10-10-2023-2.log greenzone_vmail-10-10-2023-3.log greenzone_vmail-10-10-2023-4.log
+command = ls greenzone_vmail-10-10-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 10-10-2023
+greenzone_vmail-10-10-2023-1.log greenzone_vmail-10-10-2023-2.log greenzone_vmail-10-10-2023-3.log greenzone_vmail-10-10-2023-4.log
+4
+1
+greenzone_vmail-10-10-2023-1.log
+greenzone_vmail-10-10-2023-1.log
+2
+greenzone_vmail-10-10-2023-2.log
+greenzone_vmail-10-10-2023-2.log
+3
+greenzone_vmail-10-10-2023-3.log
+greenzone_vmail-10-10-2023-3.log
+4
+greenzone_vmail-10-10-2023-4.log
+greenzone_vmail-10-10-2023-4.log
+************************** Date  Fri Oct 13 04:06:01 EAT 2023
+Current date and time Fri Oct 13 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-11-2023-1.log greenzone_vmail-10-11-2023-2.log greenzone_vmail-10-11-2023-3.log greenzone_vmail-10-11-2023-4.log
+command = ls greenzone_vmail-10-11-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 10-11-2023
+greenzone_vmail-10-11-2023-1.log greenzone_vmail-10-11-2023-2.log greenzone_vmail-10-11-2023-3.log greenzone_vmail-10-11-2023-4.log
+4
+1
+greenzone_vmail-10-11-2023-1.log
+greenzone_vmail-10-11-2023-1.log
+2
+greenzone_vmail-10-11-2023-2.log
+greenzone_vmail-10-11-2023-2.log
+3
+greenzone_vmail-10-11-2023-3.log
+greenzone_vmail-10-11-2023-3.log
+4
+greenzone_vmail-10-11-2023-4.log
+greenzone_vmail-10-11-2023-4.log
+************************** Date  Sat Oct 14 04:06:01 EAT 2023
+Current date and time Sat Oct 14 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-12-2023-1.log greenzone_vmail-10-12-2023-2.log greenzone_vmail-10-12-2023-3.log greenzone_vmail-10-12-2023-4.log greenzone_vmail-10-12-2023-5.log
+command = ls greenzone_vmail-10-12-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 10-12-2023
+greenzone_vmail-10-12-2023-1.log greenzone_vmail-10-12-2023-2.log greenzone_vmail-10-12-2023-3.log greenzone_vmail-10-12-2023-4.log greenzone_vmail-10-12-2023-5.log
+5
+1
+greenzone_vmail-10-12-2023-1.log
+greenzone_vmail-10-12-2023-1.log
+2
+greenzone_vmail-10-12-2023-2.log
+greenzone_vmail-10-12-2023-2.log
+3
+greenzone_vmail-10-12-2023-3.log
+greenzone_vmail-10-12-2023-3.log
+4
+greenzone_vmail-10-12-2023-4.log
+greenzone_vmail-10-12-2023-4.log
+5
+greenzone_vmail-10-12-2023-5.log
+greenzone_vmail-10-12-2023-5.log
+************************** Date  Sun Oct 15 04:06:01 EAT 2023
+Current date and time Sun Oct 15 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-13-2023-1.log greenzone_vmail-10-13-2023-2.log greenzone_vmail-10-13-2023-3.log greenzone_vmail-10-13-2023-4.log greenzone_vmail-10-13-2023-5.log
+command = ls greenzone_vmail-10-13-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 10-13-2023
+greenzone_vmail-10-13-2023-1.log greenzone_vmail-10-13-2023-2.log greenzone_vmail-10-13-2023-3.log greenzone_vmail-10-13-2023-4.log greenzone_vmail-10-13-2023-5.log
+5
+1
+greenzone_vmail-10-13-2023-1.log
+greenzone_vmail-10-13-2023-1.log
+2
+greenzone_vmail-10-13-2023-2.log
+greenzone_vmail-10-13-2023-2.log
+3
+greenzone_vmail-10-13-2023-3.log
+greenzone_vmail-10-13-2023-3.log
+4
+greenzone_vmail-10-13-2023-4.log
+greenzone_vmail-10-13-2023-4.log
+5
+greenzone_vmail-10-13-2023-5.log
+greenzone_vmail-10-13-2023-5.log
+************************** Date  Mon Oct 16 04:06:01 EAT 2023
+Current date and time Mon Oct 16 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-14-2023-1.log greenzone_vmail-10-14-2023-2.log greenzone_vmail-10-14-2023-3.log greenzone_vmail-10-14-2023-4.log greenzone_vmail-10-14-2023-5.log greenzone_vmail-10-14-2023-6.log
+command = ls greenzone_vmail-10-14-2023* |wc -l
+/home/rbt/voicemail/logs
+result=6
+Current date in dd/mm/yyyy format 10-14-2023
+greenzone_vmail-10-14-2023-1.log greenzone_vmail-10-14-2023-2.log greenzone_vmail-10-14-2023-3.log greenzone_vmail-10-14-2023-4.log greenzone_vmail-10-14-2023-5.log greenzone_vmail-10-14-2023-6.log
+6
+1
+greenzone_vmail-10-14-2023-1.log
+greenzone_vmail-10-14-2023-1.log
+2
+greenzone_vmail-10-14-2023-2.log
+greenzone_vmail-10-14-2023-2.log
+3
+greenzone_vmail-10-14-2023-3.log
+greenzone_vmail-10-14-2023-3.log
+4
+greenzone_vmail-10-14-2023-4.log
+greenzone_vmail-10-14-2023-4.log
+5
+greenzone_vmail-10-14-2023-5.log
+greenzone_vmail-10-14-2023-5.log
+6
+greenzone_vmail-10-14-2023-6.log
+greenzone_vmail-10-14-2023-6.log
+************************** Date  Tue Oct 17 04:06:01 EAT 2023
+Current date and time Tue Oct 17 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-15-2023-1.log greenzone_vmail-10-15-2023-2.log greenzone_vmail-10-15-2023-3.log greenzone_vmail-10-15-2023-4.log greenzone_vmail-10-15-2023-5.log greenzone_vmail-10-15-2023-6.log
+command = ls greenzone_vmail-10-15-2023* |wc -l
+/home/rbt/voicemail/logs
+result=6
+Current date in dd/mm/yyyy format 10-15-2023
+greenzone_vmail-10-15-2023-1.log greenzone_vmail-10-15-2023-2.log greenzone_vmail-10-15-2023-3.log greenzone_vmail-10-15-2023-4.log greenzone_vmail-10-15-2023-5.log greenzone_vmail-10-15-2023-6.log
+6
+1
+greenzone_vmail-10-15-2023-1.log
+greenzone_vmail-10-15-2023-1.log
+2
+greenzone_vmail-10-15-2023-2.log
+greenzone_vmail-10-15-2023-2.log
+3
+greenzone_vmail-10-15-2023-3.log
+greenzone_vmail-10-15-2023-3.log
+4
+greenzone_vmail-10-15-2023-4.log
+greenzone_vmail-10-15-2023-4.log
+5
+greenzone_vmail-10-15-2023-5.log
+greenzone_vmail-10-15-2023-5.log
+6
+greenzone_vmail-10-15-2023-6.log
+greenzone_vmail-10-15-2023-6.log
+************************** Date  Wed Oct 18 04:06:01 EAT 2023
+Current date and time Wed Oct 18 04:06:01 EAT 2023
+'8 days ago'
+greenzone_vmail-10-16-2023-1.log greenzone_vmail-10-16-2023-2.log greenzone_vmail-10-16-2023-3.log greenzone_vmail-10-16-2023-4.log greenzone_vmail-10-16-2023-5.log greenzone_vmail-10-16-2023-6.log
+command = ls greenzone_vmail-10-16-2023* |wc -l
+/home/rbt/voicemail/logs
+result=6
+Current date in dd/mm/yyyy format 10-16-2023
+greenzone_vmail-10-16-2023-1.log greenzone_vmail-10-16-2023-2.log greenzone_vmail-10-16-2023-3.log greenzone_vmail-10-16-2023-4.log greenzone_vmail-10-16-2023-5.log greenzone_vmail-10-16-2023-6.log
+6
+1
+greenzone_vmail-10-16-2023-1.log
+greenzone_vmail-10-16-2023-1.log
+2
+greenzone_vmail-10-16-2023-2.log
+greenzone_vmail-10-16-2023-2.log
+3
+greenzone_vmail-10-16-2023-3.log
+greenzone_vmail-10-16-2023-3.log
+4
+greenzone_vmail-10-16-2023-4.log
+greenzone_vmail-10-16-2023-4.log
+5
+greenzone_vmail-10-16-2023-5.log
+greenzone_vmail-10-16-2023-5.log
+6
+greenzone_vmail-10-16-2023-6.log
+greenzone_vmail-10-16-2023-6.log
+************************** Date  Tue Oct 31 04:06:01 AM EAT 2023
+Current date and time Tue Oct 31 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-10-29-2023-1.log
+command = ls greenzone_vmail-10-29-2023* |wc -l
+/home/rbt/voicemail/logs
+result=1
+Current date in dd/mm/yyyy format 10-29-2023
+greenzone_vmail-10-29-2023-1.log
+1
+1
+greenzone_vmail-10-29-2023-1.log
+greenzone_vmail-10-29-2023-1.log
+************************** Date  Wed Nov  1 04:06:01 AM EAT 2023
+Current date and time Wed Nov  1 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-10-30-2023-1.log greenzone_vmail-10-30-2023-2.log greenzone_vmail-10-30-2023-3.log greenzone_vmail-10-30-2023-4.log greenzone_vmail-10-30-2023-5.log greenzone_vmail-10-30-2023-6.log
+command = ls greenzone_vmail-10-30-2023* |wc -l
+/home/rbt/voicemail/logs
+result=6
+Current date in dd/mm/yyyy format 10-30-2023
+greenzone_vmail-10-30-2023-1.log greenzone_vmail-10-30-2023-2.log greenzone_vmail-10-30-2023-3.log greenzone_vmail-10-30-2023-4.log greenzone_vmail-10-30-2023-5.log greenzone_vmail-10-30-2023-6.log
+6
+1
+greenzone_vmail-10-30-2023-1.log
+greenzone_vmail-10-30-2023-1.log
+2
+greenzone_vmail-10-30-2023-2.log
+greenzone_vmail-10-30-2023-2.log
+3
+greenzone_vmail-10-30-2023-3.log
+greenzone_vmail-10-30-2023-3.log
+4
+greenzone_vmail-10-30-2023-4.log
+greenzone_vmail-10-30-2023-4.log
+5
+greenzone_vmail-10-30-2023-5.log
+greenzone_vmail-10-30-2023-5.log
+6
+greenzone_vmail-10-30-2023-6.log
+greenzone_vmail-10-30-2023-6.log
+************************** Date  Thu Nov  2 04:06:01 AM EAT 2023
+Current date and time Thu Nov  2 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-10-31-2023-1.log greenzone_vmail-10-31-2023-2.log greenzone_vmail-10-31-2023-3.log greenzone_vmail-10-31-2023-4.log greenzone_vmail-10-31-2023-5.log
+command = ls greenzone_vmail-10-31-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 10-31-2023
+greenzone_vmail-10-31-2023-1.log greenzone_vmail-10-31-2023-2.log greenzone_vmail-10-31-2023-3.log greenzone_vmail-10-31-2023-4.log greenzone_vmail-10-31-2023-5.log
+5
+1
+greenzone_vmail-10-31-2023-1.log
+greenzone_vmail-10-31-2023-1.log
+2
+greenzone_vmail-10-31-2023-2.log
+greenzone_vmail-10-31-2023-2.log
+3
+greenzone_vmail-10-31-2023-3.log
+greenzone_vmail-10-31-2023-3.log
+4
+greenzone_vmail-10-31-2023-4.log
+greenzone_vmail-10-31-2023-4.log
+5
+greenzone_vmail-10-31-2023-5.log
+greenzone_vmail-10-31-2023-5.log
+************************** Date  Fri Nov  3 04:06:01 AM EAT 2023
+Current date and time Fri Nov  3 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-01-2023-1.log greenzone_vmail-11-01-2023-2.log greenzone_vmail-11-01-2023-3.log greenzone_vmail-11-01-2023-4.log greenzone_vmail-11-01-2023-5.log greenzone_vmail-11-01-2023-6.log
+command = ls greenzone_vmail-11-01-2023* |wc -l
+/home/rbt/voicemail/logs
+result=6
+Current date in dd/mm/yyyy format 11-01-2023
+greenzone_vmail-11-01-2023-1.log greenzone_vmail-11-01-2023-2.log greenzone_vmail-11-01-2023-3.log greenzone_vmail-11-01-2023-4.log greenzone_vmail-11-01-2023-5.log greenzone_vmail-11-01-2023-6.log
+6
+1
+greenzone_vmail-11-01-2023-1.log
+greenzone_vmail-11-01-2023-1.log
+2
+greenzone_vmail-11-01-2023-2.log
+greenzone_vmail-11-01-2023-2.log
+3
+greenzone_vmail-11-01-2023-3.log
+greenzone_vmail-11-01-2023-3.log
+4
+greenzone_vmail-11-01-2023-4.log
+greenzone_vmail-11-01-2023-4.log
+5
+greenzone_vmail-11-01-2023-5.log
+greenzone_vmail-11-01-2023-5.log
+6
+greenzone_vmail-11-01-2023-6.log
+greenzone_vmail-11-01-2023-6.log
+************************** Date  Sat Nov  4 04:06:01 AM EAT 2023
+Current date and time Sat Nov  4 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-02-2023-1.log greenzone_vmail-11-02-2023-2.log greenzone_vmail-11-02-2023-3.log greenzone_vmail-11-02-2023-4.log greenzone_vmail-11-02-2023-5.log greenzone_vmail-11-02-2023-6.log greenzone_vmail-11-02-2023-7.log
+command = ls greenzone_vmail-11-02-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-02-2023
+greenzone_vmail-11-02-2023-1.log greenzone_vmail-11-02-2023-2.log greenzone_vmail-11-02-2023-3.log greenzone_vmail-11-02-2023-4.log greenzone_vmail-11-02-2023-5.log greenzone_vmail-11-02-2023-6.log greenzone_vmail-11-02-2023-7.log
+7
+1
+greenzone_vmail-11-02-2023-1.log
+greenzone_vmail-11-02-2023-1.log
+2
+greenzone_vmail-11-02-2023-2.log
+greenzone_vmail-11-02-2023-2.log
+3
+greenzone_vmail-11-02-2023-3.log
+greenzone_vmail-11-02-2023-3.log
+4
+greenzone_vmail-11-02-2023-4.log
+greenzone_vmail-11-02-2023-4.log
+5
+greenzone_vmail-11-02-2023-5.log
+greenzone_vmail-11-02-2023-5.log
+6
+greenzone_vmail-11-02-2023-6.log
+greenzone_vmail-11-02-2023-6.log
+7
+greenzone_vmail-11-02-2023-7.log
+greenzone_vmail-11-02-2023-7.log
+************************** Date  Sun Nov  5 04:06:01 AM EAT 2023
+Current date and time Sun Nov  5 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-03-2023-1.log greenzone_vmail-11-03-2023-2.log greenzone_vmail-11-03-2023-3.log greenzone_vmail-11-03-2023-4.log greenzone_vmail-11-03-2023-5.log greenzone_vmail-11-03-2023-6.log greenzone_vmail-11-03-2023-7.log
+command = ls greenzone_vmail-11-03-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-03-2023
+greenzone_vmail-11-03-2023-1.log greenzone_vmail-11-03-2023-2.log greenzone_vmail-11-03-2023-3.log greenzone_vmail-11-03-2023-4.log greenzone_vmail-11-03-2023-5.log greenzone_vmail-11-03-2023-6.log greenzone_vmail-11-03-2023-7.log
+7
+1
+greenzone_vmail-11-03-2023-1.log
+greenzone_vmail-11-03-2023-1.log
+2
+greenzone_vmail-11-03-2023-2.log
+greenzone_vmail-11-03-2023-2.log
+3
+greenzone_vmail-11-03-2023-3.log
+greenzone_vmail-11-03-2023-3.log
+4
+greenzone_vmail-11-03-2023-4.log
+greenzone_vmail-11-03-2023-4.log
+5
+greenzone_vmail-11-03-2023-5.log
+greenzone_vmail-11-03-2023-5.log
+6
+greenzone_vmail-11-03-2023-6.log
+greenzone_vmail-11-03-2023-6.log
+7
+greenzone_vmail-11-03-2023-7.log
+greenzone_vmail-11-03-2023-7.log
+************************** Date  Mon Nov  6 04:06:01 AM EAT 2023
+Current date and time Mon Nov  6 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-04-2023-1.log greenzone_vmail-11-04-2023-2.log greenzone_vmail-11-04-2023-3.log greenzone_vmail-11-04-2023-4.log greenzone_vmail-11-04-2023-5.log greenzone_vmail-11-04-2023-6.log greenzone_vmail-11-04-2023-7.log
+command = ls greenzone_vmail-11-04-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-04-2023
+greenzone_vmail-11-04-2023-1.log greenzone_vmail-11-04-2023-2.log greenzone_vmail-11-04-2023-3.log greenzone_vmail-11-04-2023-4.log greenzone_vmail-11-04-2023-5.log greenzone_vmail-11-04-2023-6.log greenzone_vmail-11-04-2023-7.log
+7
+1
+greenzone_vmail-11-04-2023-1.log
+greenzone_vmail-11-04-2023-1.log
+2
+greenzone_vmail-11-04-2023-2.log
+greenzone_vmail-11-04-2023-2.log
+3
+greenzone_vmail-11-04-2023-3.log
+greenzone_vmail-11-04-2023-3.log
+4
+greenzone_vmail-11-04-2023-4.log
+greenzone_vmail-11-04-2023-4.log
+5
+greenzone_vmail-11-04-2023-5.log
+greenzone_vmail-11-04-2023-5.log
+6
+greenzone_vmail-11-04-2023-6.log
+greenzone_vmail-11-04-2023-6.log
+7
+greenzone_vmail-11-04-2023-7.log
+greenzone_vmail-11-04-2023-7.log
+************************** Date  Tue Nov  7 04:06:01 AM EAT 2023
+Current date and time Tue Nov  7 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-05-2023-1.log greenzone_vmail-11-05-2023-2.log greenzone_vmail-11-05-2023-3.log greenzone_vmail-11-05-2023-4.log greenzone_vmail-11-05-2023-5.log greenzone_vmail-11-05-2023-6.log greenzone_vmail-11-05-2023-7.log
+command = ls greenzone_vmail-11-05-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-05-2023
+greenzone_vmail-11-05-2023-1.log greenzone_vmail-11-05-2023-2.log greenzone_vmail-11-05-2023-3.log greenzone_vmail-11-05-2023-4.log greenzone_vmail-11-05-2023-5.log greenzone_vmail-11-05-2023-6.log greenzone_vmail-11-05-2023-7.log
+7
+1
+greenzone_vmail-11-05-2023-1.log
+greenzone_vmail-11-05-2023-1.log
+2
+greenzone_vmail-11-05-2023-2.log
+greenzone_vmail-11-05-2023-2.log
+3
+greenzone_vmail-11-05-2023-3.log
+greenzone_vmail-11-05-2023-3.log
+4
+greenzone_vmail-11-05-2023-4.log
+greenzone_vmail-11-05-2023-4.log
+5
+greenzone_vmail-11-05-2023-5.log
+greenzone_vmail-11-05-2023-5.log
+6
+greenzone_vmail-11-05-2023-6.log
+greenzone_vmail-11-05-2023-6.log
+7
+greenzone_vmail-11-05-2023-7.log
+greenzone_vmail-11-05-2023-7.log
+************************** Date  Wed Nov  8 04:06:01 AM EAT 2023
+Current date and time Wed Nov  8 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-06-2023-1.log greenzone_vmail-11-06-2023-2.log greenzone_vmail-11-06-2023-3.log greenzone_vmail-11-06-2023-4.log greenzone_vmail-11-06-2023-5.log greenzone_vmail-11-06-2023-6.log greenzone_vmail-11-06-2023-7.log
+command = ls greenzone_vmail-11-06-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-06-2023
+greenzone_vmail-11-06-2023-1.log greenzone_vmail-11-06-2023-2.log greenzone_vmail-11-06-2023-3.log greenzone_vmail-11-06-2023-4.log greenzone_vmail-11-06-2023-5.log greenzone_vmail-11-06-2023-6.log greenzone_vmail-11-06-2023-7.log
+7
+1
+greenzone_vmail-11-06-2023-1.log
+greenzone_vmail-11-06-2023-1.log
+2
+greenzone_vmail-11-06-2023-2.log
+greenzone_vmail-11-06-2023-2.log
+3
+greenzone_vmail-11-06-2023-3.log
+greenzone_vmail-11-06-2023-3.log
+4
+greenzone_vmail-11-06-2023-4.log
+greenzone_vmail-11-06-2023-4.log
+5
+greenzone_vmail-11-06-2023-5.log
+greenzone_vmail-11-06-2023-5.log
+6
+greenzone_vmail-11-06-2023-6.log
+greenzone_vmail-11-06-2023-6.log
+7
+greenzone_vmail-11-06-2023-7.log
+greenzone_vmail-11-06-2023-7.log
+************************** Date  Thu Nov  9 04:06:01 AM EAT 2023
+Current date and time Thu Nov  9 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-07-2023-1.log greenzone_vmail-11-07-2023-2.log greenzone_vmail-11-07-2023-3.log greenzone_vmail-11-07-2023-4.log greenzone_vmail-11-07-2023-5.log greenzone_vmail-11-07-2023-6.log greenzone_vmail-11-07-2023-7.log
+command = ls greenzone_vmail-11-07-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-07-2023
+greenzone_vmail-11-07-2023-1.log greenzone_vmail-11-07-2023-2.log greenzone_vmail-11-07-2023-3.log greenzone_vmail-11-07-2023-4.log greenzone_vmail-11-07-2023-5.log greenzone_vmail-11-07-2023-6.log greenzone_vmail-11-07-2023-7.log
+7
+1
+greenzone_vmail-11-07-2023-1.log
+greenzone_vmail-11-07-2023-1.log
+2
+greenzone_vmail-11-07-2023-2.log
+greenzone_vmail-11-07-2023-2.log
+3
+greenzone_vmail-11-07-2023-3.log
+greenzone_vmail-11-07-2023-3.log
+4
+greenzone_vmail-11-07-2023-4.log
+greenzone_vmail-11-07-2023-4.log
+5
+greenzone_vmail-11-07-2023-5.log
+greenzone_vmail-11-07-2023-5.log
+6
+greenzone_vmail-11-07-2023-6.log
+greenzone_vmail-11-07-2023-6.log
+7
+greenzone_vmail-11-07-2023-7.log
+greenzone_vmail-11-07-2023-7.log
+************************** Date  Fri Nov 10 04:06:01 AM EAT 2023
+Current date and time Fri Nov 10 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-08-2023-1.log greenzone_vmail-11-08-2023-2.log greenzone_vmail-11-08-2023-3.log greenzone_vmail-11-08-2023-4.log greenzone_vmail-11-08-2023-5.log greenzone_vmail-11-08-2023-6.log greenzone_vmail-11-08-2023-7.log
+command = ls greenzone_vmail-11-08-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-08-2023
+greenzone_vmail-11-08-2023-1.log greenzone_vmail-11-08-2023-2.log greenzone_vmail-11-08-2023-3.log greenzone_vmail-11-08-2023-4.log greenzone_vmail-11-08-2023-5.log greenzone_vmail-11-08-2023-6.log greenzone_vmail-11-08-2023-7.log
+7
+1
+greenzone_vmail-11-08-2023-1.log
+greenzone_vmail-11-08-2023-1.log
+2
+greenzone_vmail-11-08-2023-2.log
+greenzone_vmail-11-08-2023-2.log
+3
+greenzone_vmail-11-08-2023-3.log
+greenzone_vmail-11-08-2023-3.log
+4
+greenzone_vmail-11-08-2023-4.log
+greenzone_vmail-11-08-2023-4.log
+5
+greenzone_vmail-11-08-2023-5.log
+greenzone_vmail-11-08-2023-5.log
+6
+greenzone_vmail-11-08-2023-6.log
+greenzone_vmail-11-08-2023-6.log
+7
+greenzone_vmail-11-08-2023-7.log
+greenzone_vmail-11-08-2023-7.log
+************************** Date  Sat Nov 11 04:06:01 AM EAT 2023
+Current date and time Sat Nov 11 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-09-2023-1.log greenzone_vmail-11-09-2023-2.log greenzone_vmail-11-09-2023-3.log greenzone_vmail-11-09-2023-4.log greenzone_vmail-11-09-2023-5.log greenzone_vmail-11-09-2023-6.log greenzone_vmail-11-09-2023-7.log
+command = ls greenzone_vmail-11-09-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-09-2023
+greenzone_vmail-11-09-2023-1.log greenzone_vmail-11-09-2023-2.log greenzone_vmail-11-09-2023-3.log greenzone_vmail-11-09-2023-4.log greenzone_vmail-11-09-2023-5.log greenzone_vmail-11-09-2023-6.log greenzone_vmail-11-09-2023-7.log
+7
+1
+greenzone_vmail-11-09-2023-1.log
+greenzone_vmail-11-09-2023-1.log
+2
+greenzone_vmail-11-09-2023-2.log
+greenzone_vmail-11-09-2023-2.log
+3
+greenzone_vmail-11-09-2023-3.log
+greenzone_vmail-11-09-2023-3.log
+4
+greenzone_vmail-11-09-2023-4.log
+greenzone_vmail-11-09-2023-4.log
+5
+greenzone_vmail-11-09-2023-5.log
+greenzone_vmail-11-09-2023-5.log
+6
+greenzone_vmail-11-09-2023-6.log
+greenzone_vmail-11-09-2023-6.log
+7
+greenzone_vmail-11-09-2023-7.log
+greenzone_vmail-11-09-2023-7.log
+************************** Date  Sun Nov 12 04:06:01 AM EAT 2023
+Current date and time Sun Nov 12 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-10-2023-1.log greenzone_vmail-11-10-2023-2.log greenzone_vmail-11-10-2023-3.log greenzone_vmail-11-10-2023-4.log greenzone_vmail-11-10-2023-5.log greenzone_vmail-11-10-2023-6.log greenzone_vmail-11-10-2023-7.log
+command = ls greenzone_vmail-11-10-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-10-2023
+greenzone_vmail-11-10-2023-1.log greenzone_vmail-11-10-2023-2.log greenzone_vmail-11-10-2023-3.log greenzone_vmail-11-10-2023-4.log greenzone_vmail-11-10-2023-5.log greenzone_vmail-11-10-2023-6.log greenzone_vmail-11-10-2023-7.log
+7
+1
+greenzone_vmail-11-10-2023-1.log
+greenzone_vmail-11-10-2023-1.log
+2
+greenzone_vmail-11-10-2023-2.log
+greenzone_vmail-11-10-2023-2.log
+3
+greenzone_vmail-11-10-2023-3.log
+greenzone_vmail-11-10-2023-3.log
+4
+greenzone_vmail-11-10-2023-4.log
+greenzone_vmail-11-10-2023-4.log
+5
+greenzone_vmail-11-10-2023-5.log
+greenzone_vmail-11-10-2023-5.log
+6
+greenzone_vmail-11-10-2023-6.log
+greenzone_vmail-11-10-2023-6.log
+7
+greenzone_vmail-11-10-2023-7.log
+greenzone_vmail-11-10-2023-7.log
+************************** Date  Mon Nov 13 04:06:01 AM EAT 2023
+Current date and time Mon Nov 13 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-11-2023-1.log greenzone_vmail-11-11-2023-2.log greenzone_vmail-11-11-2023-3.log greenzone_vmail-11-11-2023-4.log greenzone_vmail-11-11-2023-5.log
+command = ls greenzone_vmail-11-11-2023* |wc -l
+/home/rbt/voicemail/logs
+result=5
+Current date in dd/mm/yyyy format 11-11-2023
+greenzone_vmail-11-11-2023-1.log greenzone_vmail-11-11-2023-2.log greenzone_vmail-11-11-2023-3.log greenzone_vmail-11-11-2023-4.log greenzone_vmail-11-11-2023-5.log
+5
+1
+greenzone_vmail-11-11-2023-1.log
+greenzone_vmail-11-11-2023-1.log
+2
+greenzone_vmail-11-11-2023-2.log
+greenzone_vmail-11-11-2023-2.log
+3
+greenzone_vmail-11-11-2023-3.log
+greenzone_vmail-11-11-2023-3.log
+4
+greenzone_vmail-11-11-2023-4.log
+greenzone_vmail-11-11-2023-4.log
+5
+greenzone_vmail-11-11-2023-5.log
+greenzone_vmail-11-11-2023-5.log
+************************** Date  Tue Nov 14 04:06:01 AM EAT 2023
+Current date and time Tue Nov 14 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-12-2023-1.log greenzone_vmail-11-12-2023-2.log greenzone_vmail-11-12-2023-3.log greenzone_vmail-11-12-2023-4.log greenzone_vmail-11-12-2023-5.log greenzone_vmail-11-12-2023-6.log greenzone_vmail-11-12-2023-7.log
+command = ls greenzone_vmail-11-12-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-12-2023
+greenzone_vmail-11-12-2023-1.log greenzone_vmail-11-12-2023-2.log greenzone_vmail-11-12-2023-3.log greenzone_vmail-11-12-2023-4.log greenzone_vmail-11-12-2023-5.log greenzone_vmail-11-12-2023-6.log greenzone_vmail-11-12-2023-7.log
+7
+1
+greenzone_vmail-11-12-2023-1.log
+greenzone_vmail-11-12-2023-1.log
+2
+greenzone_vmail-11-12-2023-2.log
+greenzone_vmail-11-12-2023-2.log
+3
+greenzone_vmail-11-12-2023-3.log
+greenzone_vmail-11-12-2023-3.log
+4
+greenzone_vmail-11-12-2023-4.log
+greenzone_vmail-11-12-2023-4.log
+5
+greenzone_vmail-11-12-2023-5.log
+greenzone_vmail-11-12-2023-5.log
+6
+greenzone_vmail-11-12-2023-6.log
+greenzone_vmail-11-12-2023-6.log
+7
+greenzone_vmail-11-12-2023-7.log
+greenzone_vmail-11-12-2023-7.log
+************************** Date  Wed Nov 15 04:06:02 AM EAT 2023
+Current date and time Wed Nov 15 04:06:02 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-13-2023-1.log greenzone_vmail-11-13-2023-2.log greenzone_vmail-11-13-2023-3.log greenzone_vmail-11-13-2023-4.log greenzone_vmail-11-13-2023-5.log greenzone_vmail-11-13-2023-6.log greenzone_vmail-11-13-2023-7.log
+command = ls greenzone_vmail-11-13-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-13-2023
+greenzone_vmail-11-13-2023-1.log greenzone_vmail-11-13-2023-2.log greenzone_vmail-11-13-2023-3.log greenzone_vmail-11-13-2023-4.log greenzone_vmail-11-13-2023-5.log greenzone_vmail-11-13-2023-6.log greenzone_vmail-11-13-2023-7.log
+7
+1
+greenzone_vmail-11-13-2023-1.log
+greenzone_vmail-11-13-2023-1.log
+2
+greenzone_vmail-11-13-2023-2.log
+greenzone_vmail-11-13-2023-2.log
+3
+greenzone_vmail-11-13-2023-3.log
+greenzone_vmail-11-13-2023-3.log
+4
+greenzone_vmail-11-13-2023-4.log
+greenzone_vmail-11-13-2023-4.log
+5
+greenzone_vmail-11-13-2023-5.log
+greenzone_vmail-11-13-2023-5.log
+6
+greenzone_vmail-11-13-2023-6.log
+greenzone_vmail-11-13-2023-6.log
+7
+greenzone_vmail-11-13-2023-7.log
+greenzone_vmail-11-13-2023-7.log
+************************** Date  Thu Nov 16 04:06:01 AM EAT 2023
+Current date and time Thu Nov 16 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-14-2023-1.log greenzone_vmail-11-14-2023-2.log greenzone_vmail-11-14-2023-3.log greenzone_vmail-11-14-2023-4.log greenzone_vmail-11-14-2023-5.log greenzone_vmail-11-14-2023-6.log greenzone_vmail-11-14-2023-7.log
+command = ls greenzone_vmail-11-14-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-14-2023
+greenzone_vmail-11-14-2023-1.log greenzone_vmail-11-14-2023-2.log greenzone_vmail-11-14-2023-3.log greenzone_vmail-11-14-2023-4.log greenzone_vmail-11-14-2023-5.log greenzone_vmail-11-14-2023-6.log greenzone_vmail-11-14-2023-7.log
+7
+1
+greenzone_vmail-11-14-2023-1.log
+greenzone_vmail-11-14-2023-1.log
+2
+greenzone_vmail-11-14-2023-2.log
+greenzone_vmail-11-14-2023-2.log
+3
+greenzone_vmail-11-14-2023-3.log
+greenzone_vmail-11-14-2023-3.log
+4
+greenzone_vmail-11-14-2023-4.log
+greenzone_vmail-11-14-2023-4.log
+5
+greenzone_vmail-11-14-2023-5.log
+greenzone_vmail-11-14-2023-5.log
+6
+greenzone_vmail-11-14-2023-6.log
+greenzone_vmail-11-14-2023-6.log
+7
+greenzone_vmail-11-14-2023-7.log
+greenzone_vmail-11-14-2023-7.log
+************************** Date  Fri Nov 17 04:06:01 AM EAT 2023
+Current date and time Fri Nov 17 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-15-2023-1.log greenzone_vmail-11-15-2023-2.log greenzone_vmail-11-15-2023-3.log greenzone_vmail-11-15-2023-4.log
+command = ls greenzone_vmail-11-15-2023* |wc -l
+/home/rbt/voicemail/logs
+result=4
+Current date in dd/mm/yyyy format 11-15-2023
+greenzone_vmail-11-15-2023-1.log greenzone_vmail-11-15-2023-2.log greenzone_vmail-11-15-2023-3.log greenzone_vmail-11-15-2023-4.log
+4
+1
+greenzone_vmail-11-15-2023-1.log
+greenzone_vmail-11-15-2023-1.log
+2
+greenzone_vmail-11-15-2023-2.log
+greenzone_vmail-11-15-2023-2.log
+3
+greenzone_vmail-11-15-2023-3.log
+greenzone_vmail-11-15-2023-3.log
+4
+greenzone_vmail-11-15-2023-4.log
+greenzone_vmail-11-15-2023-4.log
+************************** Date  Sat Nov 18 04:06:01 AM EAT 2023
+Current date and time Sat Nov 18 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-16-2023-1.log greenzone_vmail-11-16-2023-2.log greenzone_vmail-11-16-2023-3.log greenzone_vmail-11-16-2023-4.log greenzone_vmail-11-16-2023-5.log greenzone_vmail-11-16-2023-6.log greenzone_vmail-11-16-2023-7.log
+command = ls greenzone_vmail-11-16-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-16-2023
+greenzone_vmail-11-16-2023-1.log greenzone_vmail-11-16-2023-2.log greenzone_vmail-11-16-2023-3.log greenzone_vmail-11-16-2023-4.log greenzone_vmail-11-16-2023-5.log greenzone_vmail-11-16-2023-6.log greenzone_vmail-11-16-2023-7.log
+7
+1
+greenzone_vmail-11-16-2023-1.log
+greenzone_vmail-11-16-2023-1.log
+2
+greenzone_vmail-11-16-2023-2.log
+greenzone_vmail-11-16-2023-2.log
+3
+greenzone_vmail-11-16-2023-3.log
+greenzone_vmail-11-16-2023-3.log
+4
+greenzone_vmail-11-16-2023-4.log
+greenzone_vmail-11-16-2023-4.log
+5
+greenzone_vmail-11-16-2023-5.log
+greenzone_vmail-11-16-2023-5.log
+6
+greenzone_vmail-11-16-2023-6.log
+greenzone_vmail-11-16-2023-6.log
+7
+greenzone_vmail-11-16-2023-7.log
+greenzone_vmail-11-16-2023-7.log
+************************** Date  Sun Nov 19 04:06:01 AM EAT 2023
+Current date and time Sun Nov 19 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-17-2023-1.log greenzone_vmail-11-17-2023-2.log greenzone_vmail-11-17-2023-3.log greenzone_vmail-11-17-2023-4.log greenzone_vmail-11-17-2023-5.log greenzone_vmail-11-17-2023-6.log greenzone_vmail-11-17-2023-7.log
+command = ls greenzone_vmail-11-17-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-17-2023
+greenzone_vmail-11-17-2023-1.log greenzone_vmail-11-17-2023-2.log greenzone_vmail-11-17-2023-3.log greenzone_vmail-11-17-2023-4.log greenzone_vmail-11-17-2023-5.log greenzone_vmail-11-17-2023-6.log greenzone_vmail-11-17-2023-7.log
+7
+1
+greenzone_vmail-11-17-2023-1.log
+greenzone_vmail-11-17-2023-1.log
+2
+greenzone_vmail-11-17-2023-2.log
+greenzone_vmail-11-17-2023-2.log
+3
+greenzone_vmail-11-17-2023-3.log
+greenzone_vmail-11-17-2023-3.log
+4
+greenzone_vmail-11-17-2023-4.log
+greenzone_vmail-11-17-2023-4.log
+5
+greenzone_vmail-11-17-2023-5.log
+greenzone_vmail-11-17-2023-5.log
+6
+greenzone_vmail-11-17-2023-6.log
+greenzone_vmail-11-17-2023-6.log
+7
+greenzone_vmail-11-17-2023-7.log
+greenzone_vmail-11-17-2023-7.log
+************************** Date  Mon Nov 20 04:06:02 AM EAT 2023
+Current date and time Mon Nov 20 04:06:02 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-18-2023-1.log greenzone_vmail-11-18-2023-2.log greenzone_vmail-11-18-2023-3.log greenzone_vmail-11-18-2023-4.log greenzone_vmail-11-18-2023-5.log greenzone_vmail-11-18-2023-6.log greenzone_vmail-11-18-2023-7.log
+command = ls greenzone_vmail-11-18-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-18-2023
+greenzone_vmail-11-18-2023-1.log greenzone_vmail-11-18-2023-2.log greenzone_vmail-11-18-2023-3.log greenzone_vmail-11-18-2023-4.log greenzone_vmail-11-18-2023-5.log greenzone_vmail-11-18-2023-6.log greenzone_vmail-11-18-2023-7.log
+7
+1
+greenzone_vmail-11-18-2023-1.log
+greenzone_vmail-11-18-2023-1.log
+2
+greenzone_vmail-11-18-2023-2.log
+greenzone_vmail-11-18-2023-2.log
+3
+greenzone_vmail-11-18-2023-3.log
+greenzone_vmail-11-18-2023-3.log
+4
+greenzone_vmail-11-18-2023-4.log
+greenzone_vmail-11-18-2023-4.log
+5
+greenzone_vmail-11-18-2023-5.log
+greenzone_vmail-11-18-2023-5.log
+6
+greenzone_vmail-11-18-2023-6.log
+greenzone_vmail-11-18-2023-6.log
+7
+greenzone_vmail-11-18-2023-7.log
+greenzone_vmail-11-18-2023-7.log
+************************** Date  Tue Nov 21 04:06:01 AM EAT 2023
+Current date and time Tue Nov 21 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-19-2023-1.log greenzone_vmail-11-19-2023-2.log greenzone_vmail-11-19-2023-3.log greenzone_vmail-11-19-2023-4.log greenzone_vmail-11-19-2023-5.log greenzone_vmail-11-19-2023-6.log greenzone_vmail-11-19-2023-7.log
+command = ls greenzone_vmail-11-19-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-19-2023
+greenzone_vmail-11-19-2023-1.log greenzone_vmail-11-19-2023-2.log greenzone_vmail-11-19-2023-3.log greenzone_vmail-11-19-2023-4.log greenzone_vmail-11-19-2023-5.log greenzone_vmail-11-19-2023-6.log greenzone_vmail-11-19-2023-7.log
+7
+1
+greenzone_vmail-11-19-2023-1.log
+greenzone_vmail-11-19-2023-1.log
+2
+greenzone_vmail-11-19-2023-2.log
+greenzone_vmail-11-19-2023-2.log
+3
+greenzone_vmail-11-19-2023-3.log
+greenzone_vmail-11-19-2023-3.log
+4
+greenzone_vmail-11-19-2023-4.log
+greenzone_vmail-11-19-2023-4.log
+5
+greenzone_vmail-11-19-2023-5.log
+greenzone_vmail-11-19-2023-5.log
+6
+greenzone_vmail-11-19-2023-6.log
+greenzone_vmail-11-19-2023-6.log
+7
+greenzone_vmail-11-19-2023-7.log
+greenzone_vmail-11-19-2023-7.log
+************************** Date  Wed Nov 22 04:06:01 AM EAT 2023
+Current date and time Wed Nov 22 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-20-2023-1.log greenzone_vmail-11-20-2023-2.log greenzone_vmail-11-20-2023-3.log greenzone_vmail-11-20-2023-4.log greenzone_vmail-11-20-2023-5.log greenzone_vmail-11-20-2023-6.log greenzone_vmail-11-20-2023-7.log
+command = ls greenzone_vmail-11-20-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-20-2023
+greenzone_vmail-11-20-2023-1.log greenzone_vmail-11-20-2023-2.log greenzone_vmail-11-20-2023-3.log greenzone_vmail-11-20-2023-4.log greenzone_vmail-11-20-2023-5.log greenzone_vmail-11-20-2023-6.log greenzone_vmail-11-20-2023-7.log
+7
+1
+greenzone_vmail-11-20-2023-1.log
+greenzone_vmail-11-20-2023-1.log
+2
+greenzone_vmail-11-20-2023-2.log
+greenzone_vmail-11-20-2023-2.log
+3
+greenzone_vmail-11-20-2023-3.log
+greenzone_vmail-11-20-2023-3.log
+4
+greenzone_vmail-11-20-2023-4.log
+greenzone_vmail-11-20-2023-4.log
+5
+greenzone_vmail-11-20-2023-5.log
+greenzone_vmail-11-20-2023-5.log
+6
+greenzone_vmail-11-20-2023-6.log
+greenzone_vmail-11-20-2023-6.log
+7
+greenzone_vmail-11-20-2023-7.log
+greenzone_vmail-11-20-2023-7.log
+************************** Date  Thu Nov 23 04:06:01 AM EAT 2023
+Current date and time Thu Nov 23 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-21-2023-1.log greenzone_vmail-11-21-2023-2.log greenzone_vmail-11-21-2023-3.log greenzone_vmail-11-21-2023-4.log greenzone_vmail-11-21-2023-5.log greenzone_vmail-11-21-2023-6.log greenzone_vmail-11-21-2023-7.log
+command = ls greenzone_vmail-11-21-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-21-2023
+greenzone_vmail-11-21-2023-1.log greenzone_vmail-11-21-2023-2.log greenzone_vmail-11-21-2023-3.log greenzone_vmail-11-21-2023-4.log greenzone_vmail-11-21-2023-5.log greenzone_vmail-11-21-2023-6.log greenzone_vmail-11-21-2023-7.log
+7
+1
+greenzone_vmail-11-21-2023-1.log
+greenzone_vmail-11-21-2023-1.log
+2
+greenzone_vmail-11-21-2023-2.log
+greenzone_vmail-11-21-2023-2.log
+3
+greenzone_vmail-11-21-2023-3.log
+greenzone_vmail-11-21-2023-3.log
+4
+greenzone_vmail-11-21-2023-4.log
+greenzone_vmail-11-21-2023-4.log
+5
+greenzone_vmail-11-21-2023-5.log
+greenzone_vmail-11-21-2023-5.log
+6
+greenzone_vmail-11-21-2023-6.log
+greenzone_vmail-11-21-2023-6.log
+7
+greenzone_vmail-11-21-2023-7.log
+greenzone_vmail-11-21-2023-7.log
+************************** Date  Fri Nov 24 04:06:01 AM EAT 2023
+Current date and time Fri Nov 24 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-22-2023-1.log greenzone_vmail-11-22-2023-2.log greenzone_vmail-11-22-2023-3.log greenzone_vmail-11-22-2023-4.log greenzone_vmail-11-22-2023-5.log greenzone_vmail-11-22-2023-6.log greenzone_vmail-11-22-2023-7.log
+command = ls greenzone_vmail-11-22-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-22-2023
+greenzone_vmail-11-22-2023-1.log greenzone_vmail-11-22-2023-2.log greenzone_vmail-11-22-2023-3.log greenzone_vmail-11-22-2023-4.log greenzone_vmail-11-22-2023-5.log greenzone_vmail-11-22-2023-6.log greenzone_vmail-11-22-2023-7.log
+7
+1
+greenzone_vmail-11-22-2023-1.log
+greenzone_vmail-11-22-2023-1.log
+2
+greenzone_vmail-11-22-2023-2.log
+greenzone_vmail-11-22-2023-2.log
+3
+greenzone_vmail-11-22-2023-3.log
+greenzone_vmail-11-22-2023-3.log
+4
+greenzone_vmail-11-22-2023-4.log
+greenzone_vmail-11-22-2023-4.log
+5
+greenzone_vmail-11-22-2023-5.log
+greenzone_vmail-11-22-2023-5.log
+6
+greenzone_vmail-11-22-2023-6.log
+greenzone_vmail-11-22-2023-6.log
+7
+greenzone_vmail-11-22-2023-7.log
+greenzone_vmail-11-22-2023-7.log
+************************** Date  Sat Nov 25 04:06:01 AM EAT 2023
+Current date and time Sat Nov 25 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-23-2023-1.log greenzone_vmail-11-23-2023-2.log greenzone_vmail-11-23-2023-3.log greenzone_vmail-11-23-2023-4.log greenzone_vmail-11-23-2023-5.log greenzone_vmail-11-23-2023-6.log greenzone_vmail-11-23-2023-7.log
+command = ls greenzone_vmail-11-23-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-23-2023
+greenzone_vmail-11-23-2023-1.log greenzone_vmail-11-23-2023-2.log greenzone_vmail-11-23-2023-3.log greenzone_vmail-11-23-2023-4.log greenzone_vmail-11-23-2023-5.log greenzone_vmail-11-23-2023-6.log greenzone_vmail-11-23-2023-7.log
+7
+1
+greenzone_vmail-11-23-2023-1.log
+greenzone_vmail-11-23-2023-1.log
+2
+greenzone_vmail-11-23-2023-2.log
+greenzone_vmail-11-23-2023-2.log
+3
+greenzone_vmail-11-23-2023-3.log
+greenzone_vmail-11-23-2023-3.log
+4
+greenzone_vmail-11-23-2023-4.log
+greenzone_vmail-11-23-2023-4.log
+5
+greenzone_vmail-11-23-2023-5.log
+greenzone_vmail-11-23-2023-5.log
+6
+greenzone_vmail-11-23-2023-6.log
+greenzone_vmail-11-23-2023-6.log
+7
+greenzone_vmail-11-23-2023-7.log
+greenzone_vmail-11-23-2023-7.log
+************************** Date  Sun Nov 26 04:06:01 AM EAT 2023
+Current date and time Sun Nov 26 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-24-2023-1.log greenzone_vmail-11-24-2023-2.log greenzone_vmail-11-24-2023-3.log greenzone_vmail-11-24-2023-4.log greenzone_vmail-11-24-2023-5.log greenzone_vmail-11-24-2023-6.log greenzone_vmail-11-24-2023-7.log
+command = ls greenzone_vmail-11-24-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-24-2023
+greenzone_vmail-11-24-2023-1.log greenzone_vmail-11-24-2023-2.log greenzone_vmail-11-24-2023-3.log greenzone_vmail-11-24-2023-4.log greenzone_vmail-11-24-2023-5.log greenzone_vmail-11-24-2023-6.log greenzone_vmail-11-24-2023-7.log
+7
+1
+greenzone_vmail-11-24-2023-1.log
+greenzone_vmail-11-24-2023-1.log
+2
+greenzone_vmail-11-24-2023-2.log
+greenzone_vmail-11-24-2023-2.log
+3
+greenzone_vmail-11-24-2023-3.log
+greenzone_vmail-11-24-2023-3.log
+4
+greenzone_vmail-11-24-2023-4.log
+greenzone_vmail-11-24-2023-4.log
+5
+greenzone_vmail-11-24-2023-5.log
+greenzone_vmail-11-24-2023-5.log
+6
+greenzone_vmail-11-24-2023-6.log
+greenzone_vmail-11-24-2023-6.log
+7
+greenzone_vmail-11-24-2023-7.log
+greenzone_vmail-11-24-2023-7.log
+************************** Date  Mon Nov 27 04:06:01 AM EAT 2023
+Current date and time Mon Nov 27 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-25-2023-1.log greenzone_vmail-11-25-2023-2.log greenzone_vmail-11-25-2023-3.log greenzone_vmail-11-25-2023-4.log greenzone_vmail-11-25-2023-5.log greenzone_vmail-11-25-2023-6.log greenzone_vmail-11-25-2023-7.log
+command = ls greenzone_vmail-11-25-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-25-2023
+greenzone_vmail-11-25-2023-1.log greenzone_vmail-11-25-2023-2.log greenzone_vmail-11-25-2023-3.log greenzone_vmail-11-25-2023-4.log greenzone_vmail-11-25-2023-5.log greenzone_vmail-11-25-2023-6.log greenzone_vmail-11-25-2023-7.log
+7
+1
+greenzone_vmail-11-25-2023-1.log
+greenzone_vmail-11-25-2023-1.log
+2
+greenzone_vmail-11-25-2023-2.log
+greenzone_vmail-11-25-2023-2.log
+3
+greenzone_vmail-11-25-2023-3.log
+greenzone_vmail-11-25-2023-3.log
+4
+greenzone_vmail-11-25-2023-4.log
+greenzone_vmail-11-25-2023-4.log
+5
+greenzone_vmail-11-25-2023-5.log
+greenzone_vmail-11-25-2023-5.log
+6
+greenzone_vmail-11-25-2023-6.log
+greenzone_vmail-11-25-2023-6.log
+7
+greenzone_vmail-11-25-2023-7.log
+greenzone_vmail-11-25-2023-7.log
+************************** Date  Tue Nov 28 04:06:01 AM EAT 2023
+Current date and time Tue Nov 28 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-26-2023-1.log greenzone_vmail-11-26-2023-2.log greenzone_vmail-11-26-2023-3.log greenzone_vmail-11-26-2023-4.log greenzone_vmail-11-26-2023-5.log greenzone_vmail-11-26-2023-6.log greenzone_vmail-11-26-2023-7.log
+command = ls greenzone_vmail-11-26-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-26-2023
+greenzone_vmail-11-26-2023-1.log greenzone_vmail-11-26-2023-2.log greenzone_vmail-11-26-2023-3.log greenzone_vmail-11-26-2023-4.log greenzone_vmail-11-26-2023-5.log greenzone_vmail-11-26-2023-6.log greenzone_vmail-11-26-2023-7.log
+7
+1
+greenzone_vmail-11-26-2023-1.log
+greenzone_vmail-11-26-2023-1.log
+2
+greenzone_vmail-11-26-2023-2.log
+greenzone_vmail-11-26-2023-2.log
+3
+greenzone_vmail-11-26-2023-3.log
+greenzone_vmail-11-26-2023-3.log
+4
+greenzone_vmail-11-26-2023-4.log
+greenzone_vmail-11-26-2023-4.log
+5
+greenzone_vmail-11-26-2023-5.log
+greenzone_vmail-11-26-2023-5.log
+6
+greenzone_vmail-11-26-2023-6.log
+greenzone_vmail-11-26-2023-6.log
+7
+greenzone_vmail-11-26-2023-7.log
+greenzone_vmail-11-26-2023-7.log
+************************** Date  Wed Nov 29 04:06:01 AM EAT 2023
+Current date and time Wed Nov 29 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-27-2023-1.log greenzone_vmail-11-27-2023-2.log greenzone_vmail-11-27-2023-3.log greenzone_vmail-11-27-2023-4.log greenzone_vmail-11-27-2023-5.log greenzone_vmail-11-27-2023-6.log greenzone_vmail-11-27-2023-7.log
+command = ls greenzone_vmail-11-27-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-27-2023
+greenzone_vmail-11-27-2023-1.log greenzone_vmail-11-27-2023-2.log greenzone_vmail-11-27-2023-3.log greenzone_vmail-11-27-2023-4.log greenzone_vmail-11-27-2023-5.log greenzone_vmail-11-27-2023-6.log greenzone_vmail-11-27-2023-7.log
+7
+1
+greenzone_vmail-11-27-2023-1.log
+greenzone_vmail-11-27-2023-1.log
+2
+greenzone_vmail-11-27-2023-2.log
+greenzone_vmail-11-27-2023-2.log
+3
+greenzone_vmail-11-27-2023-3.log
+greenzone_vmail-11-27-2023-3.log
+4
+greenzone_vmail-11-27-2023-4.log
+greenzone_vmail-11-27-2023-4.log
+5
+greenzone_vmail-11-27-2023-5.log
+greenzone_vmail-11-27-2023-5.log
+6
+greenzone_vmail-11-27-2023-6.log
+greenzone_vmail-11-27-2023-6.log
+7
+greenzone_vmail-11-27-2023-7.log
+greenzone_vmail-11-27-2023-7.log
+************************** Date  Thu Nov 30 04:06:02 AM EAT 2023
+Current date and time Thu Nov 30 04:06:02 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-28-2023-1.log greenzone_vmail-11-28-2023-2.log greenzone_vmail-11-28-2023-3.log greenzone_vmail-11-28-2023-4.log greenzone_vmail-11-28-2023-5.log greenzone_vmail-11-28-2023-6.log greenzone_vmail-11-28-2023-7.log
+command = ls greenzone_vmail-11-28-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-28-2023
+greenzone_vmail-11-28-2023-1.log greenzone_vmail-11-28-2023-2.log greenzone_vmail-11-28-2023-3.log greenzone_vmail-11-28-2023-4.log greenzone_vmail-11-28-2023-5.log greenzone_vmail-11-28-2023-6.log greenzone_vmail-11-28-2023-7.log
+7
+1
+greenzone_vmail-11-28-2023-1.log
+greenzone_vmail-11-28-2023-1.log
+2
+greenzone_vmail-11-28-2023-2.log
+greenzone_vmail-11-28-2023-2.log
+3
+greenzone_vmail-11-28-2023-3.log
+greenzone_vmail-11-28-2023-3.log
+4
+greenzone_vmail-11-28-2023-4.log
+greenzone_vmail-11-28-2023-4.log
+5
+greenzone_vmail-11-28-2023-5.log
+greenzone_vmail-11-28-2023-5.log
+6
+greenzone_vmail-11-28-2023-6.log
+greenzone_vmail-11-28-2023-6.log
+7
+greenzone_vmail-11-28-2023-7.log
+greenzone_vmail-11-28-2023-7.log
+************************** Date  Fri Dec  1 04:06:01 AM EAT 2023
+Current date and time Fri Dec  1 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-29-2023-1.log greenzone_vmail-11-29-2023-2.log greenzone_vmail-11-29-2023-3.log greenzone_vmail-11-29-2023-4.log greenzone_vmail-11-29-2023-5.log greenzone_vmail-11-29-2023-6.log greenzone_vmail-11-29-2023-7.log
+command = ls greenzone_vmail-11-29-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-29-2023
+greenzone_vmail-11-29-2023-1.log greenzone_vmail-11-29-2023-2.log greenzone_vmail-11-29-2023-3.log greenzone_vmail-11-29-2023-4.log greenzone_vmail-11-29-2023-5.log greenzone_vmail-11-29-2023-6.log greenzone_vmail-11-29-2023-7.log
+7
+1
+greenzone_vmail-11-29-2023-1.log
+greenzone_vmail-11-29-2023-1.log
+2
+greenzone_vmail-11-29-2023-2.log
+greenzone_vmail-11-29-2023-2.log
+3
+greenzone_vmail-11-29-2023-3.log
+greenzone_vmail-11-29-2023-3.log
+4
+greenzone_vmail-11-29-2023-4.log
+greenzone_vmail-11-29-2023-4.log
+5
+greenzone_vmail-11-29-2023-5.log
+greenzone_vmail-11-29-2023-5.log
+6
+greenzone_vmail-11-29-2023-6.log
+greenzone_vmail-11-29-2023-6.log
+7
+greenzone_vmail-11-29-2023-7.log
+greenzone_vmail-11-29-2023-7.log
+************************** Date  Sat Dec  2 04:06:01 AM EAT 2023
+Current date and time Sat Dec  2 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-11-30-2023-1.log greenzone_vmail-11-30-2023-2.log greenzone_vmail-11-30-2023-3.log greenzone_vmail-11-30-2023-4.log greenzone_vmail-11-30-2023-5.log greenzone_vmail-11-30-2023-6.log greenzone_vmail-11-30-2023-7.log
+command = ls greenzone_vmail-11-30-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 11-30-2023
+greenzone_vmail-11-30-2023-1.log greenzone_vmail-11-30-2023-2.log greenzone_vmail-11-30-2023-3.log greenzone_vmail-11-30-2023-4.log greenzone_vmail-11-30-2023-5.log greenzone_vmail-11-30-2023-6.log greenzone_vmail-11-30-2023-7.log
+7
+1
+greenzone_vmail-11-30-2023-1.log
+greenzone_vmail-11-30-2023-1.log
+2
+greenzone_vmail-11-30-2023-2.log
+greenzone_vmail-11-30-2023-2.log
+3
+greenzone_vmail-11-30-2023-3.log
+greenzone_vmail-11-30-2023-3.log
+4
+greenzone_vmail-11-30-2023-4.log
+greenzone_vmail-11-30-2023-4.log
+5
+greenzone_vmail-11-30-2023-5.log
+greenzone_vmail-11-30-2023-5.log
+6
+greenzone_vmail-11-30-2023-6.log
+greenzone_vmail-11-30-2023-6.log
+7
+greenzone_vmail-11-30-2023-7.log
+greenzone_vmail-11-30-2023-7.log
+************************** Date  Sun Dec  3 04:06:01 AM EAT 2023
+Current date and time Sun Dec  3 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-01-2023-1.log greenzone_vmail-12-01-2023-2.log greenzone_vmail-12-01-2023-3.log greenzone_vmail-12-01-2023-4.log greenzone_vmail-12-01-2023-5.log greenzone_vmail-12-01-2023-6.log greenzone_vmail-12-01-2023-7.log
+command = ls greenzone_vmail-12-01-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-01-2023
+greenzone_vmail-12-01-2023-1.log greenzone_vmail-12-01-2023-2.log greenzone_vmail-12-01-2023-3.log greenzone_vmail-12-01-2023-4.log greenzone_vmail-12-01-2023-5.log greenzone_vmail-12-01-2023-6.log greenzone_vmail-12-01-2023-7.log
+7
+1
+greenzone_vmail-12-01-2023-1.log
+greenzone_vmail-12-01-2023-1.log
+2
+greenzone_vmail-12-01-2023-2.log
+greenzone_vmail-12-01-2023-2.log
+3
+greenzone_vmail-12-01-2023-3.log
+greenzone_vmail-12-01-2023-3.log
+4
+greenzone_vmail-12-01-2023-4.log
+greenzone_vmail-12-01-2023-4.log
+5
+greenzone_vmail-12-01-2023-5.log
+greenzone_vmail-12-01-2023-5.log
+6
+greenzone_vmail-12-01-2023-6.log
+greenzone_vmail-12-01-2023-6.log
+7
+greenzone_vmail-12-01-2023-7.log
+greenzone_vmail-12-01-2023-7.log
+************************** Date  Mon Dec  4 04:06:01 AM EAT 2023
+Current date and time Mon Dec  4 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-02-2023-1.log greenzone_vmail-12-02-2023-2.log greenzone_vmail-12-02-2023-3.log greenzone_vmail-12-02-2023-4.log greenzone_vmail-12-02-2023-5.log greenzone_vmail-12-02-2023-6.log greenzone_vmail-12-02-2023-7.log
+command = ls greenzone_vmail-12-02-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-02-2023
+greenzone_vmail-12-02-2023-1.log greenzone_vmail-12-02-2023-2.log greenzone_vmail-12-02-2023-3.log greenzone_vmail-12-02-2023-4.log greenzone_vmail-12-02-2023-5.log greenzone_vmail-12-02-2023-6.log greenzone_vmail-12-02-2023-7.log
+7
+1
+greenzone_vmail-12-02-2023-1.log
+greenzone_vmail-12-02-2023-1.log
+2
+greenzone_vmail-12-02-2023-2.log
+greenzone_vmail-12-02-2023-2.log
+3
+greenzone_vmail-12-02-2023-3.log
+greenzone_vmail-12-02-2023-3.log
+4
+greenzone_vmail-12-02-2023-4.log
+greenzone_vmail-12-02-2023-4.log
+5
+greenzone_vmail-12-02-2023-5.log
+greenzone_vmail-12-02-2023-5.log
+6
+greenzone_vmail-12-02-2023-6.log
+greenzone_vmail-12-02-2023-6.log
+7
+greenzone_vmail-12-02-2023-7.log
+greenzone_vmail-12-02-2023-7.log
+************************** Date  Tue Dec  5 04:06:01 AM EAT 2023
+Current date and time Tue Dec  5 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-03-2023-1.log greenzone_vmail-12-03-2023-2.log greenzone_vmail-12-03-2023-3.log greenzone_vmail-12-03-2023-4.log greenzone_vmail-12-03-2023-5.log greenzone_vmail-12-03-2023-6.log greenzone_vmail-12-03-2023-7.log
+command = ls greenzone_vmail-12-03-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-03-2023
+greenzone_vmail-12-03-2023-1.log greenzone_vmail-12-03-2023-2.log greenzone_vmail-12-03-2023-3.log greenzone_vmail-12-03-2023-4.log greenzone_vmail-12-03-2023-5.log greenzone_vmail-12-03-2023-6.log greenzone_vmail-12-03-2023-7.log
+7
+1
+greenzone_vmail-12-03-2023-1.log
+greenzone_vmail-12-03-2023-1.log
+2
+greenzone_vmail-12-03-2023-2.log
+greenzone_vmail-12-03-2023-2.log
+3
+greenzone_vmail-12-03-2023-3.log
+greenzone_vmail-12-03-2023-3.log
+4
+greenzone_vmail-12-03-2023-4.log
+greenzone_vmail-12-03-2023-4.log
+5
+greenzone_vmail-12-03-2023-5.log
+greenzone_vmail-12-03-2023-5.log
+6
+greenzone_vmail-12-03-2023-6.log
+greenzone_vmail-12-03-2023-6.log
+7
+greenzone_vmail-12-03-2023-7.log
+greenzone_vmail-12-03-2023-7.log
+************************** Date  Wed Dec  6 04:06:01 AM EAT 2023
+Current date and time Wed Dec  6 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-04-2023-1.log greenzone_vmail-12-04-2023-2.log greenzone_vmail-12-04-2023-3.log greenzone_vmail-12-04-2023-4.log greenzone_vmail-12-04-2023-5.log greenzone_vmail-12-04-2023-6.log greenzone_vmail-12-04-2023-7.log
+command = ls greenzone_vmail-12-04-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-04-2023
+greenzone_vmail-12-04-2023-1.log greenzone_vmail-12-04-2023-2.log greenzone_vmail-12-04-2023-3.log greenzone_vmail-12-04-2023-4.log greenzone_vmail-12-04-2023-5.log greenzone_vmail-12-04-2023-6.log greenzone_vmail-12-04-2023-7.log
+7
+1
+greenzone_vmail-12-04-2023-1.log
+greenzone_vmail-12-04-2023-1.log
+2
+greenzone_vmail-12-04-2023-2.log
+greenzone_vmail-12-04-2023-2.log
+3
+greenzone_vmail-12-04-2023-3.log
+greenzone_vmail-12-04-2023-3.log
+4
+greenzone_vmail-12-04-2023-4.log
+greenzone_vmail-12-04-2023-4.log
+5
+greenzone_vmail-12-04-2023-5.log
+greenzone_vmail-12-04-2023-5.log
+6
+greenzone_vmail-12-04-2023-6.log
+greenzone_vmail-12-04-2023-6.log
+7
+greenzone_vmail-12-04-2023-7.log
+greenzone_vmail-12-04-2023-7.log
+************************** Date  Thu Dec  7 04:06:01 AM EAT 2023
+Current date and time Thu Dec  7 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-05-2023-1.log greenzone_vmail-12-05-2023-2.log greenzone_vmail-12-05-2023-3.log greenzone_vmail-12-05-2023-4.log greenzone_vmail-12-05-2023-5.log greenzone_vmail-12-05-2023-6.log greenzone_vmail-12-05-2023-7.log
+command = ls greenzone_vmail-12-05-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-05-2023
+greenzone_vmail-12-05-2023-1.log greenzone_vmail-12-05-2023-2.log greenzone_vmail-12-05-2023-3.log greenzone_vmail-12-05-2023-4.log greenzone_vmail-12-05-2023-5.log greenzone_vmail-12-05-2023-6.log greenzone_vmail-12-05-2023-7.log
+7
+1
+greenzone_vmail-12-05-2023-1.log
+greenzone_vmail-12-05-2023-1.log
+2
+greenzone_vmail-12-05-2023-2.log
+greenzone_vmail-12-05-2023-2.log
+3
+greenzone_vmail-12-05-2023-3.log
+greenzone_vmail-12-05-2023-3.log
+4
+greenzone_vmail-12-05-2023-4.log
+greenzone_vmail-12-05-2023-4.log
+5
+greenzone_vmail-12-05-2023-5.log
+greenzone_vmail-12-05-2023-5.log
+6
+greenzone_vmail-12-05-2023-6.log
+greenzone_vmail-12-05-2023-6.log
+7
+greenzone_vmail-12-05-2023-7.log
+greenzone_vmail-12-05-2023-7.log
+************************** Date  Fri Dec  8 04:06:01 AM EAT 2023
+Current date and time Fri Dec  8 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-06-2023-1.log greenzone_vmail-12-06-2023-2.log greenzone_vmail-12-06-2023-3.log greenzone_vmail-12-06-2023-4.log greenzone_vmail-12-06-2023-5.log greenzone_vmail-12-06-2023-6.log greenzone_vmail-12-06-2023-7.log
+command = ls greenzone_vmail-12-06-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-06-2023
+greenzone_vmail-12-06-2023-1.log greenzone_vmail-12-06-2023-2.log greenzone_vmail-12-06-2023-3.log greenzone_vmail-12-06-2023-4.log greenzone_vmail-12-06-2023-5.log greenzone_vmail-12-06-2023-6.log greenzone_vmail-12-06-2023-7.log
+7
+1
+greenzone_vmail-12-06-2023-1.log
+greenzone_vmail-12-06-2023-1.log
+2
+greenzone_vmail-12-06-2023-2.log
+greenzone_vmail-12-06-2023-2.log
+3
+greenzone_vmail-12-06-2023-3.log
+greenzone_vmail-12-06-2023-3.log
+4
+greenzone_vmail-12-06-2023-4.log
+greenzone_vmail-12-06-2023-4.log
+5
+greenzone_vmail-12-06-2023-5.log
+greenzone_vmail-12-06-2023-5.log
+6
+greenzone_vmail-12-06-2023-6.log
+greenzone_vmail-12-06-2023-6.log
+7
+greenzone_vmail-12-06-2023-7.log
+greenzone_vmail-12-06-2023-7.log
+************************** Date  Sat Dec  9 04:06:01 AM EAT 2023
+Current date and time Sat Dec  9 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-07-2023-1.log greenzone_vmail-12-07-2023-2.log greenzone_vmail-12-07-2023-3.log greenzone_vmail-12-07-2023-4.log greenzone_vmail-12-07-2023-5.log greenzone_vmail-12-07-2023-6.log greenzone_vmail-12-07-2023-7.log
+command = ls greenzone_vmail-12-07-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-07-2023
+greenzone_vmail-12-07-2023-1.log greenzone_vmail-12-07-2023-2.log greenzone_vmail-12-07-2023-3.log greenzone_vmail-12-07-2023-4.log greenzone_vmail-12-07-2023-5.log greenzone_vmail-12-07-2023-6.log greenzone_vmail-12-07-2023-7.log
+7
+1
+greenzone_vmail-12-07-2023-1.log
+greenzone_vmail-12-07-2023-1.log
+2
+greenzone_vmail-12-07-2023-2.log
+greenzone_vmail-12-07-2023-2.log
+3
+greenzone_vmail-12-07-2023-3.log
+greenzone_vmail-12-07-2023-3.log
+4
+greenzone_vmail-12-07-2023-4.log
+greenzone_vmail-12-07-2023-4.log
+5
+greenzone_vmail-12-07-2023-5.log
+greenzone_vmail-12-07-2023-5.log
+6
+greenzone_vmail-12-07-2023-6.log
+greenzone_vmail-12-07-2023-6.log
+7
+greenzone_vmail-12-07-2023-7.log
+greenzone_vmail-12-07-2023-7.log
+************************** Date  Sun Dec 10 04:06:01 AM EAT 2023
+Current date and time Sun Dec 10 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-08-2023-1.log greenzone_vmail-12-08-2023-2.log greenzone_vmail-12-08-2023-3.log greenzone_vmail-12-08-2023-4.log greenzone_vmail-12-08-2023-5.log greenzone_vmail-12-08-2023-6.log greenzone_vmail-12-08-2023-7.log
+command = ls greenzone_vmail-12-08-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-08-2023
+greenzone_vmail-12-08-2023-1.log greenzone_vmail-12-08-2023-2.log greenzone_vmail-12-08-2023-3.log greenzone_vmail-12-08-2023-4.log greenzone_vmail-12-08-2023-5.log greenzone_vmail-12-08-2023-6.log greenzone_vmail-12-08-2023-7.log
+7
+1
+greenzone_vmail-12-08-2023-1.log
+greenzone_vmail-12-08-2023-1.log
+2
+greenzone_vmail-12-08-2023-2.log
+greenzone_vmail-12-08-2023-2.log
+3
+greenzone_vmail-12-08-2023-3.log
+greenzone_vmail-12-08-2023-3.log
+4
+greenzone_vmail-12-08-2023-4.log
+greenzone_vmail-12-08-2023-4.log
+5
+greenzone_vmail-12-08-2023-5.log
+greenzone_vmail-12-08-2023-5.log
+6
+greenzone_vmail-12-08-2023-6.log
+greenzone_vmail-12-08-2023-6.log
+7
+greenzone_vmail-12-08-2023-7.log
+greenzone_vmail-12-08-2023-7.log
+************************** Date  Mon Dec 11 04:06:02 AM EAT 2023
+Current date and time Mon Dec 11 04:06:02 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-09-2023-1.log greenzone_vmail-12-09-2023-2.log greenzone_vmail-12-09-2023-3.log greenzone_vmail-12-09-2023-4.log greenzone_vmail-12-09-2023-5.log greenzone_vmail-12-09-2023-6.log greenzone_vmail-12-09-2023-7.log
+command = ls greenzone_vmail-12-09-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-09-2023
+greenzone_vmail-12-09-2023-1.log greenzone_vmail-12-09-2023-2.log greenzone_vmail-12-09-2023-3.log greenzone_vmail-12-09-2023-4.log greenzone_vmail-12-09-2023-5.log greenzone_vmail-12-09-2023-6.log greenzone_vmail-12-09-2023-7.log
+7
+1
+greenzone_vmail-12-09-2023-1.log
+greenzone_vmail-12-09-2023-1.log
+2
+greenzone_vmail-12-09-2023-2.log
+greenzone_vmail-12-09-2023-2.log
+3
+greenzone_vmail-12-09-2023-3.log
+greenzone_vmail-12-09-2023-3.log
+4
+greenzone_vmail-12-09-2023-4.log
+greenzone_vmail-12-09-2023-4.log
+5
+greenzone_vmail-12-09-2023-5.log
+greenzone_vmail-12-09-2023-5.log
+6
+greenzone_vmail-12-09-2023-6.log
+greenzone_vmail-12-09-2023-6.log
+7
+greenzone_vmail-12-09-2023-7.log
+greenzone_vmail-12-09-2023-7.log
+************************** Date  Tue Dec 12 04:06:01 AM EAT 2023
+Current date and time Tue Dec 12 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-10-2023-1.log greenzone_vmail-12-10-2023-2.log greenzone_vmail-12-10-2023-3.log greenzone_vmail-12-10-2023-4.log greenzone_vmail-12-10-2023-5.log greenzone_vmail-12-10-2023-6.log greenzone_vmail-12-10-2023-7.log
+command = ls greenzone_vmail-12-10-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-10-2023
+greenzone_vmail-12-10-2023-1.log greenzone_vmail-12-10-2023-2.log greenzone_vmail-12-10-2023-3.log greenzone_vmail-12-10-2023-4.log greenzone_vmail-12-10-2023-5.log greenzone_vmail-12-10-2023-6.log greenzone_vmail-12-10-2023-7.log
+7
+1
+greenzone_vmail-12-10-2023-1.log
+greenzone_vmail-12-10-2023-1.log
+2
+greenzone_vmail-12-10-2023-2.log
+greenzone_vmail-12-10-2023-2.log
+3
+greenzone_vmail-12-10-2023-3.log
+greenzone_vmail-12-10-2023-3.log
+4
+greenzone_vmail-12-10-2023-4.log
+greenzone_vmail-12-10-2023-4.log
+5
+greenzone_vmail-12-10-2023-5.log
+greenzone_vmail-12-10-2023-5.log
+6
+greenzone_vmail-12-10-2023-6.log
+greenzone_vmail-12-10-2023-6.log
+7
+greenzone_vmail-12-10-2023-7.log
+greenzone_vmail-12-10-2023-7.log
+************************** Date  Wed Dec 13 04:06:02 AM EAT 2023
+Current date and time Wed Dec 13 04:06:02 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-11-2023-1.log greenzone_vmail-12-11-2023-2.log greenzone_vmail-12-11-2023-3.log greenzone_vmail-12-11-2023-4.log greenzone_vmail-12-11-2023-5.log greenzone_vmail-12-11-2023-6.log greenzone_vmail-12-11-2023-7.log
+command = ls greenzone_vmail-12-11-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-11-2023
+greenzone_vmail-12-11-2023-1.log greenzone_vmail-12-11-2023-2.log greenzone_vmail-12-11-2023-3.log greenzone_vmail-12-11-2023-4.log greenzone_vmail-12-11-2023-5.log greenzone_vmail-12-11-2023-6.log greenzone_vmail-12-11-2023-7.log
+7
+1
+greenzone_vmail-12-11-2023-1.log
+greenzone_vmail-12-11-2023-1.log
+2
+greenzone_vmail-12-11-2023-2.log
+greenzone_vmail-12-11-2023-2.log
+3
+greenzone_vmail-12-11-2023-3.log
+greenzone_vmail-12-11-2023-3.log
+4
+greenzone_vmail-12-11-2023-4.log
+greenzone_vmail-12-11-2023-4.log
+5
+greenzone_vmail-12-11-2023-5.log
+greenzone_vmail-12-11-2023-5.log
+6
+greenzone_vmail-12-11-2023-6.log
+greenzone_vmail-12-11-2023-6.log
+7
+greenzone_vmail-12-11-2023-7.log
+greenzone_vmail-12-11-2023-7.log
+************************** Date  Thu Dec 14 04:06:01 AM EAT 2023
+Current date and time Thu Dec 14 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-12-2023-1.log greenzone_vmail-12-12-2023-2.log greenzone_vmail-12-12-2023-3.log greenzone_vmail-12-12-2023-4.log greenzone_vmail-12-12-2023-5.log greenzone_vmail-12-12-2023-6.log greenzone_vmail-12-12-2023-7.log
+command = ls greenzone_vmail-12-12-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-12-2023
+greenzone_vmail-12-12-2023-1.log greenzone_vmail-12-12-2023-2.log greenzone_vmail-12-12-2023-3.log greenzone_vmail-12-12-2023-4.log greenzone_vmail-12-12-2023-5.log greenzone_vmail-12-12-2023-6.log greenzone_vmail-12-12-2023-7.log
+7
+1
+greenzone_vmail-12-12-2023-1.log
+greenzone_vmail-12-12-2023-1.log
+2
+greenzone_vmail-12-12-2023-2.log
+greenzone_vmail-12-12-2023-2.log
+3
+greenzone_vmail-12-12-2023-3.log
+greenzone_vmail-12-12-2023-3.log
+4
+greenzone_vmail-12-12-2023-4.log
+greenzone_vmail-12-12-2023-4.log
+5
+greenzone_vmail-12-12-2023-5.log
+greenzone_vmail-12-12-2023-5.log
+6
+greenzone_vmail-12-12-2023-6.log
+greenzone_vmail-12-12-2023-6.log
+7
+greenzone_vmail-12-12-2023-7.log
+greenzone_vmail-12-12-2023-7.log
+************************** Date  Fri Dec 15 04:06:01 AM EAT 2023
+Current date and time Fri Dec 15 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-13-2023-1.log greenzone_vmail-12-13-2023-2.log greenzone_vmail-12-13-2023-3.log greenzone_vmail-12-13-2023-4.log greenzone_vmail-12-13-2023-5.log greenzone_vmail-12-13-2023-6.log greenzone_vmail-12-13-2023-7.log
+command = ls greenzone_vmail-12-13-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-13-2023
+greenzone_vmail-12-13-2023-1.log greenzone_vmail-12-13-2023-2.log greenzone_vmail-12-13-2023-3.log greenzone_vmail-12-13-2023-4.log greenzone_vmail-12-13-2023-5.log greenzone_vmail-12-13-2023-6.log greenzone_vmail-12-13-2023-7.log
+7
+1
+greenzone_vmail-12-13-2023-1.log
+greenzone_vmail-12-13-2023-1.log
+2
+greenzone_vmail-12-13-2023-2.log
+greenzone_vmail-12-13-2023-2.log
+3
+greenzone_vmail-12-13-2023-3.log
+greenzone_vmail-12-13-2023-3.log
+4
+greenzone_vmail-12-13-2023-4.log
+greenzone_vmail-12-13-2023-4.log
+5
+greenzone_vmail-12-13-2023-5.log
+greenzone_vmail-12-13-2023-5.log
+6
+greenzone_vmail-12-13-2023-6.log
+greenzone_vmail-12-13-2023-6.log
+7
+greenzone_vmail-12-13-2023-7.log
+greenzone_vmail-12-13-2023-7.log
+************************** Date  Sat Dec 16 04:06:01 AM EAT 2023
+Current date and time Sat Dec 16 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-14-2023-1.log greenzone_vmail-12-14-2023-2.log greenzone_vmail-12-14-2023-3.log greenzone_vmail-12-14-2023-4.log greenzone_vmail-12-14-2023-5.log greenzone_vmail-12-14-2023-6.log greenzone_vmail-12-14-2023-7.log
+command = ls greenzone_vmail-12-14-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-14-2023
+greenzone_vmail-12-14-2023-1.log greenzone_vmail-12-14-2023-2.log greenzone_vmail-12-14-2023-3.log greenzone_vmail-12-14-2023-4.log greenzone_vmail-12-14-2023-5.log greenzone_vmail-12-14-2023-6.log greenzone_vmail-12-14-2023-7.log
+7
+1
+greenzone_vmail-12-14-2023-1.log
+greenzone_vmail-12-14-2023-1.log
+2
+greenzone_vmail-12-14-2023-2.log
+greenzone_vmail-12-14-2023-2.log
+3
+greenzone_vmail-12-14-2023-3.log
+greenzone_vmail-12-14-2023-3.log
+4
+greenzone_vmail-12-14-2023-4.log
+greenzone_vmail-12-14-2023-4.log
+5
+greenzone_vmail-12-14-2023-5.log
+greenzone_vmail-12-14-2023-5.log
+6
+greenzone_vmail-12-14-2023-6.log
+greenzone_vmail-12-14-2023-6.log
+7
+greenzone_vmail-12-14-2023-7.log
+greenzone_vmail-12-14-2023-7.log
+************************** Date  Sun Dec 17 04:06:01 AM EAT 2023
+Current date and time Sun Dec 17 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-15-2023-1.log greenzone_vmail-12-15-2023-2.log greenzone_vmail-12-15-2023-3.log greenzone_vmail-12-15-2023-4.log greenzone_vmail-12-15-2023-5.log greenzone_vmail-12-15-2023-6.log greenzone_vmail-12-15-2023-7.log
+command = ls greenzone_vmail-12-15-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-15-2023
+greenzone_vmail-12-15-2023-1.log greenzone_vmail-12-15-2023-2.log greenzone_vmail-12-15-2023-3.log greenzone_vmail-12-15-2023-4.log greenzone_vmail-12-15-2023-5.log greenzone_vmail-12-15-2023-6.log greenzone_vmail-12-15-2023-7.log
+7
+1
+greenzone_vmail-12-15-2023-1.log
+greenzone_vmail-12-15-2023-1.log
+2
+greenzone_vmail-12-15-2023-2.log
+greenzone_vmail-12-15-2023-2.log
+3
+greenzone_vmail-12-15-2023-3.log
+greenzone_vmail-12-15-2023-3.log
+4
+greenzone_vmail-12-15-2023-4.log
+greenzone_vmail-12-15-2023-4.log
+5
+greenzone_vmail-12-15-2023-5.log
+greenzone_vmail-12-15-2023-5.log
+6
+greenzone_vmail-12-15-2023-6.log
+greenzone_vmail-12-15-2023-6.log
+7
+greenzone_vmail-12-15-2023-7.log
+greenzone_vmail-12-15-2023-7.log
+************************** Date  Mon Dec 18 04:06:02 AM EAT 2023
+Current date and time Mon Dec 18 04:06:02 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-16-2023-1.log greenzone_vmail-12-16-2023-2.log greenzone_vmail-12-16-2023-3.log greenzone_vmail-12-16-2023-4.log greenzone_vmail-12-16-2023-5.log greenzone_vmail-12-16-2023-6.log greenzone_vmail-12-16-2023-7.log
+command = ls greenzone_vmail-12-16-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-16-2023
+greenzone_vmail-12-16-2023-1.log greenzone_vmail-12-16-2023-2.log greenzone_vmail-12-16-2023-3.log greenzone_vmail-12-16-2023-4.log greenzone_vmail-12-16-2023-5.log greenzone_vmail-12-16-2023-6.log greenzone_vmail-12-16-2023-7.log
+7
+1
+greenzone_vmail-12-16-2023-1.log
+greenzone_vmail-12-16-2023-1.log
+2
+greenzone_vmail-12-16-2023-2.log
+greenzone_vmail-12-16-2023-2.log
+3
+greenzone_vmail-12-16-2023-3.log
+greenzone_vmail-12-16-2023-3.log
+4
+greenzone_vmail-12-16-2023-4.log
+greenzone_vmail-12-16-2023-4.log
+5
+greenzone_vmail-12-16-2023-5.log
+greenzone_vmail-12-16-2023-5.log
+6
+greenzone_vmail-12-16-2023-6.log
+greenzone_vmail-12-16-2023-6.log
+7
+greenzone_vmail-12-16-2023-7.log
+greenzone_vmail-12-16-2023-7.log
+************************** Date  Tue Dec 19 04:06:01 AM EAT 2023
+Current date and time Tue Dec 19 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-17-2023-1.log greenzone_vmail-12-17-2023-2.log greenzone_vmail-12-17-2023-3.log greenzone_vmail-12-17-2023-4.log greenzone_vmail-12-17-2023-5.log greenzone_vmail-12-17-2023-6.log greenzone_vmail-12-17-2023-7.log
+command = ls greenzone_vmail-12-17-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-17-2023
+greenzone_vmail-12-17-2023-1.log greenzone_vmail-12-17-2023-2.log greenzone_vmail-12-17-2023-3.log greenzone_vmail-12-17-2023-4.log greenzone_vmail-12-17-2023-5.log greenzone_vmail-12-17-2023-6.log greenzone_vmail-12-17-2023-7.log
+7
+1
+greenzone_vmail-12-17-2023-1.log
+greenzone_vmail-12-17-2023-1.log
+2
+greenzone_vmail-12-17-2023-2.log
+greenzone_vmail-12-17-2023-2.log
+3
+greenzone_vmail-12-17-2023-3.log
+greenzone_vmail-12-17-2023-3.log
+4
+greenzone_vmail-12-17-2023-4.log
+greenzone_vmail-12-17-2023-4.log
+5
+greenzone_vmail-12-17-2023-5.log
+greenzone_vmail-12-17-2023-5.log
+6
+greenzone_vmail-12-17-2023-6.log
+greenzone_vmail-12-17-2023-6.log
+7
+greenzone_vmail-12-17-2023-7.log
+greenzone_vmail-12-17-2023-7.log
+************************** Date  Wed Dec 20 04:06:01 AM EAT 2023
+Current date and time Wed Dec 20 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-18-2023-1.log greenzone_vmail-12-18-2023-2.log greenzone_vmail-12-18-2023-3.log greenzone_vmail-12-18-2023-4.log greenzone_vmail-12-18-2023-5.log greenzone_vmail-12-18-2023-6.log greenzone_vmail-12-18-2023-7.log
+command = ls greenzone_vmail-12-18-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-18-2023
+greenzone_vmail-12-18-2023-1.log greenzone_vmail-12-18-2023-2.log greenzone_vmail-12-18-2023-3.log greenzone_vmail-12-18-2023-4.log greenzone_vmail-12-18-2023-5.log greenzone_vmail-12-18-2023-6.log greenzone_vmail-12-18-2023-7.log
+7
+1
+greenzone_vmail-12-18-2023-1.log
+greenzone_vmail-12-18-2023-1.log
+2
+greenzone_vmail-12-18-2023-2.log
+greenzone_vmail-12-18-2023-2.log
+3
+greenzone_vmail-12-18-2023-3.log
+greenzone_vmail-12-18-2023-3.log
+4
+greenzone_vmail-12-18-2023-4.log
+greenzone_vmail-12-18-2023-4.log
+5
+greenzone_vmail-12-18-2023-5.log
+greenzone_vmail-12-18-2023-5.log
+6
+greenzone_vmail-12-18-2023-6.log
+greenzone_vmail-12-18-2023-6.log
+7
+greenzone_vmail-12-18-2023-7.log
+greenzone_vmail-12-18-2023-7.log
+************************** Date  Thu Dec 21 04:06:01 AM EAT 2023
+Current date and time Thu Dec 21 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-19-2023-1.log greenzone_vmail-12-19-2023-2.log greenzone_vmail-12-19-2023-3.log greenzone_vmail-12-19-2023-4.log greenzone_vmail-12-19-2023-5.log greenzone_vmail-12-19-2023-6.log greenzone_vmail-12-19-2023-7.log
+command = ls greenzone_vmail-12-19-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-19-2023
+greenzone_vmail-12-19-2023-1.log greenzone_vmail-12-19-2023-2.log greenzone_vmail-12-19-2023-3.log greenzone_vmail-12-19-2023-4.log greenzone_vmail-12-19-2023-5.log greenzone_vmail-12-19-2023-6.log greenzone_vmail-12-19-2023-7.log
+7
+1
+greenzone_vmail-12-19-2023-1.log
+greenzone_vmail-12-19-2023-1.log
+2
+greenzone_vmail-12-19-2023-2.log
+greenzone_vmail-12-19-2023-2.log
+3
+greenzone_vmail-12-19-2023-3.log
+greenzone_vmail-12-19-2023-3.log
+4
+greenzone_vmail-12-19-2023-4.log
+greenzone_vmail-12-19-2023-4.log
+5
+greenzone_vmail-12-19-2023-5.log
+greenzone_vmail-12-19-2023-5.log
+6
+greenzone_vmail-12-19-2023-6.log
+greenzone_vmail-12-19-2023-6.log
+7
+greenzone_vmail-12-19-2023-7.log
+greenzone_vmail-12-19-2023-7.log
+************************** Date  Fri Dec 22 04:06:01 AM EAT 2023
+Current date and time Fri Dec 22 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-20-2023-1.log greenzone_vmail-12-20-2023-2.log greenzone_vmail-12-20-2023-3.log greenzone_vmail-12-20-2023-4.log greenzone_vmail-12-20-2023-5.log greenzone_vmail-12-20-2023-6.log greenzone_vmail-12-20-2023-7.log
+command = ls greenzone_vmail-12-20-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-20-2023
+greenzone_vmail-12-20-2023-1.log greenzone_vmail-12-20-2023-2.log greenzone_vmail-12-20-2023-3.log greenzone_vmail-12-20-2023-4.log greenzone_vmail-12-20-2023-5.log greenzone_vmail-12-20-2023-6.log greenzone_vmail-12-20-2023-7.log
+7
+1
+greenzone_vmail-12-20-2023-1.log
+greenzone_vmail-12-20-2023-1.log
+2
+greenzone_vmail-12-20-2023-2.log
+greenzone_vmail-12-20-2023-2.log
+3
+greenzone_vmail-12-20-2023-3.log
+greenzone_vmail-12-20-2023-3.log
+4
+greenzone_vmail-12-20-2023-4.log
+greenzone_vmail-12-20-2023-4.log
+5
+greenzone_vmail-12-20-2023-5.log
+greenzone_vmail-12-20-2023-5.log
+6
+greenzone_vmail-12-20-2023-6.log
+greenzone_vmail-12-20-2023-6.log
+7
+greenzone_vmail-12-20-2023-7.log
+greenzone_vmail-12-20-2023-7.log
+************************** Date  Sat Dec 23 04:06:01 AM EAT 2023
+Current date and time Sat Dec 23 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-21-2023-1.log greenzone_vmail-12-21-2023-2.log greenzone_vmail-12-21-2023-3.log greenzone_vmail-12-21-2023-4.log greenzone_vmail-12-21-2023-5.log greenzone_vmail-12-21-2023-6.log greenzone_vmail-12-21-2023-7.log
+command = ls greenzone_vmail-12-21-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-21-2023
+greenzone_vmail-12-21-2023-1.log greenzone_vmail-12-21-2023-2.log greenzone_vmail-12-21-2023-3.log greenzone_vmail-12-21-2023-4.log greenzone_vmail-12-21-2023-5.log greenzone_vmail-12-21-2023-6.log greenzone_vmail-12-21-2023-7.log
+7
+1
+greenzone_vmail-12-21-2023-1.log
+greenzone_vmail-12-21-2023-1.log
+2
+greenzone_vmail-12-21-2023-2.log
+greenzone_vmail-12-21-2023-2.log
+3
+greenzone_vmail-12-21-2023-3.log
+greenzone_vmail-12-21-2023-3.log
+4
+greenzone_vmail-12-21-2023-4.log
+greenzone_vmail-12-21-2023-4.log
+5
+greenzone_vmail-12-21-2023-5.log
+greenzone_vmail-12-21-2023-5.log
+6
+greenzone_vmail-12-21-2023-6.log
+greenzone_vmail-12-21-2023-6.log
+7
+greenzone_vmail-12-21-2023-7.log
+greenzone_vmail-12-21-2023-7.log
+************************** Date  Sun Dec 24 04:06:01 AM EAT 2023
+Current date and time Sun Dec 24 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-22-2023-1.log greenzone_vmail-12-22-2023-2.log greenzone_vmail-12-22-2023-3.log greenzone_vmail-12-22-2023-4.log greenzone_vmail-12-22-2023-5.log greenzone_vmail-12-22-2023-6.log greenzone_vmail-12-22-2023-7.log
+command = ls greenzone_vmail-12-22-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-22-2023
+greenzone_vmail-12-22-2023-1.log greenzone_vmail-12-22-2023-2.log greenzone_vmail-12-22-2023-3.log greenzone_vmail-12-22-2023-4.log greenzone_vmail-12-22-2023-5.log greenzone_vmail-12-22-2023-6.log greenzone_vmail-12-22-2023-7.log
+7
+1
+greenzone_vmail-12-22-2023-1.log
+greenzone_vmail-12-22-2023-1.log
+2
+greenzone_vmail-12-22-2023-2.log
+greenzone_vmail-12-22-2023-2.log
+3
+greenzone_vmail-12-22-2023-3.log
+greenzone_vmail-12-22-2023-3.log
+4
+greenzone_vmail-12-22-2023-4.log
+greenzone_vmail-12-22-2023-4.log
+5
+greenzone_vmail-12-22-2023-5.log
+greenzone_vmail-12-22-2023-5.log
+6
+greenzone_vmail-12-22-2023-6.log
+greenzone_vmail-12-22-2023-6.log
+7
+greenzone_vmail-12-22-2023-7.log
+greenzone_vmail-12-22-2023-7.log
+************************** Date  Mon Dec 25 04:06:01 AM EAT 2023
+Current date and time Mon Dec 25 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-23-2023-1.log greenzone_vmail-12-23-2023-2.log greenzone_vmail-12-23-2023-3.log greenzone_vmail-12-23-2023-4.log greenzone_vmail-12-23-2023-5.log greenzone_vmail-12-23-2023-6.log greenzone_vmail-12-23-2023-7.log
+command = ls greenzone_vmail-12-23-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-23-2023
+greenzone_vmail-12-23-2023-1.log greenzone_vmail-12-23-2023-2.log greenzone_vmail-12-23-2023-3.log greenzone_vmail-12-23-2023-4.log greenzone_vmail-12-23-2023-5.log greenzone_vmail-12-23-2023-6.log greenzone_vmail-12-23-2023-7.log
+7
+1
+greenzone_vmail-12-23-2023-1.log
+greenzone_vmail-12-23-2023-1.log
+2
+greenzone_vmail-12-23-2023-2.log
+greenzone_vmail-12-23-2023-2.log
+3
+greenzone_vmail-12-23-2023-3.log
+greenzone_vmail-12-23-2023-3.log
+4
+greenzone_vmail-12-23-2023-4.log
+greenzone_vmail-12-23-2023-4.log
+5
+greenzone_vmail-12-23-2023-5.log
+greenzone_vmail-12-23-2023-5.log
+6
+greenzone_vmail-12-23-2023-6.log
+greenzone_vmail-12-23-2023-6.log
+7
+greenzone_vmail-12-23-2023-7.log
+greenzone_vmail-12-23-2023-7.log
+************************** Date  Tue Dec 26 04:06:01 AM EAT 2023
+Current date and time Tue Dec 26 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-24-2023-1.log greenzone_vmail-12-24-2023-2.log greenzone_vmail-12-24-2023-3.log greenzone_vmail-12-24-2023-4.log greenzone_vmail-12-24-2023-5.log greenzone_vmail-12-24-2023-6.log greenzone_vmail-12-24-2023-7.log
+command = ls greenzone_vmail-12-24-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-24-2023
+greenzone_vmail-12-24-2023-1.log greenzone_vmail-12-24-2023-2.log greenzone_vmail-12-24-2023-3.log greenzone_vmail-12-24-2023-4.log greenzone_vmail-12-24-2023-5.log greenzone_vmail-12-24-2023-6.log greenzone_vmail-12-24-2023-7.log
+7
+1
+greenzone_vmail-12-24-2023-1.log
+greenzone_vmail-12-24-2023-1.log
+2
+greenzone_vmail-12-24-2023-2.log
+greenzone_vmail-12-24-2023-2.log
+3
+greenzone_vmail-12-24-2023-3.log
+greenzone_vmail-12-24-2023-3.log
+4
+greenzone_vmail-12-24-2023-4.log
+greenzone_vmail-12-24-2023-4.log
+5
+greenzone_vmail-12-24-2023-5.log
+greenzone_vmail-12-24-2023-5.log
+6
+greenzone_vmail-12-24-2023-6.log
+greenzone_vmail-12-24-2023-6.log
+7
+greenzone_vmail-12-24-2023-7.log
+greenzone_vmail-12-24-2023-7.log
+************************** Date  Wed Dec 27 04:06:01 AM EAT 2023
+Current date and time Wed Dec 27 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-25-2023-1.log greenzone_vmail-12-25-2023-2.log greenzone_vmail-12-25-2023-3.log greenzone_vmail-12-25-2023-4.log greenzone_vmail-12-25-2023-5.log greenzone_vmail-12-25-2023-6.log greenzone_vmail-12-25-2023-7.log
+command = ls greenzone_vmail-12-25-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-25-2023
+greenzone_vmail-12-25-2023-1.log greenzone_vmail-12-25-2023-2.log greenzone_vmail-12-25-2023-3.log greenzone_vmail-12-25-2023-4.log greenzone_vmail-12-25-2023-5.log greenzone_vmail-12-25-2023-6.log greenzone_vmail-12-25-2023-7.log
+7
+1
+greenzone_vmail-12-25-2023-1.log
+greenzone_vmail-12-25-2023-1.log
+2
+greenzone_vmail-12-25-2023-2.log
+greenzone_vmail-12-25-2023-2.log
+3
+greenzone_vmail-12-25-2023-3.log
+greenzone_vmail-12-25-2023-3.log
+4
+greenzone_vmail-12-25-2023-4.log
+greenzone_vmail-12-25-2023-4.log
+5
+greenzone_vmail-12-25-2023-5.log
+greenzone_vmail-12-25-2023-5.log
+6
+greenzone_vmail-12-25-2023-6.log
+greenzone_vmail-12-25-2023-6.log
+7
+greenzone_vmail-12-25-2023-7.log
+greenzone_vmail-12-25-2023-7.log
+************************** Date  Thu Dec 28 04:06:01 AM EAT 2023
+Current date and time Thu Dec 28 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-26-2023-1.log greenzone_vmail-12-26-2023-2.log greenzone_vmail-12-26-2023-3.log greenzone_vmail-12-26-2023-4.log greenzone_vmail-12-26-2023-5.log greenzone_vmail-12-26-2023-6.log greenzone_vmail-12-26-2023-7.log
+command = ls greenzone_vmail-12-26-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-26-2023
+greenzone_vmail-12-26-2023-1.log greenzone_vmail-12-26-2023-2.log greenzone_vmail-12-26-2023-3.log greenzone_vmail-12-26-2023-4.log greenzone_vmail-12-26-2023-5.log greenzone_vmail-12-26-2023-6.log greenzone_vmail-12-26-2023-7.log
+7
+1
+greenzone_vmail-12-26-2023-1.log
+greenzone_vmail-12-26-2023-1.log
+2
+greenzone_vmail-12-26-2023-2.log
+greenzone_vmail-12-26-2023-2.log
+3
+greenzone_vmail-12-26-2023-3.log
+greenzone_vmail-12-26-2023-3.log
+4
+greenzone_vmail-12-26-2023-4.log
+greenzone_vmail-12-26-2023-4.log
+5
+greenzone_vmail-12-26-2023-5.log
+greenzone_vmail-12-26-2023-5.log
+6
+greenzone_vmail-12-26-2023-6.log
+greenzone_vmail-12-26-2023-6.log
+7
+greenzone_vmail-12-26-2023-7.log
+greenzone_vmail-12-26-2023-7.log
+************************** Date  Fri Dec 29 04:06:02 AM EAT 2023
+Current date and time Fri Dec 29 04:06:02 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-27-2023-1.log greenzone_vmail-12-27-2023-2.log greenzone_vmail-12-27-2023-3.log greenzone_vmail-12-27-2023-4.log greenzone_vmail-12-27-2023-5.log greenzone_vmail-12-27-2023-6.log greenzone_vmail-12-27-2023-7.log
+command = ls greenzone_vmail-12-27-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-27-2023
+greenzone_vmail-12-27-2023-1.log greenzone_vmail-12-27-2023-2.log greenzone_vmail-12-27-2023-3.log greenzone_vmail-12-27-2023-4.log greenzone_vmail-12-27-2023-5.log greenzone_vmail-12-27-2023-6.log greenzone_vmail-12-27-2023-7.log
+7
+1
+greenzone_vmail-12-27-2023-1.log
+greenzone_vmail-12-27-2023-1.log
+2
+greenzone_vmail-12-27-2023-2.log
+greenzone_vmail-12-27-2023-2.log
+3
+greenzone_vmail-12-27-2023-3.log
+greenzone_vmail-12-27-2023-3.log
+4
+greenzone_vmail-12-27-2023-4.log
+greenzone_vmail-12-27-2023-4.log
+5
+greenzone_vmail-12-27-2023-5.log
+greenzone_vmail-12-27-2023-5.log
+6
+greenzone_vmail-12-27-2023-6.log
+greenzone_vmail-12-27-2023-6.log
+7
+greenzone_vmail-12-27-2023-7.log
+greenzone_vmail-12-27-2023-7.log
+************************** Date  Sat Dec 30 04:06:01 AM EAT 2023
+Current date and time Sat Dec 30 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-28-2023-1.log greenzone_vmail-12-28-2023-2.log greenzone_vmail-12-28-2023-3.log greenzone_vmail-12-28-2023-4.log greenzone_vmail-12-28-2023-5.log greenzone_vmail-12-28-2023-6.log greenzone_vmail-12-28-2023-7.log
+command = ls greenzone_vmail-12-28-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-28-2023
+greenzone_vmail-12-28-2023-1.log greenzone_vmail-12-28-2023-2.log greenzone_vmail-12-28-2023-3.log greenzone_vmail-12-28-2023-4.log greenzone_vmail-12-28-2023-5.log greenzone_vmail-12-28-2023-6.log greenzone_vmail-12-28-2023-7.log
+7
+1
+greenzone_vmail-12-28-2023-1.log
+greenzone_vmail-12-28-2023-1.log
+2
+greenzone_vmail-12-28-2023-2.log
+greenzone_vmail-12-28-2023-2.log
+3
+greenzone_vmail-12-28-2023-3.log
+greenzone_vmail-12-28-2023-3.log
+4
+greenzone_vmail-12-28-2023-4.log
+greenzone_vmail-12-28-2023-4.log
+5
+greenzone_vmail-12-28-2023-5.log
+greenzone_vmail-12-28-2023-5.log
+6
+greenzone_vmail-12-28-2023-6.log
+greenzone_vmail-12-28-2023-6.log
+7
+greenzone_vmail-12-28-2023-7.log
+greenzone_vmail-12-28-2023-7.log
+************************** Date  Sun Dec 31 04:06:01 AM EAT 2023
+Current date and time Sun Dec 31 04:06:01 AM EAT 2023
+'8 days ago'
+greenzone_vmail-12-29-2023-1.log greenzone_vmail-12-29-2023-2.log greenzone_vmail-12-29-2023-3.log greenzone_vmail-12-29-2023-4.log greenzone_vmail-12-29-2023-5.log greenzone_vmail-12-29-2023-6.log greenzone_vmail-12-29-2023-7.log
+command = ls greenzone_vmail-12-29-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-29-2023
+greenzone_vmail-12-29-2023-1.log greenzone_vmail-12-29-2023-2.log greenzone_vmail-12-29-2023-3.log greenzone_vmail-12-29-2023-4.log greenzone_vmail-12-29-2023-5.log greenzone_vmail-12-29-2023-6.log greenzone_vmail-12-29-2023-7.log
+7
+1
+greenzone_vmail-12-29-2023-1.log
+greenzone_vmail-12-29-2023-1.log
+2
+greenzone_vmail-12-29-2023-2.log
+greenzone_vmail-12-29-2023-2.log
+3
+greenzone_vmail-12-29-2023-3.log
+greenzone_vmail-12-29-2023-3.log
+4
+greenzone_vmail-12-29-2023-4.log
+greenzone_vmail-12-29-2023-4.log
+5
+greenzone_vmail-12-29-2023-5.log
+greenzone_vmail-12-29-2023-5.log
+6
+greenzone_vmail-12-29-2023-6.log
+greenzone_vmail-12-29-2023-6.log
+7
+greenzone_vmail-12-29-2023-7.log
+greenzone_vmail-12-29-2023-7.log
+************************** Date  Mon Jan  1 04:06:01 AM EAT 2024
+Current date and time Mon Jan  1 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-12-30-2023-1.log greenzone_vmail-12-30-2023-2.log greenzone_vmail-12-30-2023-3.log greenzone_vmail-12-30-2023-4.log greenzone_vmail-12-30-2023-5.log greenzone_vmail-12-30-2023-6.log greenzone_vmail-12-30-2023-7.log
+command = ls greenzone_vmail-12-30-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-30-2023
+greenzone_vmail-12-30-2023-1.log greenzone_vmail-12-30-2023-2.log greenzone_vmail-12-30-2023-3.log greenzone_vmail-12-30-2023-4.log greenzone_vmail-12-30-2023-5.log greenzone_vmail-12-30-2023-6.log greenzone_vmail-12-30-2023-7.log
+7
+1
+greenzone_vmail-12-30-2023-1.log
+greenzone_vmail-12-30-2023-1.log
+2
+greenzone_vmail-12-30-2023-2.log
+greenzone_vmail-12-30-2023-2.log
+3
+greenzone_vmail-12-30-2023-3.log
+greenzone_vmail-12-30-2023-3.log
+4
+greenzone_vmail-12-30-2023-4.log
+greenzone_vmail-12-30-2023-4.log
+5
+greenzone_vmail-12-30-2023-5.log
+greenzone_vmail-12-30-2023-5.log
+6
+greenzone_vmail-12-30-2023-6.log
+greenzone_vmail-12-30-2023-6.log
+7
+greenzone_vmail-12-30-2023-7.log
+greenzone_vmail-12-30-2023-7.log
+************************** Date  Tue Jan  2 04:06:01 AM EAT 2024
+Current date and time Tue Jan  2 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-12-31-2023-1.log greenzone_vmail-12-31-2023-2.log greenzone_vmail-12-31-2023-3.log greenzone_vmail-12-31-2023-4.log greenzone_vmail-12-31-2023-5.log greenzone_vmail-12-31-2023-6.log greenzone_vmail-12-31-2023-7.log
+command = ls greenzone_vmail-12-31-2023* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 12-31-2023
+greenzone_vmail-12-31-2023-1.log greenzone_vmail-12-31-2023-2.log greenzone_vmail-12-31-2023-3.log greenzone_vmail-12-31-2023-4.log greenzone_vmail-12-31-2023-5.log greenzone_vmail-12-31-2023-6.log greenzone_vmail-12-31-2023-7.log
+7
+1
+greenzone_vmail-12-31-2023-1.log
+greenzone_vmail-12-31-2023-1.log
+2
+greenzone_vmail-12-31-2023-2.log
+greenzone_vmail-12-31-2023-2.log
+3
+greenzone_vmail-12-31-2023-3.log
+greenzone_vmail-12-31-2023-3.log
+4
+greenzone_vmail-12-31-2023-4.log
+greenzone_vmail-12-31-2023-4.log
+5
+greenzone_vmail-12-31-2023-5.log
+greenzone_vmail-12-31-2023-5.log
+6
+greenzone_vmail-12-31-2023-6.log
+greenzone_vmail-12-31-2023-6.log
+7
+greenzone_vmail-12-31-2023-7.log
+greenzone_vmail-12-31-2023-7.log
+************************** Date  Wed Jan  3 04:06:02 AM EAT 2024
+Current date and time Wed Jan  3 04:06:02 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-01-2024-1.log greenzone_vmail-01-01-2024-2.log greenzone_vmail-01-01-2024-3.log greenzone_vmail-01-01-2024-4.log greenzone_vmail-01-01-2024-5.log greenzone_vmail-01-01-2024-6.log greenzone_vmail-01-01-2024-7.log
+command = ls greenzone_vmail-01-01-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-01-2024
+greenzone_vmail-01-01-2024-1.log greenzone_vmail-01-01-2024-2.log greenzone_vmail-01-01-2024-3.log greenzone_vmail-01-01-2024-4.log greenzone_vmail-01-01-2024-5.log greenzone_vmail-01-01-2024-6.log greenzone_vmail-01-01-2024-7.log
+7
+1
+greenzone_vmail-01-01-2024-1.log
+greenzone_vmail-01-01-2024-1.log
+2
+greenzone_vmail-01-01-2024-2.log
+greenzone_vmail-01-01-2024-2.log
+3
+greenzone_vmail-01-01-2024-3.log
+greenzone_vmail-01-01-2024-3.log
+4
+greenzone_vmail-01-01-2024-4.log
+greenzone_vmail-01-01-2024-4.log
+5
+greenzone_vmail-01-01-2024-5.log
+greenzone_vmail-01-01-2024-5.log
+6
+greenzone_vmail-01-01-2024-6.log
+greenzone_vmail-01-01-2024-6.log
+7
+greenzone_vmail-01-01-2024-7.log
+greenzone_vmail-01-01-2024-7.log
+************************** Date  Thu Jan  4 04:06:01 AM EAT 2024
+Current date and time Thu Jan  4 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-02-2024-1.log greenzone_vmail-01-02-2024-2.log greenzone_vmail-01-02-2024-3.log greenzone_vmail-01-02-2024-4.log greenzone_vmail-01-02-2024-5.log greenzone_vmail-01-02-2024-6.log greenzone_vmail-01-02-2024-7.log
+command = ls greenzone_vmail-01-02-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-02-2024
+greenzone_vmail-01-02-2024-1.log greenzone_vmail-01-02-2024-2.log greenzone_vmail-01-02-2024-3.log greenzone_vmail-01-02-2024-4.log greenzone_vmail-01-02-2024-5.log greenzone_vmail-01-02-2024-6.log greenzone_vmail-01-02-2024-7.log
+7
+1
+greenzone_vmail-01-02-2024-1.log
+greenzone_vmail-01-02-2024-1.log
+2
+greenzone_vmail-01-02-2024-2.log
+greenzone_vmail-01-02-2024-2.log
+3
+greenzone_vmail-01-02-2024-3.log
+greenzone_vmail-01-02-2024-3.log
+4
+greenzone_vmail-01-02-2024-4.log
+greenzone_vmail-01-02-2024-4.log
+5
+greenzone_vmail-01-02-2024-5.log
+greenzone_vmail-01-02-2024-5.log
+6
+greenzone_vmail-01-02-2024-6.log
+greenzone_vmail-01-02-2024-6.log
+7
+greenzone_vmail-01-02-2024-7.log
+greenzone_vmail-01-02-2024-7.log
+************************** Date  Fri Jan  5 04:06:01 AM EAT 2024
+Current date and time Fri Jan  5 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-03-2024-1.log greenzone_vmail-01-03-2024-2.log greenzone_vmail-01-03-2024-3.log greenzone_vmail-01-03-2024-4.log greenzone_vmail-01-03-2024-5.log greenzone_vmail-01-03-2024-6.log greenzone_vmail-01-03-2024-7.log
+command = ls greenzone_vmail-01-03-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-03-2024
+greenzone_vmail-01-03-2024-1.log greenzone_vmail-01-03-2024-2.log greenzone_vmail-01-03-2024-3.log greenzone_vmail-01-03-2024-4.log greenzone_vmail-01-03-2024-5.log greenzone_vmail-01-03-2024-6.log greenzone_vmail-01-03-2024-7.log
+7
+1
+greenzone_vmail-01-03-2024-1.log
+greenzone_vmail-01-03-2024-1.log
+2
+greenzone_vmail-01-03-2024-2.log
+greenzone_vmail-01-03-2024-2.log
+3
+greenzone_vmail-01-03-2024-3.log
+greenzone_vmail-01-03-2024-3.log
+4
+greenzone_vmail-01-03-2024-4.log
+greenzone_vmail-01-03-2024-4.log
+5
+greenzone_vmail-01-03-2024-5.log
+greenzone_vmail-01-03-2024-5.log
+6
+greenzone_vmail-01-03-2024-6.log
+greenzone_vmail-01-03-2024-6.log
+7
+greenzone_vmail-01-03-2024-7.log
+greenzone_vmail-01-03-2024-7.log
+************************** Date  Sat Jan  6 04:06:01 AM EAT 2024
+Current date and time Sat Jan  6 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-04-2024-1.log greenzone_vmail-01-04-2024-2.log greenzone_vmail-01-04-2024-3.log greenzone_vmail-01-04-2024-4.log greenzone_vmail-01-04-2024-5.log greenzone_vmail-01-04-2024-6.log greenzone_vmail-01-04-2024-7.log
+command = ls greenzone_vmail-01-04-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-04-2024
+greenzone_vmail-01-04-2024-1.log greenzone_vmail-01-04-2024-2.log greenzone_vmail-01-04-2024-3.log greenzone_vmail-01-04-2024-4.log greenzone_vmail-01-04-2024-5.log greenzone_vmail-01-04-2024-6.log greenzone_vmail-01-04-2024-7.log
+7
+1
+greenzone_vmail-01-04-2024-1.log
+greenzone_vmail-01-04-2024-1.log
+2
+greenzone_vmail-01-04-2024-2.log
+greenzone_vmail-01-04-2024-2.log
+3
+greenzone_vmail-01-04-2024-3.log
+greenzone_vmail-01-04-2024-3.log
+4
+greenzone_vmail-01-04-2024-4.log
+greenzone_vmail-01-04-2024-4.log
+5
+greenzone_vmail-01-04-2024-5.log
+greenzone_vmail-01-04-2024-5.log
+6
+greenzone_vmail-01-04-2024-6.log
+greenzone_vmail-01-04-2024-6.log
+7
+greenzone_vmail-01-04-2024-7.log
+greenzone_vmail-01-04-2024-7.log
+************************** Date  Sun Jan  7 04:06:01 AM EAT 2024
+Current date and time Sun Jan  7 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-05-2024-1.log greenzone_vmail-01-05-2024-2.log greenzone_vmail-01-05-2024-3.log greenzone_vmail-01-05-2024-4.log greenzone_vmail-01-05-2024-5.log greenzone_vmail-01-05-2024-6.log greenzone_vmail-01-05-2024-7.log
+command = ls greenzone_vmail-01-05-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-05-2024
+greenzone_vmail-01-05-2024-1.log greenzone_vmail-01-05-2024-2.log greenzone_vmail-01-05-2024-3.log greenzone_vmail-01-05-2024-4.log greenzone_vmail-01-05-2024-5.log greenzone_vmail-01-05-2024-6.log greenzone_vmail-01-05-2024-7.log
+7
+1
+greenzone_vmail-01-05-2024-1.log
+greenzone_vmail-01-05-2024-1.log
+2
+greenzone_vmail-01-05-2024-2.log
+greenzone_vmail-01-05-2024-2.log
+3
+greenzone_vmail-01-05-2024-3.log
+greenzone_vmail-01-05-2024-3.log
+4
+greenzone_vmail-01-05-2024-4.log
+greenzone_vmail-01-05-2024-4.log
+5
+greenzone_vmail-01-05-2024-5.log
+greenzone_vmail-01-05-2024-5.log
+6
+greenzone_vmail-01-05-2024-6.log
+greenzone_vmail-01-05-2024-6.log
+7
+greenzone_vmail-01-05-2024-7.log
+greenzone_vmail-01-05-2024-7.log
+************************** Date  Mon Jan  8 04:06:01 AM EAT 2024
+Current date and time Mon Jan  8 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-06-2024-1.log greenzone_vmail-01-06-2024-2.log greenzone_vmail-01-06-2024-3.log greenzone_vmail-01-06-2024-4.log greenzone_vmail-01-06-2024-5.log greenzone_vmail-01-06-2024-6.log greenzone_vmail-01-06-2024-7.log
+command = ls greenzone_vmail-01-06-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-06-2024
+greenzone_vmail-01-06-2024-1.log greenzone_vmail-01-06-2024-2.log greenzone_vmail-01-06-2024-3.log greenzone_vmail-01-06-2024-4.log greenzone_vmail-01-06-2024-5.log greenzone_vmail-01-06-2024-6.log greenzone_vmail-01-06-2024-7.log
+7
+1
+greenzone_vmail-01-06-2024-1.log
+greenzone_vmail-01-06-2024-1.log
+2
+greenzone_vmail-01-06-2024-2.log
+greenzone_vmail-01-06-2024-2.log
+3
+greenzone_vmail-01-06-2024-3.log
+greenzone_vmail-01-06-2024-3.log
+4
+greenzone_vmail-01-06-2024-4.log
+greenzone_vmail-01-06-2024-4.log
+5
+greenzone_vmail-01-06-2024-5.log
+greenzone_vmail-01-06-2024-5.log
+6
+greenzone_vmail-01-06-2024-6.log
+greenzone_vmail-01-06-2024-6.log
+7
+greenzone_vmail-01-06-2024-7.log
+greenzone_vmail-01-06-2024-7.log
+************************** Date  Tue Jan  9 04:06:01 AM EAT 2024
+Current date and time Tue Jan  9 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-07-2024-1.log greenzone_vmail-01-07-2024-2.log greenzone_vmail-01-07-2024-3.log greenzone_vmail-01-07-2024-4.log greenzone_vmail-01-07-2024-5.log greenzone_vmail-01-07-2024-6.log greenzone_vmail-01-07-2024-7.log
+command = ls greenzone_vmail-01-07-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-07-2024
+greenzone_vmail-01-07-2024-1.log greenzone_vmail-01-07-2024-2.log greenzone_vmail-01-07-2024-3.log greenzone_vmail-01-07-2024-4.log greenzone_vmail-01-07-2024-5.log greenzone_vmail-01-07-2024-6.log greenzone_vmail-01-07-2024-7.log
+7
+1
+greenzone_vmail-01-07-2024-1.log
+greenzone_vmail-01-07-2024-1.log
+2
+greenzone_vmail-01-07-2024-2.log
+greenzone_vmail-01-07-2024-2.log
+3
+greenzone_vmail-01-07-2024-3.log
+greenzone_vmail-01-07-2024-3.log
+4
+greenzone_vmail-01-07-2024-4.log
+greenzone_vmail-01-07-2024-4.log
+5
+greenzone_vmail-01-07-2024-5.log
+greenzone_vmail-01-07-2024-5.log
+6
+greenzone_vmail-01-07-2024-6.log
+greenzone_vmail-01-07-2024-6.log
+7
+greenzone_vmail-01-07-2024-7.log
+greenzone_vmail-01-07-2024-7.log
+************************** Date  Wed Jan 10 04:06:02 AM EAT 2024
+Current date and time Wed Jan 10 04:06:02 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-08-2024-1.log greenzone_vmail-01-08-2024-2.log greenzone_vmail-01-08-2024-3.log greenzone_vmail-01-08-2024-4.log greenzone_vmail-01-08-2024-5.log greenzone_vmail-01-08-2024-6.log greenzone_vmail-01-08-2024-7.log
+command = ls greenzone_vmail-01-08-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-08-2024
+greenzone_vmail-01-08-2024-1.log greenzone_vmail-01-08-2024-2.log greenzone_vmail-01-08-2024-3.log greenzone_vmail-01-08-2024-4.log greenzone_vmail-01-08-2024-5.log greenzone_vmail-01-08-2024-6.log greenzone_vmail-01-08-2024-7.log
+7
+1
+greenzone_vmail-01-08-2024-1.log
+greenzone_vmail-01-08-2024-1.log
+2
+greenzone_vmail-01-08-2024-2.log
+greenzone_vmail-01-08-2024-2.log
+3
+greenzone_vmail-01-08-2024-3.log
+greenzone_vmail-01-08-2024-3.log
+4
+greenzone_vmail-01-08-2024-4.log
+greenzone_vmail-01-08-2024-4.log
+5
+greenzone_vmail-01-08-2024-5.log
+greenzone_vmail-01-08-2024-5.log
+6
+greenzone_vmail-01-08-2024-6.log
+greenzone_vmail-01-08-2024-6.log
+7
+greenzone_vmail-01-08-2024-7.log
+greenzone_vmail-01-08-2024-7.log
+************************** Date  Thu Jan 11 04:06:01 AM EAT 2024
+Current date and time Thu Jan 11 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-09-2024-1.log greenzone_vmail-01-09-2024-2.log greenzone_vmail-01-09-2024-3.log greenzone_vmail-01-09-2024-4.log greenzone_vmail-01-09-2024-5.log greenzone_vmail-01-09-2024-6.log greenzone_vmail-01-09-2024-7.log
+command = ls greenzone_vmail-01-09-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-09-2024
+greenzone_vmail-01-09-2024-1.log greenzone_vmail-01-09-2024-2.log greenzone_vmail-01-09-2024-3.log greenzone_vmail-01-09-2024-4.log greenzone_vmail-01-09-2024-5.log greenzone_vmail-01-09-2024-6.log greenzone_vmail-01-09-2024-7.log
+7
+1
+greenzone_vmail-01-09-2024-1.log
+greenzone_vmail-01-09-2024-1.log
+2
+greenzone_vmail-01-09-2024-2.log
+greenzone_vmail-01-09-2024-2.log
+3
+greenzone_vmail-01-09-2024-3.log
+greenzone_vmail-01-09-2024-3.log
+4
+greenzone_vmail-01-09-2024-4.log
+greenzone_vmail-01-09-2024-4.log
+5
+greenzone_vmail-01-09-2024-5.log
+greenzone_vmail-01-09-2024-5.log
+6
+greenzone_vmail-01-09-2024-6.log
+greenzone_vmail-01-09-2024-6.log
+7
+greenzone_vmail-01-09-2024-7.log
+greenzone_vmail-01-09-2024-7.log
+************************** Date  Fri Jan 12 04:06:01 AM EAT 2024
+Current date and time Fri Jan 12 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-10-2024-1.log greenzone_vmail-01-10-2024-2.log greenzone_vmail-01-10-2024-3.log greenzone_vmail-01-10-2024-4.log greenzone_vmail-01-10-2024-5.log greenzone_vmail-01-10-2024-6.log greenzone_vmail-01-10-2024-7.log
+command = ls greenzone_vmail-01-10-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-10-2024
+greenzone_vmail-01-10-2024-1.log greenzone_vmail-01-10-2024-2.log greenzone_vmail-01-10-2024-3.log greenzone_vmail-01-10-2024-4.log greenzone_vmail-01-10-2024-5.log greenzone_vmail-01-10-2024-6.log greenzone_vmail-01-10-2024-7.log
+7
+1
+greenzone_vmail-01-10-2024-1.log
+greenzone_vmail-01-10-2024-1.log
+2
+greenzone_vmail-01-10-2024-2.log
+greenzone_vmail-01-10-2024-2.log
+3
+greenzone_vmail-01-10-2024-3.log
+greenzone_vmail-01-10-2024-3.log
+4
+greenzone_vmail-01-10-2024-4.log
+greenzone_vmail-01-10-2024-4.log
+5
+greenzone_vmail-01-10-2024-5.log
+greenzone_vmail-01-10-2024-5.log
+6
+greenzone_vmail-01-10-2024-6.log
+greenzone_vmail-01-10-2024-6.log
+7
+greenzone_vmail-01-10-2024-7.log
+greenzone_vmail-01-10-2024-7.log
+************************** Date  Sat Jan 13 04:06:01 AM EAT 2024
+Current date and time Sat Jan 13 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-11-2024-1.log greenzone_vmail-01-11-2024-2.log greenzone_vmail-01-11-2024-3.log greenzone_vmail-01-11-2024-4.log greenzone_vmail-01-11-2024-5.log greenzone_vmail-01-11-2024-6.log greenzone_vmail-01-11-2024-7.log
+command = ls greenzone_vmail-01-11-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-11-2024
+greenzone_vmail-01-11-2024-1.log greenzone_vmail-01-11-2024-2.log greenzone_vmail-01-11-2024-3.log greenzone_vmail-01-11-2024-4.log greenzone_vmail-01-11-2024-5.log greenzone_vmail-01-11-2024-6.log greenzone_vmail-01-11-2024-7.log
+7
+1
+greenzone_vmail-01-11-2024-1.log
+greenzone_vmail-01-11-2024-1.log
+2
+greenzone_vmail-01-11-2024-2.log
+greenzone_vmail-01-11-2024-2.log
+3
+greenzone_vmail-01-11-2024-3.log
+greenzone_vmail-01-11-2024-3.log
+4
+greenzone_vmail-01-11-2024-4.log
+greenzone_vmail-01-11-2024-4.log
+5
+greenzone_vmail-01-11-2024-5.log
+greenzone_vmail-01-11-2024-5.log
+6
+greenzone_vmail-01-11-2024-6.log
+greenzone_vmail-01-11-2024-6.log
+7
+greenzone_vmail-01-11-2024-7.log
+greenzone_vmail-01-11-2024-7.log
+************************** Date  Sun Jan 14 04:06:02 AM EAT 2024
+Current date and time Sun Jan 14 04:06:02 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-12-2024-1.log greenzone_vmail-01-12-2024-2.log greenzone_vmail-01-12-2024-3.log greenzone_vmail-01-12-2024-4.log greenzone_vmail-01-12-2024-5.log greenzone_vmail-01-12-2024-6.log greenzone_vmail-01-12-2024-7.log
+command = ls greenzone_vmail-01-12-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-12-2024
+greenzone_vmail-01-12-2024-1.log greenzone_vmail-01-12-2024-2.log greenzone_vmail-01-12-2024-3.log greenzone_vmail-01-12-2024-4.log greenzone_vmail-01-12-2024-5.log greenzone_vmail-01-12-2024-6.log greenzone_vmail-01-12-2024-7.log
+7
+1
+greenzone_vmail-01-12-2024-1.log
+greenzone_vmail-01-12-2024-1.log
+2
+greenzone_vmail-01-12-2024-2.log
+greenzone_vmail-01-12-2024-2.log
+3
+greenzone_vmail-01-12-2024-3.log
+greenzone_vmail-01-12-2024-3.log
+4
+greenzone_vmail-01-12-2024-4.log
+greenzone_vmail-01-12-2024-4.log
+5
+greenzone_vmail-01-12-2024-5.log
+greenzone_vmail-01-12-2024-5.log
+6
+greenzone_vmail-01-12-2024-6.log
+greenzone_vmail-01-12-2024-6.log
+7
+greenzone_vmail-01-12-2024-7.log
+greenzone_vmail-01-12-2024-7.log
+************************** Date  Mon Jan 15 04:06:01 AM EAT 2024
+Current date and time Mon Jan 15 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-13-2024-1.log greenzone_vmail-01-13-2024-2.log greenzone_vmail-01-13-2024-3.log greenzone_vmail-01-13-2024-4.log greenzone_vmail-01-13-2024-5.log greenzone_vmail-01-13-2024-6.log greenzone_vmail-01-13-2024-7.log
+command = ls greenzone_vmail-01-13-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-13-2024
+greenzone_vmail-01-13-2024-1.log greenzone_vmail-01-13-2024-2.log greenzone_vmail-01-13-2024-3.log greenzone_vmail-01-13-2024-4.log greenzone_vmail-01-13-2024-5.log greenzone_vmail-01-13-2024-6.log greenzone_vmail-01-13-2024-7.log
+7
+1
+greenzone_vmail-01-13-2024-1.log
+greenzone_vmail-01-13-2024-1.log
+2
+greenzone_vmail-01-13-2024-2.log
+greenzone_vmail-01-13-2024-2.log
+3
+greenzone_vmail-01-13-2024-3.log
+greenzone_vmail-01-13-2024-3.log
+4
+greenzone_vmail-01-13-2024-4.log
+greenzone_vmail-01-13-2024-4.log
+5
+greenzone_vmail-01-13-2024-5.log
+greenzone_vmail-01-13-2024-5.log
+6
+greenzone_vmail-01-13-2024-6.log
+greenzone_vmail-01-13-2024-6.log
+7
+greenzone_vmail-01-13-2024-7.log
+greenzone_vmail-01-13-2024-7.log
+************************** Date  Tue Jan 16 04:06:01 AM EAT 2024
+Current date and time Tue Jan 16 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-14-2024-1.log greenzone_vmail-01-14-2024-2.log greenzone_vmail-01-14-2024-3.log greenzone_vmail-01-14-2024-4.log greenzone_vmail-01-14-2024-5.log greenzone_vmail-01-14-2024-6.log greenzone_vmail-01-14-2024-7.log
+command = ls greenzone_vmail-01-14-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-14-2024
+greenzone_vmail-01-14-2024-1.log greenzone_vmail-01-14-2024-2.log greenzone_vmail-01-14-2024-3.log greenzone_vmail-01-14-2024-4.log greenzone_vmail-01-14-2024-5.log greenzone_vmail-01-14-2024-6.log greenzone_vmail-01-14-2024-7.log
+7
+1
+greenzone_vmail-01-14-2024-1.log
+greenzone_vmail-01-14-2024-1.log
+2
+greenzone_vmail-01-14-2024-2.log
+greenzone_vmail-01-14-2024-2.log
+3
+greenzone_vmail-01-14-2024-3.log
+greenzone_vmail-01-14-2024-3.log
+4
+greenzone_vmail-01-14-2024-4.log
+greenzone_vmail-01-14-2024-4.log
+5
+greenzone_vmail-01-14-2024-5.log
+greenzone_vmail-01-14-2024-5.log
+6
+greenzone_vmail-01-14-2024-6.log
+greenzone_vmail-01-14-2024-6.log
+7
+greenzone_vmail-01-14-2024-7.log
+greenzone_vmail-01-14-2024-7.log
+************************** Date  Wed Jan 17 04:06:01 AM EAT 2024
+Current date and time Wed Jan 17 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-15-2024-1.log greenzone_vmail-01-15-2024-2.log greenzone_vmail-01-15-2024-3.log greenzone_vmail-01-15-2024-4.log greenzone_vmail-01-15-2024-5.log greenzone_vmail-01-15-2024-6.log greenzone_vmail-01-15-2024-7.log
+command = ls greenzone_vmail-01-15-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-15-2024
+greenzone_vmail-01-15-2024-1.log greenzone_vmail-01-15-2024-2.log greenzone_vmail-01-15-2024-3.log greenzone_vmail-01-15-2024-4.log greenzone_vmail-01-15-2024-5.log greenzone_vmail-01-15-2024-6.log greenzone_vmail-01-15-2024-7.log
+7
+1
+greenzone_vmail-01-15-2024-1.log
+greenzone_vmail-01-15-2024-1.log
+2
+greenzone_vmail-01-15-2024-2.log
+greenzone_vmail-01-15-2024-2.log
+3
+greenzone_vmail-01-15-2024-3.log
+greenzone_vmail-01-15-2024-3.log
+4
+greenzone_vmail-01-15-2024-4.log
+greenzone_vmail-01-15-2024-4.log
+5
+greenzone_vmail-01-15-2024-5.log
+greenzone_vmail-01-15-2024-5.log
+6
+greenzone_vmail-01-15-2024-6.log
+greenzone_vmail-01-15-2024-6.log
+7
+greenzone_vmail-01-15-2024-7.log
+greenzone_vmail-01-15-2024-7.log
+************************** Date  Thu Jan 18 04:06:01 AM EAT 2024
+Current date and time Thu Jan 18 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-16-2024-1.log greenzone_vmail-01-16-2024-2.log greenzone_vmail-01-16-2024-3.log greenzone_vmail-01-16-2024-4.log greenzone_vmail-01-16-2024-5.log greenzone_vmail-01-16-2024-6.log greenzone_vmail-01-16-2024-7.log
+command = ls greenzone_vmail-01-16-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-16-2024
+greenzone_vmail-01-16-2024-1.log greenzone_vmail-01-16-2024-2.log greenzone_vmail-01-16-2024-3.log greenzone_vmail-01-16-2024-4.log greenzone_vmail-01-16-2024-5.log greenzone_vmail-01-16-2024-6.log greenzone_vmail-01-16-2024-7.log
+7
+1
+greenzone_vmail-01-16-2024-1.log
+greenzone_vmail-01-16-2024-1.log
+2
+greenzone_vmail-01-16-2024-2.log
+greenzone_vmail-01-16-2024-2.log
+3
+greenzone_vmail-01-16-2024-3.log
+greenzone_vmail-01-16-2024-3.log
+4
+greenzone_vmail-01-16-2024-4.log
+greenzone_vmail-01-16-2024-4.log
+5
+greenzone_vmail-01-16-2024-5.log
+greenzone_vmail-01-16-2024-5.log
+6
+greenzone_vmail-01-16-2024-6.log
+greenzone_vmail-01-16-2024-6.log
+7
+greenzone_vmail-01-16-2024-7.log
+greenzone_vmail-01-16-2024-7.log
+************************** Date  Fri Jan 19 04:06:01 AM EAT 2024
+Current date and time Fri Jan 19 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-17-2024-1.log greenzone_vmail-01-17-2024-2.log greenzone_vmail-01-17-2024-3.log greenzone_vmail-01-17-2024-4.log greenzone_vmail-01-17-2024-5.log greenzone_vmail-01-17-2024-6.log greenzone_vmail-01-17-2024-7.log
+command = ls greenzone_vmail-01-17-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-17-2024
+greenzone_vmail-01-17-2024-1.log greenzone_vmail-01-17-2024-2.log greenzone_vmail-01-17-2024-3.log greenzone_vmail-01-17-2024-4.log greenzone_vmail-01-17-2024-5.log greenzone_vmail-01-17-2024-6.log greenzone_vmail-01-17-2024-7.log
+7
+1
+greenzone_vmail-01-17-2024-1.log
+greenzone_vmail-01-17-2024-1.log
+2
+greenzone_vmail-01-17-2024-2.log
+greenzone_vmail-01-17-2024-2.log
+3
+greenzone_vmail-01-17-2024-3.log
+greenzone_vmail-01-17-2024-3.log
+4
+greenzone_vmail-01-17-2024-4.log
+greenzone_vmail-01-17-2024-4.log
+5
+greenzone_vmail-01-17-2024-5.log
+greenzone_vmail-01-17-2024-5.log
+6
+greenzone_vmail-01-17-2024-6.log
+greenzone_vmail-01-17-2024-6.log
+7
+greenzone_vmail-01-17-2024-7.log
+greenzone_vmail-01-17-2024-7.log
+************************** Date  Sat Jan 20 04:06:01 AM EAT 2024
+Current date and time Sat Jan 20 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-18-2024-1.log greenzone_vmail-01-18-2024-2.log greenzone_vmail-01-18-2024-3.log greenzone_vmail-01-18-2024-4.log greenzone_vmail-01-18-2024-5.log greenzone_vmail-01-18-2024-6.log greenzone_vmail-01-18-2024-7.log
+command = ls greenzone_vmail-01-18-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-18-2024
+greenzone_vmail-01-18-2024-1.log greenzone_vmail-01-18-2024-2.log greenzone_vmail-01-18-2024-3.log greenzone_vmail-01-18-2024-4.log greenzone_vmail-01-18-2024-5.log greenzone_vmail-01-18-2024-6.log greenzone_vmail-01-18-2024-7.log
+7
+1
+greenzone_vmail-01-18-2024-1.log
+greenzone_vmail-01-18-2024-1.log
+2
+greenzone_vmail-01-18-2024-2.log
+greenzone_vmail-01-18-2024-2.log
+3
+greenzone_vmail-01-18-2024-3.log
+greenzone_vmail-01-18-2024-3.log
+4
+greenzone_vmail-01-18-2024-4.log
+greenzone_vmail-01-18-2024-4.log
+5
+greenzone_vmail-01-18-2024-5.log
+greenzone_vmail-01-18-2024-5.log
+6
+greenzone_vmail-01-18-2024-6.log
+greenzone_vmail-01-18-2024-6.log
+7
+greenzone_vmail-01-18-2024-7.log
+greenzone_vmail-01-18-2024-7.log
+************************** Date  Sun Jan 21 04:06:01 AM EAT 2024
+Current date and time Sun Jan 21 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-19-2024-1.log greenzone_vmail-01-19-2024-2.log greenzone_vmail-01-19-2024-3.log greenzone_vmail-01-19-2024-4.log greenzone_vmail-01-19-2024-5.log greenzone_vmail-01-19-2024-6.log greenzone_vmail-01-19-2024-7.log
+command = ls greenzone_vmail-01-19-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-19-2024
+greenzone_vmail-01-19-2024-1.log greenzone_vmail-01-19-2024-2.log greenzone_vmail-01-19-2024-3.log greenzone_vmail-01-19-2024-4.log greenzone_vmail-01-19-2024-5.log greenzone_vmail-01-19-2024-6.log greenzone_vmail-01-19-2024-7.log
+7
+1
+greenzone_vmail-01-19-2024-1.log
+greenzone_vmail-01-19-2024-1.log
+2
+greenzone_vmail-01-19-2024-2.log
+greenzone_vmail-01-19-2024-2.log
+3
+greenzone_vmail-01-19-2024-3.log
+greenzone_vmail-01-19-2024-3.log
+4
+greenzone_vmail-01-19-2024-4.log
+greenzone_vmail-01-19-2024-4.log
+5
+greenzone_vmail-01-19-2024-5.log
+greenzone_vmail-01-19-2024-5.log
+6
+greenzone_vmail-01-19-2024-6.log
+greenzone_vmail-01-19-2024-6.log
+7
+greenzone_vmail-01-19-2024-7.log
+greenzone_vmail-01-19-2024-7.log
+************************** Date  Mon Jan 22 04:06:01 AM EAT 2024
+Current date and time Mon Jan 22 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-20-2024-1.log greenzone_vmail-01-20-2024-2.log greenzone_vmail-01-20-2024-3.log greenzone_vmail-01-20-2024-4.log greenzone_vmail-01-20-2024-5.log greenzone_vmail-01-20-2024-6.log greenzone_vmail-01-20-2024-7.log
+command = ls greenzone_vmail-01-20-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-20-2024
+greenzone_vmail-01-20-2024-1.log greenzone_vmail-01-20-2024-2.log greenzone_vmail-01-20-2024-3.log greenzone_vmail-01-20-2024-4.log greenzone_vmail-01-20-2024-5.log greenzone_vmail-01-20-2024-6.log greenzone_vmail-01-20-2024-7.log
+7
+1
+greenzone_vmail-01-20-2024-1.log
+greenzone_vmail-01-20-2024-1.log
+2
+greenzone_vmail-01-20-2024-2.log
+greenzone_vmail-01-20-2024-2.log
+3
+greenzone_vmail-01-20-2024-3.log
+greenzone_vmail-01-20-2024-3.log
+4
+greenzone_vmail-01-20-2024-4.log
+greenzone_vmail-01-20-2024-4.log
+5
+greenzone_vmail-01-20-2024-5.log
+greenzone_vmail-01-20-2024-5.log
+6
+greenzone_vmail-01-20-2024-6.log
+greenzone_vmail-01-20-2024-6.log
+7
+greenzone_vmail-01-20-2024-7.log
+greenzone_vmail-01-20-2024-7.log
+************************** Date  Tue Jan 23 04:06:01 AM EAT 2024
+Current date and time Tue Jan 23 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-21-2024-1.log greenzone_vmail-01-21-2024-2.log greenzone_vmail-01-21-2024-3.log greenzone_vmail-01-21-2024-4.log greenzone_vmail-01-21-2024-5.log greenzone_vmail-01-21-2024-6.log greenzone_vmail-01-21-2024-7.log
+command = ls greenzone_vmail-01-21-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-21-2024
+greenzone_vmail-01-21-2024-1.log greenzone_vmail-01-21-2024-2.log greenzone_vmail-01-21-2024-3.log greenzone_vmail-01-21-2024-4.log greenzone_vmail-01-21-2024-5.log greenzone_vmail-01-21-2024-6.log greenzone_vmail-01-21-2024-7.log
+7
+1
+greenzone_vmail-01-21-2024-1.log
+greenzone_vmail-01-21-2024-1.log
+2
+greenzone_vmail-01-21-2024-2.log
+greenzone_vmail-01-21-2024-2.log
+3
+greenzone_vmail-01-21-2024-3.log
+greenzone_vmail-01-21-2024-3.log
+4
+greenzone_vmail-01-21-2024-4.log
+greenzone_vmail-01-21-2024-4.log
+5
+greenzone_vmail-01-21-2024-5.log
+greenzone_vmail-01-21-2024-5.log
+6
+greenzone_vmail-01-21-2024-6.log
+greenzone_vmail-01-21-2024-6.log
+7
+greenzone_vmail-01-21-2024-7.log
+greenzone_vmail-01-21-2024-7.log
+************************** Date  Wed Jan 24 04:06:01 AM EAT 2024
+Current date and time Wed Jan 24 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-22-2024-1.log greenzone_vmail-01-22-2024-2.log greenzone_vmail-01-22-2024-3.log greenzone_vmail-01-22-2024-4.log greenzone_vmail-01-22-2024-5.log greenzone_vmail-01-22-2024-6.log greenzone_vmail-01-22-2024-7.log
+command = ls greenzone_vmail-01-22-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-22-2024
+greenzone_vmail-01-22-2024-1.log greenzone_vmail-01-22-2024-2.log greenzone_vmail-01-22-2024-3.log greenzone_vmail-01-22-2024-4.log greenzone_vmail-01-22-2024-5.log greenzone_vmail-01-22-2024-6.log greenzone_vmail-01-22-2024-7.log
+7
+1
+greenzone_vmail-01-22-2024-1.log
+greenzone_vmail-01-22-2024-1.log
+2
+greenzone_vmail-01-22-2024-2.log
+greenzone_vmail-01-22-2024-2.log
+3
+greenzone_vmail-01-22-2024-3.log
+greenzone_vmail-01-22-2024-3.log
+4
+greenzone_vmail-01-22-2024-4.log
+greenzone_vmail-01-22-2024-4.log
+5
+greenzone_vmail-01-22-2024-5.log
+greenzone_vmail-01-22-2024-5.log
+6
+greenzone_vmail-01-22-2024-6.log
+greenzone_vmail-01-22-2024-6.log
+7
+greenzone_vmail-01-22-2024-7.log
+greenzone_vmail-01-22-2024-7.log
+************************** Date  Thu Jan 25 04:06:01 AM EAT 2024
+Current date and time Thu Jan 25 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-23-2024-1.log greenzone_vmail-01-23-2024-2.log greenzone_vmail-01-23-2024-3.log greenzone_vmail-01-23-2024-4.log greenzone_vmail-01-23-2024-5.log greenzone_vmail-01-23-2024-6.log greenzone_vmail-01-23-2024-7.log
+command = ls greenzone_vmail-01-23-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-23-2024
+greenzone_vmail-01-23-2024-1.log greenzone_vmail-01-23-2024-2.log greenzone_vmail-01-23-2024-3.log greenzone_vmail-01-23-2024-4.log greenzone_vmail-01-23-2024-5.log greenzone_vmail-01-23-2024-6.log greenzone_vmail-01-23-2024-7.log
+7
+1
+greenzone_vmail-01-23-2024-1.log
+greenzone_vmail-01-23-2024-1.log
+2
+greenzone_vmail-01-23-2024-2.log
+greenzone_vmail-01-23-2024-2.log
+3
+greenzone_vmail-01-23-2024-3.log
+greenzone_vmail-01-23-2024-3.log
+4
+greenzone_vmail-01-23-2024-4.log
+greenzone_vmail-01-23-2024-4.log
+5
+greenzone_vmail-01-23-2024-5.log
+greenzone_vmail-01-23-2024-5.log
+6
+greenzone_vmail-01-23-2024-6.log
+greenzone_vmail-01-23-2024-6.log
+7
+greenzone_vmail-01-23-2024-7.log
+greenzone_vmail-01-23-2024-7.log
+************************** Date  Fri Jan 26 04:06:01 AM EAT 2024
+Current date and time Fri Jan 26 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-24-2024-1.log greenzone_vmail-01-24-2024-2.log greenzone_vmail-01-24-2024-3.log greenzone_vmail-01-24-2024-4.log greenzone_vmail-01-24-2024-5.log greenzone_vmail-01-24-2024-6.log greenzone_vmail-01-24-2024-7.log
+command = ls greenzone_vmail-01-24-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-24-2024
+greenzone_vmail-01-24-2024-1.log greenzone_vmail-01-24-2024-2.log greenzone_vmail-01-24-2024-3.log greenzone_vmail-01-24-2024-4.log greenzone_vmail-01-24-2024-5.log greenzone_vmail-01-24-2024-6.log greenzone_vmail-01-24-2024-7.log
+7
+1
+greenzone_vmail-01-24-2024-1.log
+greenzone_vmail-01-24-2024-1.log
+2
+greenzone_vmail-01-24-2024-2.log
+greenzone_vmail-01-24-2024-2.log
+3
+greenzone_vmail-01-24-2024-3.log
+greenzone_vmail-01-24-2024-3.log
+4
+greenzone_vmail-01-24-2024-4.log
+greenzone_vmail-01-24-2024-4.log
+5
+greenzone_vmail-01-24-2024-5.log
+greenzone_vmail-01-24-2024-5.log
+6
+greenzone_vmail-01-24-2024-6.log
+greenzone_vmail-01-24-2024-6.log
+7
+greenzone_vmail-01-24-2024-7.log
+greenzone_vmail-01-24-2024-7.log
+************************** Date  Sat Jan 27 04:06:01 AM EAT 2024
+Current date and time Sat Jan 27 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-25-2024-1.log greenzone_vmail-01-25-2024-2.log greenzone_vmail-01-25-2024-3.log greenzone_vmail-01-25-2024-4.log greenzone_vmail-01-25-2024-5.log greenzone_vmail-01-25-2024-6.log greenzone_vmail-01-25-2024-7.log
+command = ls greenzone_vmail-01-25-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-25-2024
+greenzone_vmail-01-25-2024-1.log greenzone_vmail-01-25-2024-2.log greenzone_vmail-01-25-2024-3.log greenzone_vmail-01-25-2024-4.log greenzone_vmail-01-25-2024-5.log greenzone_vmail-01-25-2024-6.log greenzone_vmail-01-25-2024-7.log
+7
+1
+greenzone_vmail-01-25-2024-1.log
+greenzone_vmail-01-25-2024-1.log
+2
+greenzone_vmail-01-25-2024-2.log
+greenzone_vmail-01-25-2024-2.log
+3
+greenzone_vmail-01-25-2024-3.log
+greenzone_vmail-01-25-2024-3.log
+4
+greenzone_vmail-01-25-2024-4.log
+greenzone_vmail-01-25-2024-4.log
+5
+greenzone_vmail-01-25-2024-5.log
+greenzone_vmail-01-25-2024-5.log
+6
+greenzone_vmail-01-25-2024-6.log
+greenzone_vmail-01-25-2024-6.log
+7
+greenzone_vmail-01-25-2024-7.log
+greenzone_vmail-01-25-2024-7.log
+************************** Date  Sun Jan 28 04:06:01 AM EAT 2024
+Current date and time Sun Jan 28 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-26-2024-1.log greenzone_vmail-01-26-2024-2.log greenzone_vmail-01-26-2024-3.log greenzone_vmail-01-26-2024-4.log greenzone_vmail-01-26-2024-5.log greenzone_vmail-01-26-2024-6.log greenzone_vmail-01-26-2024-7.log
+command = ls greenzone_vmail-01-26-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-26-2024
+greenzone_vmail-01-26-2024-1.log greenzone_vmail-01-26-2024-2.log greenzone_vmail-01-26-2024-3.log greenzone_vmail-01-26-2024-4.log greenzone_vmail-01-26-2024-5.log greenzone_vmail-01-26-2024-6.log greenzone_vmail-01-26-2024-7.log
+7
+1
+greenzone_vmail-01-26-2024-1.log
+greenzone_vmail-01-26-2024-1.log
+2
+greenzone_vmail-01-26-2024-2.log
+greenzone_vmail-01-26-2024-2.log
+3
+greenzone_vmail-01-26-2024-3.log
+greenzone_vmail-01-26-2024-3.log
+4
+greenzone_vmail-01-26-2024-4.log
+greenzone_vmail-01-26-2024-4.log
+5
+greenzone_vmail-01-26-2024-5.log
+greenzone_vmail-01-26-2024-5.log
+6
+greenzone_vmail-01-26-2024-6.log
+greenzone_vmail-01-26-2024-6.log
+7
+greenzone_vmail-01-26-2024-7.log
+greenzone_vmail-01-26-2024-7.log
+************************** Date  Mon Jan 29 04:06:01 AM EAT 2024
+Current date and time Mon Jan 29 04:06:01 AM EAT 2024
+'8 days ago'
+greenzone_vmail-01-27-2024-1.log greenzone_vmail-01-27-2024-2.log greenzone_vmail-01-27-2024-3.log greenzone_vmail-01-27-2024-4.log greenzone_vmail-01-27-2024-5.log greenzone_vmail-01-27-2024-6.log greenzone_vmail-01-27-2024-7.log
+command = ls greenzone_vmail-01-27-2024* |wc -l
+/home/rbt/voicemail/logs
+result=7
+Current date in dd/mm/yyyy format 01-27-2024
+greenzone_vmail-01-27-2024-1.log greenzone_vmail-01-27-2024-2.log greenzone_vmail-01-27-2024-3.log greenzone_vmail-01-27-2024-4.log greenzone_vmail-01-27-2024-5.log greenzone_vmail-01-27-2024-6.log greenzone_vmail-01-27-2024-7.log
+7
+1
+greenzone_vmail-01-27-2024-1.log
+greenzone_vmail-01-27-2024-1.log
+2
+greenzone_vmail-01-27-2024-2.log
+greenzone_vmail-01-27-2024-2.log
+3
+greenzone_vmail-01-27-2024-3.log
+greenzone_vmail-01-27-2024-3.log
+4
+greenzone_vmail-01-27-2024-4.log
+greenzone_vmail-01-27-2024-4.log
+5
+greenzone_vmail-01-27-2024-5.log
+greenzone_vmail-01-27-2024-5.log
+6
+greenzone_vmail-01-27-2024-6.log
+greenzone_vmail-01-27-2024-6.log
+7
+greenzone_vmail-01-27-2024-7.log
+greenzone_vmail-01-27-2024-7.log

@@ -1,0 +1,108 @@
+#!/usr/bin/env php
+<?php
+//      License for all code of this FreePBX module can be found in the license file inside the module directory
+//        Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking deletetone.agi status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+//$cidnum = '634097962';
+$cidname = $AGI->request['agi_calleridname'];
+log_write( "5", "Opening" );
+$optid = get_var($AGI,"OPT");
+/*
+if("$optid" == "3")
+$tonetype = "2" ;
+if("$optid" == "4")
+$tonetype = "3" ;
+
+if("$optid" == "5")
+$tonetype = "4" ;
+if("$optid" == "6")
+$tonetype = "" ;
+$toneid="1";
+$tonename="special";
+*/
+$productid = get_var($AGI,"subcategoryId");
+//$toneid =  "01011062100560";
+//$tonename =  "Dua5_Ram";
+$langid =  "en";
+//$gift_number = "634097962";
+log_write("5", "subcategoryId = ".$productid );
+//$productid =.$subcategoryId;
+//log_write("5", "productid=".$productid);
+
+
+if("$productid"  == "PRAYERRBT")
+{
+$tonetype = "4" ;
+$tonename = "PRAYERRBT" ;
+$toneid = "4" ;
+}
+if("$productid"  == "Name_Tone")
+{
+$tonetype = "3" ;
+$tonename = "Name_Tone" ;
+$toneid = "3" ;
+}
+if("$productid"  == "album")
+{
+$tonetype = "2" ;
+$tonename = "SHUFFLE" ;
+$toneid = "2" ;
+}
+
+
+$deactivation_response = tone_delete_by_tonetype($cidnum,$toneid,$tonename,$tonetype,$langid);
+
+// $deactivation_response = tonedelete('deactivation',$cidnum);
+log_write("5", $deactivation_response );
+$data = json_decode($deactivation_response, true);
+$deactivation_status = $data['result'];
+
+$AGI->set_variable('deactivation_status',$deactivation_status);
+
+debug("Deactivation Status = ".$deactivation_status, 1);
+
+log_write("5", "Complete execution" );
+
+
+
+function debug($string, $level=3) {
+        global $AGI;
+        $AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+                                fwrite($AGI->fp, date("Y-m-d H:i:s") . " ["
+                                . $AGI->request['agi_callerid']
+                                . "] (" . $AGI->request['agi_channel']
+                                . ") (" . $AGI->request['agi_request']
+                                . ") " . $message . "\n");
+        }
+
+?>

@@ -1,0 +1,131 @@
+#!/usr/bin/env php
+<?php
+//      License for all code of this FreePBX module can be found in the license file inside the module directory
+//        Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking category.agi status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+$DID =  get_var($AGI,"DID");
+$cidnumber =  get_var($AGI,"DID_2");
+
+
+$cidname = $AGI->request['agi_calleridname'];
+log_write( "5", "Opening 835......" );
+
+$aparty = $cidnumber;
+$bparty = $cidnum;//$DID;
+
+debug("aparty = ".$aparty, 1);
+debug("bparty = ".$bparty, 1);
+
+log_write("5", "final aparty = ".$aparty );
+log_write("5", "final bparty = ".$bparty );
+
+
+//$callback_response = callback($sessionId,$aparty,$bparty,$errorCode,$message,$billsec,$startTime,$endtime,$dtmfInput);
+//log_write("5", $callback_response );
+
+$sample_response = seven68($bparty,$aparty);
+
+debug("sample_response = ".$sample_response, 1);
+log_write("5", $sample_response );
+
+$audiofile= array();
+$sample_response = substr($sample_response,0,-1);
+
+debug("new_sample_response = ".$sample_response, 1);
+$fruits_ar = explode(';', $sample_response);
+$as = json_encode($fruits_ar);
+$arr = json_decode($as, true);
+
+//debug("encode json = ".$ar, 1);
+//debug("decode json = ".$arr, 1);
+//$AGI->hangup();
+
+
+//$AGI->hangup();
+
+$i=1;
+$path="/home/core/cms/upload-dir/";
+$toneid= "04031062100068";
+
+foreach($arr as $key=>$value){
+
+        //debug("value => ".$value, 1);
+        $CRBT = explode('=', $value);
+        $toneId = substr($CRBT[1],1,-1);
+        //debug("Key value => ".$CRBT[0]." value=> ".$toneId, 1);
+        if($CRBT[0] == "RBT_RES.toneId" && strlen($toneId) <5)
+        {
+        $f1 = substr($toneid,0,2);
+        $f2 = substr($toneid,2,2);
+        $f3 = substr($toneid,4,3);
+        //debug("value => sorry", 1);
+        $intro = $path.$f1."/".$f2."/".$f3."/".$toneid."/".$toneid."_audio";
+        debug("value => $intro", 1);
+        $AGI->Answer();
+        $return = $AGI->stream_file($intro);
+        break;
+        }
+
+        if($CRBT[0] == "RBT_RES.toneId" && strlen($toneId) >5)
+        {
+        $f1 = substr($toneId,0,2);
+        $f2 = substr($toneId,2,2);
+        $f3 = substr($toneId,4,3);
+        //debug("value => sorry", 1);
+        $intro = $path.$f1."/".$f2."/".$f3."/".$toneId."/".$toneId."_audio";
+        debug("value => $intro", 1);
+	log_write("5", $intro );
+        $AGI->Answer();
+        $return = $AGI->stream_file($intro);
+        break;
+        }
+
+}
+
+$AGI->hangup();
+
+log_write("5", "Complete execution" );
+
+
+function debug($string, $level=3) {
+        global $AGI;
+        $AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+                                fwrite($AGI->fp, date("Y-m-d H:i:s") . " ["
+                                . $AGI->request['agi_callerid']
+                                . "] (" . $AGI->request['agi_channel']
+                                . ") (" . $AGI->request['agi_request']
+                                . ") " . $message . "\n");
+        }
+
+?>
+

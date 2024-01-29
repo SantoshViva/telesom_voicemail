@@ -1,0 +1,208 @@
+#!/usr/bin/env php
+<?php
+//      License for all code of this FreePBX module can be found in the license file inside the module directory
+//        Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking category.agi status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+$DID =  get_var($AGI,"DID");
+$cidnumber =  get_var($AGI,"DID_2");
+
+
+$cidname = $AGI->request['agi_calleridname'];
+log_write( "5", "Opening 835......" );
+
+$aparty = $cidnumber;
+$bparty = $cidnum;//$DID;
+
+debug("bparty = ".$aparty, 1);
+debug("aparty = ".$bparty, 1);
+
+log_write("5", "final bparty = ".$aparty );
+log_write("5", "final aparty = ".$bparty );
+
+
+//$callback_response = callback($sessionId,$aparty,$bparty,$errorCode,$message,$billsec,$startTime,$endtime,$dtmfInput);
+//log_write("5", $callback_response );
+
+$sample_response = seven68($bparty,$aparty);
+
+debug("sample_response = ".$sample_response, 1);
+log_write("5", $sample_response );
+
+$audiofile= array();
+$sample_response = substr($sample_response,0,-1);
+
+debug("new_sample_response = ".$sample_response, 1);
+$fruits_ar = explode(';', $sample_response);
+$as = json_encode($fruits_ar);
+$arr = json_decode($as, true);
+
+//debug("encode json = ".$ar, 1);
+//debug("decode json = ".$arr, 1);
+//$AGI->hangup();
+
+
+//$AGI->hangup();
+
+$i=1;
+$path="/home/core/cms/upload-dir/";
+$toneid= "01011062100560";
+$flag =0;
+  $copyTone=1;
+foreach($arr as $key=>$value){
+        $CRBT = explode('=', $value);
+
+
+
+       if($CRBT[0] == "RBT_RES.toneId"){
+        $toneId = substr($CRBT[1],1,-1);
+//      log_write( "5", "MY TONEID =".$toneId );
+                  $flag =1;
+        }
+                 if($CRBT[0] == "RBT_RES.songPath"){
+        $songpath = substr($CRBT[1],1,-1);
+                  //$flag =2;
+        }
+
+        if($CRBT[0] == "RBT_RES.toneType"){
+        $toneType = substr($CRBT[1],1,-1);
+	
+	 }
+        if($CRBT[0] == "RBT_RES.apartyRbt"){
+        $apartyRbt = substr($CRBT[1],1,-1);
+
+                if($apartyRbt == "Y"){
+                        $copyTone=0;
+                }
+        }
+     
+
+}
+log_write( "5", "GET TONEID =".$toneId );
+log_write( "5", "GET TONEID flag =".$flag);
+if($flag != 1){
+                        $toneId="01011062100560";
+                        log_write( "5", "FOURCEFUULY SET THE DEFALUT TONE =".$toneId );
+                }
+log_write( "5", "FINAL OFFERED TONEID =".$toneId );
+
+ if(strlen($toneId) >5)
+        {
+        $f1 = substr($toneId,0,2);
+        $f2 = substr($toneId,2,2);
+        $f3 = substr($toneId,4,3);
+        //debug("value => sorry", 1);
+        $intro = $path.$f1."/".$f2."/".$f3."/".$toneId."/".$toneId."_audio";
+   //     log_write( "5", "DON'T Called Copy tone flowi?????? =".$intro );
+         }
+
+if($bparty == "770001064"  || $bparty == "770001065"  || $bparty == "613926243"  ||$bparty == "613205823"  ||$bparty == "613205823"  ||$bparty == "611856155"  ||$bparty == "610921989"  ){
+log_write( "5", "TEST MOD copy tone allowed on aparty=".$bparty);
+ }else{
+log_write( "5", "TEST MOD copy tone NOT allowed on aparty=".$bparty);
+$copyTone = 0;
+ }
+
+if($copyTone == 0){
+        log_write( "5", "DON'T Called Copy tone flow =".$toneId );
+        $escape_digits = "1234567890#*";
+        $timeout = "5000";
+        $AGI->Answer();
+      	$return = $AGI->stream_file($intro);
+	//  $AGI->stream_file($intro,$escape_digits,0);
+
+}else{
+log_write( "5", "Called Copy tone flow =".$intro );
+        $escape_digits = "1234567890#*";
+        $timeout = "5000";
+        $AGI->Answer();
+        $copytone="/var/lib/asterisk/sounds/en/converted/copy_tune";
+        //$AGI->stream_file($copytone,$escape_digits,0);
+	$return = $AGI->stream_file($copytone);
+//
+        $x=1;
+while ($x <= 12) {
+log_write( "5", "XXXXXXXXXXXXXXXXX=".$x);               
+//  $escape_digits = "*";
+//       $return = $AGI->exec("Read","OPT,".$intro.",2,,1,1");
+	if($x == "1"){
+	log_write( "5", "if .........................".$x);
+	$escape_digits = "*";
+         $return = $AGI->stream_file($intro,$escape_digits,0);
+       $AGI->verbose($return['code'], 1);
+        $AGI->verbose(chr($return['result']), 1);
+        $digit = chr($return['result']);
+
+        log_write( "5", "input DTMF =  ".$digit );
+        $AGI->set_variable('OPT',$digit);
+               // if($x == "1"){
+                        log_write( "5", "calling subscribed for copy tone API aparty".$bparty );
+               $response = tone_player_dfmf_notifer($aparty,$bparty,$toneId);
+           //   debug("response = ".$response, 1);
+              log_write("5", $response );
+               // }
+         
+	}
+else{
+	log_write( "5", "else .........................".$x);
+	$return = $AGI->stream_file($intro);
+	//$escape_digits = "1234567890#*";
+//	$AGI->exec("Read","OPT,".$intro.",2,,1,1");
+	//$AGI->stream_file($intro,$escape_digits,0);	
+//	$AGI->verbose($return['code'], 1);
+  //      $AGI->verbose(chr($return['result']), 1);
+    //    $digit = chr($return['result']);
+//	 $AGI->set_variable('OPT',$digit);		
+}
+	$x= $x+1;
+        }
+
+}
+
+
+
+$AGI->hangup();
+
+log_write("5", "Tone player Complete execution" );
+
+
+function debug($string, $level=3) {
+        global $AGI;
+        $AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+                                fwrite($AGI->fp, date("Y-m-d H:i:s") . " ["
+                                . $AGI->request['agi_callerid']
+                                . "] (" . $AGI->request['agi_channel']
+                                . ") (" . $AGI->request['agi_request']
+                                . ") " . $message . "\n");
+        }
+
+?>

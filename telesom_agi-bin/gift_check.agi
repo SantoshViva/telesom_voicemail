@@ -1,0 +1,78 @@
+#!/usr/bin/env php
+<?php
+//      License for all code of this FreePBX module can be found in the license file inside the module directory
+//        Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking category.agi status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+$DID =  get_var($AGI,"DID");
+
+$cidname = $AGI->request['agi_calleridname'];
+log_write( "5", "Opening" );
+
+$aparty = $cidnum;
+//$aparty = "550000570";
+$bparty = $DID;
+
+debug("aparty = ".$aparty, 1);
+debug("bparty = ".$bparty, 1);
+
+log_write("5", "aparty = ".$aparty );
+log_write("5", "bparty = ".$bparty );
+
+
+
+$sample_response = gift_check($aparty);
+
+debug("sample_response = ".$sample_response, 1);
+log_write("5", $sample_response );
+
+$data = json_decode($sample_response, true);
+$result = $data['result'];
+
+debug("result = ".$result, 1);
+
+$AGI->set_variable('result',$result);
+
+log_write("5", "Complete execution" );
+
+
+function debug($string, $level=3) {
+        global $AGI;
+        $AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+                                fwrite($AGI->fp, date("Y-m-d H:i:s") . " ["
+                                . $AGI->request['agi_callerid']
+                                . "] (" . $AGI->request['agi_channel']
+                                . ") (" . $AGI->request['agi_request']
+                                . ") " . $message . "\n");
+        }
+
+?>

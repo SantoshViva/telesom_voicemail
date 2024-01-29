@@ -1,0 +1,19 @@
+# Asterisk Wiki Parameters
+${CDR(clid)}           = Caller ID
+${CDR(src)}            = Source
+${CDR(dst)}            = Destination
+${CDR(dcontext)}       = Destination context
+${CDR(channel)}        = Channel name
+${CDR(dstchannel)}     = Destination channel
+${CDR(lastapp)}        = Last app executed
+${CDR(lastdata)}       = Last app’s arguments
+${CDR(start)}          = Time the call started.
+${CDR(answer)}         = Time the call was answered.
+${CDR(end)}            = Time the call ended.
+${CDR(duration)}       = Duration of the call.
+${CDR(billsec)}        = Duration of the call once it was answered.
+${CDR(disposition)}    = ANSWERED, NO ANSWER, BUSY
+${CDR(amaflags)}       = DOCUMENTATION, BILL, IGNORE etc
+${CDR(accountcode)}    = The channel’s account code.
+${CDR(uniqueid)}       = The channel’s unique id.
+${CDR(userfield)}      = The channels uses specified field.

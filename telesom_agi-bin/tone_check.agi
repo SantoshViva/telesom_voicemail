@@ -1,0 +1,110 @@
+#!/usr/bin/env php
+<?php
+//      License for all code of this FreePBX module can be found in the license file inside the module directory
+//        Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking Tone tone_check.agi Subscriber status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+//$cidnum = '634097962';
+$cidname = $AGI->request['agi_calleridname'];
+log_write( "5", "Opening" );
+$profilequery_response = profilequery('profilequery',$cidnum);
+log_write("5", $profilequery_response );
+$data = json_decode($profilequery_response, true);
+$Subscriber_status = $data['userinfo']['status'];
+$langid = $data['userinfo']['langid'];
+
+$result = $data['tones'];
+$arrlength=count($result);
+
+debug(" arrlength".$arrlength, 1);
+
+ for($i = 0; $i < $arrlength; $i++)
+        {
+    $tonetype= $result[$i]['usertoneinfoidentity']['tonetype'];
+    $status= $result[$i]['status'];
+debug(" tonetype".$tonetype, 1);
+debug(" status".$status, 1);
+
+//    echo "\nstatus:$status";
+//     echo "\ntonetype:$tonetype";echo "<br>";
+ if("$tonetype" == "1" && ("$status" == "G" || "$status" == "A")){
+         $SPECIAL = 'SUCCESS';
+        $AGI->set_variable('SPECIAL',$SPECIAL);
+
+//       $PRAYERRBT = 'SUCCESS';
+ }
+if("$tonetype" == "2" && ("$status" == "G" || "$status" == "A")){
+         $SHUFFLE = 'SUCCESS';
+        $AGI->set_variable('SHUFFLE',$SHUFFLE);
+
+ }
+ if("$tonetype" == "3" && ("$status" == "G" || "$status" == "A")){
+          $NAMETUNE = 'SUCCESS';
+        $AGI->set_variable('NAMETUNE',$NAMETUNE);
+
+ }
+ if("$tonetype" == "4" && ("$status" == "G" || "$status" == "A")){
+        $PRAYERRBT = 'SUCCESS';
+        $AGI->set_variable('PRAYERRBT',$PRAYERRBT);
+
+ }
+
+}
+
+$userinfoidentity = $data['userinfo']['userinfoidentity']['serviceid'];
+
+debug("userinfoidentity = ".$userinfoidentity, 1);
+
+log_write("5", $userinfoidentity);
+
+
+$AGI->set_variable('SUBSCRIBER_STATUS',$Subscriber_status);
+$AGI->set_variable('langid',$langid);
+$AGI->set_variable('userinfoidentity',$userinfoidentity);
+
+
+
+log_write("5", "Complete execution" );
+
+
+
+function debug($string, $level=3) {
+        global $AGI;
+        $AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+                                fwrite($AGI->fp, date("Y-m-d H:i:s") . " ["
+                                . $AGI->request['agi_callerid']
+                                . "] (" . $AGI->request['agi_channel']
+                                . ") (" . $AGI->request['agi_request']
+                                . ") " . $message . "\n");
+        }
+
+?>

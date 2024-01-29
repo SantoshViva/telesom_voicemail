@@ -1,0 +1,261 @@
+#!/usr/bin/env php
+<?php
+//      License for all code of this FreePBX module can be found in the license file inside the module directory
+//        Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking nametune_category.agi status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+$DID =  get_var($AGI,"DID");
+$subcategoryId =  get_var($AGI,"subcategoryId");
+$categoryId =  get_var($AGI,"categoryId");
+
+$cidname = $AGI->request['agi_calleridname'];
+log_write( "5", "Opening nametune .." );
+
+$aparty = $cidnum;
+$bparty = $DID;
+
+debug("aparty = ".$aparty, 1);
+debug("bparty = ".$bparty, 1);
+
+log_write("5", "aparty = ".$aparty );
+log_write("5", "bparty = ".$bparty );
+
+
+//$callback_response = callback($sessionId,$aparty,$bparty,$errorCode,$message,$billsec,$startTime,$endtime,$dtmfInput);
+//log_write("5", $callback_response );
+
+$sample_response = category($aparty,$bparty,$subcategoryId,$categoryId);
+
+debug("sample_response = ".$sample_response, 1);
+log_write("5", $sample_response );
+
+
+$audiofile= array();
+$sample_response = substr($sample_response,0,-1);
+
+debug("new_sample_response = ".$sample_response, 1);
+
+$fruits_ar = explode(';', $sample_response);
+$as = json_encode($fruits_ar);
+
+$arr = json_decode($as, true);
+
+//debug("decode json = ".$arr, 1);
+$total_array_count= count($arr);
+
+debug("total_array_count = ".$total_array_count, 1);
+$total_songCount= $total_array_count-2;
+debug("total_song_count = ".$total_songCount, 1);
+
+$dbError= $total_array_count -1;
+//$t=$total_songCount/2;
+$t=3;
+
+debug("TTT = ".$t, 1);
+//$AGI->hangup();
+
+$i=1;
+foreach($arr as $key=>$value){
+        if($key == $total_songCount){
+        break;
+        }
+  //  echo $key . " => " . $value . "<br>";
+        if($key < $t){
+                $CRBT = explode('=', $value);
+                $split = substr($CRBT[0],0,-3);
+        //$audiofile[$i][$split] = $CRBT[1];
+        $audiofile[$i][$split] = substr($CRBT[1],1,-1);
+        }
+        if($key == $t-1)
+        {
+        $t=$t+$key+1;
+        $i=$i+1;
+        }
+}
+
+//echo "total array count ".count($audiofile). "<br>";
+//echo json_encode($audiofile)."\n";
+$total = count($audiofile);
+$en = json_encode($audiofile);
+$decoded_json = json_decode($en, true);
+
+$x=1;
+while ($x <= $total) {
+        debug("x value> = ".$x, 1);
+        debug("total value> = ".$total, 1);
+
+        $audioPlay = substr($decoded_json[$x]["CRBT_CAT_SUBCAT_RES.songPath"],0,-4);
+        $toneid = $decoded_json[$x]["CRBT_CAT_SUBCAT_RES.songId"];
+        $tonename = $decoded_json[$x]["CRBT_CAT_SUBCAT_RES.songName"];
+        debug("audio file will play  = ".$audioPlay, 1);
+
+        $AGI->set_variable('toneid',$toneid);
+        $AGI->set_variable('tonename',$tonename);
+
+        $intro = "/home/core/cms/upload-dir/".$audioPlay;
+//        $result = $AGI->get_data($intro, 500000, 1,"#");
+        $escape_digits = "12#";
+        $timeout = "5000";
+        $return = $AGI->stream_file($intro,$escape_digits,0);
+
+        $AGI->verbose($return['code'], 1);
+        $AGI->verbose(chr($return['result']), 1);
+        $digit = chr($return['result']);
+
+         if($digit == '2'){
+                        if($x == 1){
+                                debug("x value(if) = ".$x, 1);
+                                $AGI->set_variable('OPT',$digit);
+                        }
+                        else{
+                                debug("x value(else) = ".$x, 1);
+                                $x= $x-1;
+                                $AGI->set_variable('OPT',$digit);
+                        }
+
+//                       $AGI->set_variable('OPT',$digit);
+//                       $tone_response = tone_change_request($aparty,$toneid,$tonename);
+//                       debug("tone_response = ".$tone_response, 1);
+//                       log_write("5", $tone_response );
+//                       $AGI->stream_file("you-entered","#");
+//                       $AGI->say_digits($digit);
+//                       break;
+         }
+         if($digit == '1'){
+                        if($x < $total){
+                        $x= $x+1;
+                        }
+                        else{
+                        $AGI->set_variable('OPT',$digit);
+//                      $AGI->stream_file("you-entered","#");
+//                      $AGI->say_digits($digit);
+//                        break;
+                        }
+//         $AGI->stream_file("you-entered","#");
+  //       $AGI->say_digits($digit);
+         }
+
+        // if($digit == '#'){
+       //  $AGI->set_variable('OPT',$digit);
+          $AGI->set_variable('OPT','#');
+	break;
+        // }
+                if($x>$total){
+                $x=$x-1;
+                }
+        //$x+=1;
+}
+/*
+
+
+for ($x = 1; $x <= count($audiofile); $x++) {
+
+$audioPlay = substr($decoded_json[$x]["CRBT_CAT_SUBCAT_RES.songPath"],0,-4);
+$intro = "/home/core/cms/upload-dir/".$audioPlay;
+
+//$AGI->set_variable('songId',$decoded_json[$x]["CRBT_CAT_SUBCAT_RES.songId"]);
+//$AGI->set_variable('songName',$decoded_json[$x]["CRBT_CAT_SUBCAT_RES.songName"]);
+//$AGI->set_variable('songPath',$decoded_json[$x]["CRBT_CAT_SUBCAT_RES.songPath"]);
+//       $rd = $AGI->exec('READ', "OPT,".$intro.",1,,1,5");
+//      $digits =  get_var($AGI,"OPT");
+//      usleep(500);
+
+        $rd = $AGI->get_data($intro, 500000, 1);
+
+//      echo "OPT =>".$OPT;
+
+//      if ($rd['code'] == 200 && $rd['endpos'] > 0) {
+        if ($rd['code'] == 200) {
+        $digits = $rd["result"];
+        }
+//      $digits = $rd["result"];
+
+        usleep(500);
+
+/*
+        $AGI->set_variable('OPT',$digits);
+        usleep(500);
+        if($digits == '1'){
+        echo "need hangup";
+        break;
+        }
+*/
+/*
+        if($digits == "2"){
+                        if($x < count($audiofile)){
+                        $x= $x+1;
+                        }
+                        else{
+                        $AGI->set_variable('OPT',$digits);
+                        break;
+                        }
+
+        }
+//*/
+/*
+        if($digits == '3'){
+                        if($x <= count($audiofile) && $x != 1){
+                        echo "play previous song";
+                        $x= $x-1;
+                        }
+                        else{
+                        echo "may be the first song";
+                        break;
+                        }
+
+        }
+*/
+/*
+        if($digits == "*" or $digits == "#"){
+        $AGI->set_variable('OPT',$digits);
+        break;
+        }
+
+
+
+}
+*/
+
+log_write("5", "Complete execution" );
+
+
+function debug($string, $level=3) {
+        global $AGI;
+        $AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+                                fwrite($AGI->fp, date("Y-m-d H:i:s") . " ["
+                                . $AGI->request['agi_callerid']
+                                . "] (" . $AGI->request['agi_channel']
+                                . ") (" . $AGI->request['agi_request']
+                                . ") " . $message . "\n");
+        }
+
+?>

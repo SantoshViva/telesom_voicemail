@@ -1,0 +1,102 @@
+#!/usr/bin/env php
+<?php
+//      License for all code of this FreePBX module can be found in the license file inside the module directory
+//        Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking nametune_check.agi status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+//$cidnum = '634097962';
+$cidname = $AGI->request['agi_calleridname'];
+log_write("5", "nametune_check execution...." );
+$DID =  get_var($AGI,"DID");
+
+$aparty = $cidnum;
+$bparty = $DID;
+
+debug("aparty = ".$aparty, 1);
+debug("bparty = ".$bparty, 1);
+
+log_write("5", "aparty = ".$aparty );
+log_write("5", "bparty = ".$bparty );
+
+$subcategoryId = "Name_Tone";
+$categoryId = "Name_Tone";
+
+$sample_response = category($aparty,$bparty,$subcategoryId,$categoryId);
+
+debug("sample_response = ".$sample_response, 1);
+log_write("5", $sample_response );
+/// parse
+
+$audiofile= array();
+$sample_response = substr($sample_response,0,-1);
+
+debug("new_sample_response = ".$sample_response, 1);
+
+$fruits_ar = explode(';', $sample_response);
+$as = json_encode($fruits_ar);
+
+$arr = json_decode($as, true);
+
+//debug("decode json = ".$arr, 1);
+$total_array_count= count($arr);
+
+$total_songCount= $total_array_count-2;
+debug("total_song_count = ".$total_songCount, 1);
+log_write("5", $total_array_count);
+log_write("5", $total_songCount);
+if( $total_songCount ==0)
+$NAMETUNE_CHECK = "FAIL";//$data['result'];
+else
+$NAMETUNE_CHECK = "SUCCESS";
+debug(" end NAMETUNE_CHECK =".$NAMETUNE_CHECK ,1);
+log_write("5", $NAMETUNE_CHECK );
+
+$AGI->set_variable('NAMETUNE_ID','01021062100215');
+$AGI->set_variable('NAMETUNE_CHECK',$NAMETUNE_CHECK);
+
+//log_write("NAMETUNE_CHECK = ".$NAMETUNE_CHECK, 1);
+
+log_write("5", "Complete execution...." );
+
+
+
+function debug($string, $level=3) {
+        global $AGI;
+        $AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+                                fwrite($AGI->fp, date("Y-m-d H:i:s") . " ["
+                                . $AGI->request['agi_callerid']
+                                . "] (" . $AGI->request['agi_channel']
+                                . ") (" . $AGI->request['agi_request']
+                                . ") " . $message . "\n");
+        }
+
+?>

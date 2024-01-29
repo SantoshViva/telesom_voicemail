@@ -1,0 +1,4 @@
+[root@sdp_server17 voicemail]# ps -ef|grep green
+root     18552     1  0 Apr26 ?        00:33:35 java -Dspring.config.location=/home/rbt/voicemail/application.properties,/home/rbt/voicemail/voicemail.properties -jar greenzone-voicemail-1.0.18-SNAPSHOT.jar
+root     20442 20052  0 08:01 pts/0    00:00:00 grep --color=auto green
+[root@sdp_server17 voicemail]#

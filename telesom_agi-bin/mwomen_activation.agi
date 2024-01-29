@@ -1,0 +1,112 @@
+#!/usr/bin/env php
+<?php
+//	License for all code of this FreePBX module can be found in the license file inside the module directory
+//	  Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking activation.agi status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+$DID =  get_var($AGI,"DID");
+//$cidnum = '634097962';
+$cidname = $AGI->request['agi_calleridname'];
+$aparty = $cidnum;
+$bparty = $DID;
+log_write( "5", "Opening" );
+$activation_response = mwomenactivation($aparty,$bparty,'mwomen');
+debug("sample_response = ".$activation_response, 1);
+log_write("5", $activation_response );
+
+$data = json_decode($activation_response, true);
+
+$activation_status = $data['result'];
+$sample_response=$activation_response;
+$sample_response = substr($sample_response,0,-1);
+debug("new_sample_response = ".$sample_response, 1);
+$fruits_ar = explode(';', $sample_response);
+$as = json_encode($fruits_ar);
+$arr = json_decode($as, true);
+debug("decode json = ".$arr, 1);
+$total_array_count= count($arr);
+debug("total_array_count = ".$total_array_count, 1);
+$total_songCount= $total_array_count-2;
+debug("total_song_count = ".$total_songCount, 1);
+$dbError= $total_array_count -1;
+$t=3;
+debug("TTT = ".$t, 1);
+$response= new stdClass();
+foreach($arr as $key=>$value)
+{
+        $reponseParam = explode('=', $value);
+        if(!strcmp($reponseParam[0],"SUBSCRIPTION_BILLING_RES.subStatus"))
+        {
+                $val = preg_replace('/[^a-zA-Z0-9_ -]/s','',$reponseParam[1]);
+                $response->subStatus=$val;
+        }
+        if(!strcmp($reponseParam[0],"SUBSCRIPTION_BILLING_RES.ivrLangSet"))
+        {
+                $val = preg_replace('/[^a-zA-Z0-9_ -]/s','',$reponseParam[1]);
+                $response->ivrLangSet=$val;
+        }
+        if(!strcmp($reponseParam[0],"SUBSCRIPTION_BILLING_RES.data"))
+        {
+                $val = preg_replace('/[^a-zA-Z0-9_ -]/s','',$reponseParam[1]);
+                $response->data=$val;
+        }
+        if(!strcmp($reponseParam[0],"SUBSCRIPTION_BILLING_RES.dbError"))
+        {
+                $val = preg_replace('/[^a-zA-Z0-9_ -]/s','',$reponseParam[1]);
+                $response->dbError=$val;
+        }
+}
+$jsonObject= json_encode($response);
+$encodeJsonObject=json_decode($jsonObject,true);
+$activation_status=$encodeJsonObject['subStatus'];
+log_write("5", "subStatus = ".$activation_status );
+
+$AGI->set_variable('activation_status',$activation_status);
+log_write("5", "activation_status = ".$activation_status );
+
+debug("activation Status = ".$activation_status, 1);
+
+log_write("5", "Complete execution" );
+
+
+
+function debug($string, $level=3) {
+	global $AGI;
+	$AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+				fwrite($AGI->fp, date("Y-m-d H:i:s") . " [" 
+				. $AGI->request['agi_callerid'] 
+				. "] (" . $AGI->request['agi_channel'] 
+                                . ") (" . $AGI->request['agi_request']
+				. ") " . $message . "\n");
+	}
+
+?>

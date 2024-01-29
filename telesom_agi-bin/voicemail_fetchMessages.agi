@@ -1,0 +1,373 @@
+#!/usr/bin/env php
+<?php
+//      License for all code of this FreePBX module can be found in the license file inside the module directory
+//        Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking chat_fetchMessages.agi status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+$DID =  get_var($AGI,"DID");
+$chatGroupId =  get_var($AGI,"CHAT_GROUP_ID");
+$subcategoryId =  get_var($AGI,"subcategoryId");
+$categoryId =  get_var($AGI,"categoryId");
+$messageCount=10;
+$messageId= get_var($AGI,"CHAT_MESSAGE_ID");
+$callDisconnect= get_var($AGI,"CALL_DISCONNECT");
+$cidname = $AGI->request['agi_calleridname'];
+log_write( "5", "Opening" );
+
+$aparty = $cidnum;
+$bparty = $DID;
+
+debug("aparty = ".$aparty, 1);
+debug("bparty = ".$bparty, 1);
+
+log_write("5", "aparty = ".$aparty );
+log_write("5", "chatGroupId = ".$chatGroupId );
+log_write("5", "bparty = ".$bparty );
+log_write("5", "messageCount= ".$messageCount );
+log_write("5", "messageId = ".$messageId );
+log_write("5", "callDisconnect = ".$callDisconnect );
+
+
+//$callback_response = callback($sessionId,$aparty,$bparty,$errorCode,$message,$billsec,$startTime,$endtime,$dtmfInput);
+//log_write("5", $callback_response );
+
+//$sample_response = chatFetchMessages($aparty,$bparty,$chatGroupId,$messageId,$messageCount);
+$sample_response = voiceMailFetchMessages($aparty,$bparty,$chatGroupId,$messageId,$messageCount);
+
+debug("sample_response = ".$sample_response, 1);
+log_write("5", "sample_response = ".$sample_response );
+
+
+$audiofile= array();
+$sample_response = substr($sample_response,0,-1);
+
+debug("new_sample_response = ".$sample_response, 1);
+
+log_write("5", "sample_response = ".$sample_response );
+$fruits_ar = explode(';', $sample_response);
+$as = json_encode($fruits_ar);
+$arr = json_decode($as, true);
+
+debug("decode json = ".$arr, 1);
+
+$total_array_count= count($arr);
+
+debug("total_array_count = ".$total_array_count, 1);
+$total_songCount= $total_array_count-2;
+debug("total_song_count = ".$total_songCount, 1);
+
+$dbError= $total_array_count -1;
+//$t=$total_songCount/2;
+$t=3;
+
+debug("TTT = ".$t, 1);
+//$AGI->hangup();
+log_write("5", "total_songCount = ".$total_songCount );
+$arrCount=0;
+$i=1;
+foreach($arr as $key=>$value){
+        if($key == $total_songCount){
+        break;
+        }
+	log_write("5", "key = ".$key);
+	log_write("5", "t = ".$t);
+  //  echo $key . " => " . $value . "<br>";
+        if($key < $t)
+	{
+                $CRBT = explode('=', $value);
+                $split = substr($CRBT[0],0,-3);
+		log_write("5", "split  = ".$split );
+		$tmp=substr($CRBT[1],1,-1);
+		log_write("5", "split value  = ".$tmp );
+        	//$audiofile[$i][$split] = $CRBT[1];
+        	$audiofile[$i][$split] = substr($CRBT[1],1,-1);
+		log_write("5", "audiofile array = ".$$audiofile[$i][$split] );
+        }
+        if($key == $t-1)
+        {
+	        $t=$t+3;
+	        #$t=$t+$key+1;
+        	$i=$i+1;
+		log_write("5", "if key = ".$key);
+		log_write("5", "if t = ".$t);
+		$arrCount=$arrCount+1;
+		log_write("5", "if arrCount = ".$arrCount);
+        }
+}
+
+//echo "total array count ".count($audiofile). "<br>";
+//echo json_encode($audiofile)."\n";
+$total = count($audiofile);
+$size = sizeof($audiofile);
+$en = json_encode($audiofile);
+$decoded_json = json_decode($en, true);
+log_write("5", "total = ".$total );
+log_write("5", "size = ".$size );
+if($messageCount>$size)
+{
+	$tmp=1;
+	$AGI->set_variable('CHAT_MESSAGE_FINISH',$tmp);
+	log_write("5", "message is less  = ");
+}
+$x=1;
+$escapeDigits = "12340*#";
+if($size == '0')
+{
+	log_write("5","No voice mail messages");
+
+	$return = $AGI->stream_file("/var/lib/asterisk/sounds/en/voicemail/You_have_no_message",$escapeDigits,0);
+	$AGI->set_variable('CALL_DISCONNECT','1');
+}
+else
+{
+
+$youHavePrompt ="/var/lib/asterisk/sounds/en/voicemail/You_have";
+$messageCountPrompt ="/var/lib/asterisk/sounds/en/voicemail/".$size;
+$newMessagesPrompt ="/var/lib/asterisk/sounds/en/voicemail/New_voice_messages";
+$letMeSharePrompt ="/var/lib/asterisk/sounds/en/voicemail/Let_me_share";
+$letMeSharePrompt ="/var/lib/asterisk/sounds/en/voicemail/Let_me_share";
+$PressOptionForMessages ="/var/lib/asterisk/sounds/en/voicemail/Press_1_to_listen";
+
+$return = $AGI->stream_file($youHavePrompt,$escapeDigits,0);
+$return = $AGI->stream_file($messageCountPrompt,$escapeDigits,0);
+$return = $AGI->stream_file($newMessagesPrompt,$escapeDigits,0);
+$return = $AGI->stream_file($letMeSharePrompt,$escapeDigits,0);
+$return = $AGI->stream_file($PressOptionForMessages,$escapeDigits,0);
+}
+
+
+while ($x <= $total) {
+        $audioPlay = substr($decoded_json[$x]["VSMS_MESSAGE_QUERY_RES.recordingPath"],0,-4);
+        $voiceMessageId = $decoded_json[$x]["VSMS_MESSAGE_QUERY_RES.voiceMessageId"];
+        $chatMsisdn = $decoded_json[$x]["VSMS_MESSAGE_QUERY_RES.msisdn"];
+	$youHaveMessagePrompt="/var/lib/asterisk/sounds/en/voicemail/You_have_voice_message";
+	$followedByVoicePrompt="/var/lib/asterisk/sounds/en/voicemail/Followed_by_voice";
+
+	$audioPlay = str_replace("http://127.0.0.1","/var/lib/asterisk/sounds/en/voicemail",$audioPlay);
+        log_write("5","audioPlay=".$audioPlay );
+        log_write("5","chatMsisdn=".$chatMsisdn );
+ 		
+        $intro = $audioPlay;
+//        $result = $AGI->get_data($intro, 500000, 1,"#");
+        $escape_digits = "12340*#";
+        $timeout = "5000";
+	$return = $AGI->stream_file($youHaveMessagePrompt,$escape_digits,0);
+	$arrayChatMsisdn= str_split($chatMsisdn);
+	foreach($arrayChatMsisdn as $valDigit)
+	{
+		log_write("5","chatMsisdn=".$valDigit );
+		$digitPrompt ="/var/lib/asterisk/sounds/en/voicemail/".$valDigit;
+		$return = $AGI->stream_file($digitPrompt,$escape_digits,0);
+		
+	}
+	$return = $AGI->stream_file($followedByVoicePrompt,$escape_digits,0);
+
+	//$messageOption ="/var/lib/asterisk/sounds/en/chat/Listen_message_option";
+        $return = $AGI->stream_file($intro,$escape_digits,0);
+       // $return = $AGI->stream_file($messageOption,$escape_digits,0);
+
+        $AGI->verbose($return['code'], 1);
+        $AGI->verbose(chr($return['result']), 1);
+        $digit = chr($return['result']);
+		log_write("5","digit8888888888888888=".$digit );
+
+         if($digit == '1'){
+                         $AGI->set_variable('OPT',$digit);
+                         #$tone_response = tone_change_request($aparty,$toneid,$tonename);
+                         $chatLikeDislike="1";
+                         $likeDisLikeFlag="1";
+                    //     $chatLikeDislikeResponse = chatLikeDislike($aparty,$bparty,$voiceMessageId,$chatLikeDislike,$chatMsisdn,$chatGroupId,$likeDisLikeFlag);
+//                         debug("chatLikeDislikeResponse = ".$chatLikeDislikeResponse, 1);
+                         log_write("5", "listen Next Message " );
+//                       $AGI->stream_file("you-entered","#");
+//                       $AGI->say_digits($digit);
+                        // break;
+         }
+
+	if($digit == '2')
+	{
+			log_write("5","listen Previous Message|x=".$x."|total=".$total);
+			if($x == '1')
+			{
+				log_write("5","This is first message So that no previous message");	
+				$return = $AGI->stream_file("/var/lib/asterisk/sounds/en/voicemail/Sorry_first_message",$escapeDigits,0);
+				$AGI->set_variable('CALL_DISCONNECT','1');
+				break;
+			}
+			else
+			{
+				$x=$x-1;
+				log_write("5","go to listen Previous Message|x=".$x."|total=".$total);
+				continue ;
+			}
+	//         $AGI->stream_file("you-entered","#");
+  //    	   $AGI->say_digits($digit);
+         }
+
+        if($digit == '3'){
+
+
+
+                          log_write("5","Delete voice message");
+                        $voiceMailMessageDelete=voiceMailDeleteMessage($aparty,$chatMsisdn,$voiceMessageId,$audioPlay);
+                          log_write("5","Delete voice message|voiceMailMessageDelete=".$voiceMailMessageDelete);
+                        $DeleteVmailSuccessMessage ="/var/lib/asterisk/sounds/en/voicemail/Delete_vmail_successfully";
+
+                        $return = $AGI->stream_file($DeleteVmailSuccessMessage,$escapeDigits,0);
+
+        }
+	if($digit == '4')
+	{
+
+                          log_write("5","Listen the voice message again");
+			  continue;	
+	}
+
+         if($digit == '0'){
+                         $AGI->set_variable('OPT',$digit);
+                         #$tone_response = tone_change_request($aparty,$toneid,$tonename);
+                         $chatLikeDislike="0";
+                         $likeDisLikeFlag="0";
+                         $chatLikeDislikeResponse = chatLikeDislike($aparty,$bparty,$voiceMessageId,$chatLikeDislike,$chatMsisdn,$chatGroupId,$likeDisLikeFlag);
+                         debug("chatLikeDislikeResponse = ".$chatLikeDislikeResponse, 1);
+                         log_write("5", "chatLikeDislikeResponse = ".$tone_response );
+//                       $AGI->stream_file("you-entered","#");
+//                       $AGI->say_digits($digit);
+                         //break;
+
+         }
+
+
+         if($digit == '*'){
+         $AGI->set_variable('OPT',$digit);
+         break;
+         }
+
+         if($digit == '#')
+	{
+	         $AGI->set_variable('OPT',$digit);
+		 log_write("5","User has press # key");
+		 $AGI->set_variable('CALL_DISCONNECT','#');
+        	 break;
+         }
+
+        $x+=1;	
+	$messageId= $voiceMessageId;
+}
+$AGI->set_variable('CHAT_MESSAGE_ID',$messageId);
+$totalChatMessagesPlay=get_var($AGI,"TOTAL_CHAT_MESSAGES")+$total;
+$AGI->set_variable('TOTAL_CHAT_MESSAGES',$totalChatMessagesPlay);
+/*
+
+
+for ($x = 1; $x <= count($audiofile); $x++) {
+
+$audioPlay = substr($decoded_json[$x]["CRBT_CAT_SUBCAT_RES.recordingPath"],0,-4);
+$intro = "/home/core/cms/upload-dir/".$audioPlay;
+
+//$AGI->set_variable('songPath',$decoded_json[$x]["CRBT_CAT_SUBCAT_RES.songPath"]);
+//$AGI->set_variable('songName',$decoded_json[$x]["CRBT_CAT_SUBCAT_RES.songName"]);
+//$AGI->set_variable('recordingPath',$decoded_json[$x]["CRBT_CAT_SUBCAT_RES.recordingPath"]);
+//       $rd = $AGI->exec('READ', "OPT,".$intro.",1,,1,5");
+//      $digits =  get_var($AGI,"OPT");
+//      usleep(500);
+
+        $rd = $AGI->get_data($intro, 500000, 1);
+
+//      echo "OPT =>".$OPT;
+
+//      if ($rd['code'] == 200 && $rd['endpos'] > 0) {
+        if ($rd['code'] == 200) {
+        $digits = $rd["result"];
+        }
+//      $digits = $rd["result"];
+
+        usleep(500);
+
+/*
+        $AGI->set_variable('OPT',$digits);
+        usleep(500);
+        if($digits == '1'){
+        echo "need hangup";
+        break;
+        }
+*/
+/*
+        if($digits == "2"){
+                        if($x < count($audiofile)){
+                        $x= $x+1;
+                        }
+                        else{
+                        $AGI->set_variable('OPT',$digits);
+                        break;
+                        }
+
+        }
+//*/
+/*
+        if($digits == '3'){
+                        if($x <= count($audiofile) && $x != 1){
+                        echo "play previous song";
+                        $x= $x-1;
+                        }
+                        else{
+                        echo "may be the first song";
+                        break;
+                        }
+
+        }
+*/
+/*
+        if($digits == "*" or $digits == "#"){
+        $AGI->set_variable('OPT',$digits);
+        break;
+        }
+
+
+
+}
+*/
+
+log_write("5", "Complete execution" );
+
+
+function debug($string, $level=3) {
+        global $AGI;
+        $AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+                                fwrite($AGI->fp, date("Y-m-d H:i:s") . " ["
+                                . $AGI->request['agi_callerid']
+                                . "] (" . $AGI->request['agi_channel']
+                                . ") (" . $AGI->request['agi_request']
+                                . ") " . $message . "\n");
+        }
+
+?>

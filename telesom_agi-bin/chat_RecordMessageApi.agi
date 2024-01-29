@@ -1,0 +1,119 @@
+#!/usr/bin/env php
+<?php
+//      License for all code of this FreePBX module can be found in the license file inside the module directory
+//        Copyright 2013 Schmooze Com Inc.
+//    Copyright (C) 2003 Zac Sprackett <zsprackett-asterisk@sprackett.com>
+
+/* --------WARNING---------
+ *
+ * This script is auto-copied from an included module and will get overwritten.
+ * If you modify it, you must change it to write only, in the agi-bin directory,
+ * to keep it from getting changed.
+ */
+
+require_once "phpagi.php";
+require "api_functions.php";
+
+$AGI = new AGI();
+debug("Checking chat_RecordMessageApi.agi status ", 1);
+
+// Caller ID info is stored in $request in AGI class, passed from Asterisk
+$cidnum = $AGI->request['agi_callerid'];
+$DID =  get_var($AGI,"DID");
+$chatMessagePath =  get_var($AGI,"CHAT_MESSAGE_PATH");
+$chatGroupId =  get_var($AGI,"CHAT_GROUP_ID");
+$chatDuration =  get_var($AGI,"CHAT_DURATION");
+
+$cidname = $AGI->request['agi_calleridname'];
+log_write( "5", "Opening chat_RecordMessageApi.agi" );
+
+$aparty = $cidnum;
+$bparty = $DID;
+
+debug("aparty = ".$aparty, 1);
+debug("bparty = ".$bparty, 1);
+
+log_write("5", "aparty = ".$aparty );
+log_write("5", "bparty = ".$bparty );
+log_write("5", "chatMessagePath = ".$chatMessagePath );
+log_write("5", "chatGroupId = ".$chatGroupId );
+log_write("5", "chatDuration = ".$chatDuration );
+
+
+//$callback_response = callback($sessionId,$aparty,$bparty,$errorCode,$message,$billsec,$startTime,$endtime,$dtmfInput);
+//log_write("5", $callback_response );
+
+$sample_response = chatRecordMessage($aparty,$bparty,$chatGroupId,$chatDuration,$chatMessagePath);
+
+debug("sample_response = ".$sample_response, 1);
+log_write("5", "sample_response=".$sample_response );
+
+
+$audiofile= array();
+$sample_response = substr($sample_response,0,-1);
+
+debug("new_sample_response = ".$sample_response, 1);
+
+$fruits_ar = explode(';', $sample_response);
+$as = json_encode($fruits_ar);
+$arr = json_decode($as, true);
+
+debug("decode json = ".$arr, 1);
+
+$total_array_count= count($arr);
+debug("total_array_count = ".$total_array_count, 1);
+$total_songCount= $total_array_count-2;
+debug("total_song_count = ".$total_songCount, 1);
+
+$dbError= $total_array_count -1;
+//$t=$total_songCount/2;
+$t=3;
+
+debug("TTT = ".$t, 1);
+//$AGI->hangup();
+$response= new stdClass();
+foreach($arr as $key=>$value)
+{
+        $reponseParam = explode('=', $value);
+        if(!strcmp($reponseParam[0],"Res.dbError"))
+        {
+                $val = preg_replace('/[^a-zA-Z0-9_ -]/s','',$reponseParam[1]);
+                $response->dbError=$val;
+        }
+}
+$jsonObject= json_encode($response);
+$encodeJsonObject=json_decode($jsonObject,true);
+$responseDate=$encodeJsonObject['dbError'];
+log_write("5", "dbError = ".$responseDate );
+#$Subscriber_status=$encodeJsonObject['data'];
+#log_write("5", "data = ".$Subscriber_status );
+#$AGI->set_variable('SUBSCRIBER_STATUS',$Subscriber_status);
+
+log_write("5", "Complete execution" );
+
+
+function debug($string, $level=3) {
+        global $AGI;
+        $AGI->verbose($string, $level);
+}
+
+function get_var( $agi, $value) {
+        $r = $agi->get_variable( $value );
+
+        if ($r['result'] == 1) {
+                $result = $r['data'];
+                return $result;
+        }
+        return '';
+}
+
+function log_write($level, $message) {
+        global $AGI;
+                                fwrite($AGI->fp, date("Y-m-d H:i:s") . " ["
+                                . $AGI->request['agi_callerid']
+                                . "] (" . $AGI->request['agi_channel']
+                                . ") (" . $AGI->request['agi_request']
+                                . ") " . $message . "\n");
+        }
+
+?>

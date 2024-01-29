@@ -1,0 +1,16 @@
+#syncs files fro S209 to S20 for voicemail services
+* * * * * rsync -avzhe ssh /var/lib/asterisk/sounds/en/voicemail/vm_recordings/ root@172.16.53.20:/opt/vm_recordings/
+
+25 2 * * * sh /home/rbt/voicemail/sqlScripts/dailyCdr.sh >> /home/rbt/voicemail/sqlScripts/dailyCdr.log
+35 3 * * * sh /home/rbt/voicemail/sqlScripts/uploadFile.sh >> /home/rbt/voicemail/sqlScripts/uploadFile.log
+20 4 * * * sh /home/rbt/voicemail/sqlScripts/vmail_summary_report_hourly_209.sh >> /home/rbt/voicemail/sqlScripts/vmail_summary_report_hourly_209.log
+55 1 * * * sh /home/rbt/voicemail/sqlScripts/vmail_voicemessage_delete.sh >> /home/rbt/voicemail/sqlScripts/vmail_voicemessage_delete.log
+
+06 4 * * * sh /home/rbt/voicemail/logrotation/logrotation.sh >>/home/rbt/voicemail/logrotation/logrotation.log
+06 5 * * * sh /home/rbt/voicemail/logrotation/logDelete.sh >>/home/rbt/voicemail/logrotation/logDelete.log
+
+01 0 * * * sh /home/rbt/voicemail/logrotation/asteriskCdrRotation.sh >> /home/rbt/voicemail/logrotation/asteriskCdrRotation.log
+
+#30 3 * * * sh /home/rbt/voicemail/monitoring/restart.sh >>/home/rbt/voicemail/monitoring/restart.log
+
+

@@ -1,0 +1,1 @@
+curl -i "http://172.17.101.17:9079/eventBillingReq?aparty=615387011&vMsisdn=619998566&interfaceId=IVR&action=DEBTEVENT&serviceId=VOICE_MAIL&productId=VOICE_MAIL&bparty=222&recordingFilePath=aa.wav&duration=23"

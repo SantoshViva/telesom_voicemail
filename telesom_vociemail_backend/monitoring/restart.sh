@@ -1,0 +1,1 @@
+service asterisk restart 

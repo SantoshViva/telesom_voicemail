@@ -1,0 +1,190 @@
+************************** Date  2024-01-15
+1111 Master
+Master_2024-01-15.csv
+Master.csv
+Master_2024-01-13*
+command = ls Master_2024-01-13* |wc -l
+/var/log/asterisk/cdr-csv
+result=0
+Current date in dd/mm/yyyy format 2024-01-13
+Master_2024-01-13*
+0
+************************** Date  2024-01-16
+1111 Master
+Master_2024-01-16.csv
+Master.csv
+Master_2024-01-14*
+command = ls Master_2024-01-14* |wc -l
+/var/log/asterisk/cdr-csv
+result=0
+Current date in dd/mm/yyyy format 2024-01-14
+Master_2024-01-14*
+0
+************************** Date  2024-01-17
+1111 Master
+Master_2024-01-17.csv
+Master.csv
+Master_2024-01-15.csv
+command = ls Master_2024-01-15* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-15
+Master_2024-01-15.csv
+1
+1
+Master_2024-01-15.csv
+Master_2024-01-15.csv
+************************** Date  2024-01-18
+1111 Master
+Master_2024-01-18.csv
+Master.csv
+Master_2024-01-16.csv
+command = ls Master_2024-01-16* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-16
+Master_2024-01-16.csv
+1
+1
+Master_2024-01-16.csv
+Master_2024-01-16.csv
+************************** Date  2024-01-19
+1111 Master
+Master_2024-01-19.csv
+Master.csv
+Master_2024-01-17.csv
+command = ls Master_2024-01-17* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-17
+Master_2024-01-17.csv
+1
+1
+Master_2024-01-17.csv
+Master_2024-01-17.csv
+************************** Date  2024-01-20
+1111 Master
+Master_2024-01-20.csv
+Master.csv
+Master_2024-01-18.csv
+command = ls Master_2024-01-18* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-18
+Master_2024-01-18.csv
+1
+1
+Master_2024-01-18.csv
+Master_2024-01-18.csv
+************************** Date  2024-01-21
+1111 Master
+Master_2024-01-21.csv
+Master.csv
+Master_2024-01-19.csv
+command = ls Master_2024-01-19* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-19
+Master_2024-01-19.csv
+1
+1
+Master_2024-01-19.csv
+Master_2024-01-19.csv
+************************** Date  2024-01-22
+1111 Master
+Master_2024-01-22.csv
+Master.csv
+Master_2024-01-20.csv
+command = ls Master_2024-01-20* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-20
+Master_2024-01-20.csv
+1
+1
+Master_2024-01-20.csv
+Master_2024-01-20.csv
+************************** Date  2024-01-23
+1111 Master
+Master_2024-01-23.csv
+Master.csv
+Master_2024-01-21.csv
+command = ls Master_2024-01-21* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-21
+Master_2024-01-21.csv
+1
+1
+Master_2024-01-21.csv
+Master_2024-01-21.csv
+************************** Date  2024-01-24
+1111 Master
+Master_2024-01-24.csv
+Master.csv
+Master_2024-01-22.csv
+command = ls Master_2024-01-22* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-22
+Master_2024-01-22.csv
+1
+1
+Master_2024-01-22.csv
+Master_2024-01-22.csv
+************************** Date  2024-01-25
+1111 Master
+Master_2024-01-25.csv
+Master.csv
+Master_2024-01-23.csv
+command = ls Master_2024-01-23* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-23
+Master_2024-01-23.csv
+1
+1
+Master_2024-01-23.csv
+Master_2024-01-23.csv
+************************** Date  2024-01-26
+1111 Master
+Master_2024-01-26.csv
+Master.csv
+Master_2024-01-24.csv
+command = ls Master_2024-01-24* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-24
+Master_2024-01-24.csv
+1
+1
+Master_2024-01-24.csv
+Master_2024-01-24.csv
+************************** Date  2024-01-27
+1111 Master
+Master_2024-01-27.csv
+Master.csv
+Master_2024-01-25.csv
+command = ls Master_2024-01-25* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-25
+Master_2024-01-25.csv
+1
+1
+Master_2024-01-25.csv
+Master_2024-01-25.csv
+************************** Date  2024-01-28
+1111 Master
+Master_2024-01-28.csv
+Master.csv
+Master_2024-01-26.csv
+command = ls Master_2024-01-26* |wc -l
+/var/log/asterisk/cdr-csv
+result=1
+Current date in dd/mm/yyyy format 2024-01-26
+Master_2024-01-26.csv
+1
+1
+Master_2024-01-26.csv
+Master_2024-01-26.csv
